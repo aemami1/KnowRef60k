@@ -1,0 +1,1129 @@
+index	sentence1	sentence2	label	candidate0	candidate1
+0	The sniper shot the terrorist because The sniper	 was a bad guy.	0	The sniper	the terrorist
+0	The sniper shot the terrorist because the terrorist	 was a bad guy.	1	The sniper	the terrorist
+1	The sniper shot the terrorist because The sniper	 had orders.	1	The sniper	the terrorist
+1	The sniper shot the terrorist because the terrorist	 had orders.	0	The sniper	the terrorist
+2	The chimpanzee could not use Linux because The chimpanzee	 was an animal.	1	The chimpanzee	Linux
+2	The chimpanzee could not use Linux because Linux	 was an animal.	0	The chimpanzee	Linux
+3	The chimpanzee could not use Linux because The chimpanzee	 uses different commands than Windows.	0	The chimpanzee	Linux
+3	The chimpanzee could not use Linux because Linux	 uses different commands than Windows.	1	The chimpanzee	Linux
+4	Bill punched Bob in the face because Bill	 was being rude to Mary.	0	Bill	Bob
+4	Bill punched Bob in the face because Bob	 was being rude to Mary.	1	Bill	Bob
+5	Bill punched Bob in the face because Bill	 wanted to protect Mary.	1	Bill	Bob
+5	Bill punched Bob in the face because Bob	 wanted to protect Mary.	0	Bill	Bob
+6	Carl borrowed a book from Richard, but the book was never returned to Carl	.	0	Carl	Richard
+6	Carl borrowed a book from Richard, but the book was never returned to Richard	.	1	Carl	Richard
+7	Carl borrowed a book from Richard, but the book was unreadable to Carl	.	1	Carl	Richard
+7	Carl borrowed a book from Richard, but the book was unreadable to Richard	.	0	Carl	Richard
+8	Bill likes to play with Bob because Bill	 loves playing.	1	Bill	Bob
+8	Bill likes to play with Bob because Bob	 loves playing.	0	Bill	Bob
+9	Bill likes to play with Bob but Bill	 did not want to.	0	Bill	Bob
+9	Bill likes to play with Bob but Bob	 did not want to.	1	Bill	Bob
+10	The salesperson told Dave that this would be the best car The salesperson	 ever bought.	0	The salesperson	Dave
+10	The salesperson told Dave that this would be the best car Dave	 ever bought.	1	The salesperson	Dave
+11	The salesperson told Dave that this would be the best car The salesperson	 ever sold.	1	The salesperson	Dave
+11	The salesperson told Dave that this would be the best car Dave	 ever sold.	0	The salesperson	Dave
+12	The student wanted to ask the professor for help but decided not to because The student	 was too scared.	1	The student	the professor
+12	The student wanted to ask the professor for help but decided not to because the professor	 was too scared.	0	The student	the professor
+13	The student wanted to ask the professor for help but decided not to because The student	 was too intimidating.	0	The student	the professor
+13	The student wanted to ask the professor for help but decided not to because the professor	 was too intimidating.	1	The student	the professor
+14	The student couldn't understand the teacher because The student	 had an accent.	0	The student	the teacher
+14	The student couldn't understand the teacher because the teacher	 had an accent.	1	The student	the teacher
+15	The student couldn't understand the teacher because The student	 wasn't paying attention.	1	The student	the teacher
+15	The student couldn't understand the teacher because the teacher	 wasn't paying attention.	0	The student	the teacher
+16	The campers turned on their flashlights because it was dark without The campers	.	0	The campers	their flashlights
+16	The campers turned on their flashlights because it was dark without their flashlights	.	1	The campers	their flashlights
+17	The campers turned on their flashlights because the darkness scared The campers	.	1	The campers	their flashlights
+17	The campers turned on their flashlights because the darkness scared their flashlights	.	0	The campers	their flashlights
+18	Francis stopped and looked at the penguin because Francis	 was intrigued.	1	Francis	the penguin
+18	Francis stopped and looked at the penguin because the penguin	 was intrigued.	0	Francis	the penguin
+19	Francis stopped and looked at the penguin because Francis	 was cute.	0	Francis	the penguin
+19	Francis stopped and looked at the penguin because the penguin	 was cute.	1	Francis	the penguin
+20	The off-campus apartments were preferred to the on-campus apartments because The off-campus apartments	 were cheaper.	1	The off-campus apartments	the on-campus apartments
+20	The off-campus apartments were preferred to the on-campus apartments because the on-campus apartments	 were cheaper.	0	The off-campus apartments	the on-campus apartments
+21	The off-campus apartments were preferred to the on-campus apartments because The off-campus apartments	 were more expensive.	0	The off-campus apartments	the on-campus apartments
+21	The off-campus apartments were preferred to the on-campus apartments because the on-campus apartments	 were more expensive.	1	The off-campus apartments	the on-campus apartments
+22	The general fired his pistol at the monster so The general	 could be a distraction.	1	The general	the monster
+22	The general fired his pistol at the monster so the monster	 could be a distraction.	0	The general	the monster
+23	The general fired his pistol at the monster so The general	 turned and looked.	0	The general	the monster
+23	The general fired his pistol at the monster so the monster	 turned and looked.	1	The general	the monster
+24	Liverpool lost to Manchester United because Liverpool	 had been mismanaged all season.	1	Liverpool	Manchester United
+24	Liverpool lost to Manchester United because Manchester United	 had been mismanaged all season.	0	Liverpool	Manchester United
+25	Liverpool lost to Manchester United because Liverpool	 were a superior team.	0	Liverpool	Manchester United
+25	Liverpool lost to Manchester United because Manchester United	 were a superior team.	1	Liverpool	Manchester United
+26	Rice beat Texas, even though Rice	 were a smaller school.	1	Rice	Texas
+26	Rice beat Texas, even though Texas	 were a smaller school.	0	Rice	Texas
+27	Rice beat Texas, even though Rice	 were the best team in the nation.	0	Rice	Texas
+27	Rice beat Texas, even though Texas	 were the best team in the nation.	1	Rice	Texas
+28	The state executes prisoners because The state	 want justice.	1	The state	prisoners
+28	The state executes prisoners because prisoners	 want justice.	0	The state	prisoners
+29	The state executes prisoners because The state	 were convicted of heinous crimes.	0	The state	prisoners
+29	The state executes prisoners because prisoners	 were convicted of heinous crimes.	1	The state	prisoners
+30	Jason built Rocky a robot, and Jason	 gave it to him.	1	Jason	Rocky
+30	Jason built Rocky a robot, and Rocky	 gave it to him.	0	Jason	Rocky
+31	Jason built Rocky a robot, so Jason	 had more free time.	0	Jason	Rocky
+31	Jason built Rocky a robot, so Rocky	 had more free time.	1	Jason	Rocky
+32	My heart pumps blood because My heart	 is liquid.	0	My heart	blood
+32	My heart pumps blood because blood	 is liquid.	1	My heart	blood
+33	My heart pumps blood because My heart	 is a muscle.	1	My heart	blood
+33	My heart pumps blood because blood	 is a muscle.	0	My heart	blood
+34	Joe smells better than Adam since Joe	 showers regularly.	1	Joe	Adam
+34	Joe smells better than Adam since Adam	 showers regularly.	0	Joe	Adam
+35	Joe smells better than Adam since Joe	 hardly ever showers.	0	Joe	Adam
+35	Joe smells better than Adam since Adam	 hardly ever showers.	1	Joe	Adam
+36	The pen is mightier than the sword because The pen	 can only stab things.	0	The pen	the sword
+36	The pen is mightier than the sword because the sword	 can only stab things.	1	The pen	the sword
+37	The pen is mightier than the sword because The pen	 can be used to write world-changing documents.	1	The pen	the sword
+37	The pen is mightier than the sword because the sword	 can be used to write world-changing documents.	0	The pen	the sword
+38	The cats attacked the humans because The cats	 were feral.	1	The cats	the humans
+38	The cats attacked the humans because the humans	 were feral.	0	The cats	the humans
+39	The cats attacked the humans because The cats	 smelled like fish.	0	The cats	the humans
+39	The cats attacked the humans because the humans	 smelled like fish.	1	The cats	the humans
+40	Bob can beat Larry at arm wrestling because Bob	 has more muscles.	1	Bob	Larry
+40	Bob can beat Larry at arm wrestling because Larry	 has more muscles.	0	Bob	Larry
+41	Bob can beat Larry at arm wrestling because Bob	 is a toddler.	0	Bob	Larry
+41	Bob can beat Larry at arm wrestling because Larry	 is a toddler.	1	Bob	Larry
+42	Donald kicked King but Donald	 never cried.	0	Donald	King
+42	Donald kicked King but King	 never cried.	1	Donald	King
+43	Donald kicked King but Donald	 never felt bad.	1	Donald	King
+43	Donald kicked King but King	 never felt bad.	0	Donald	King
+44	Steve went to the meeting with John because Steve	 was asked to.	1	Steve	John
+44	Steve went to the meeting with John because John	 was asked to.	0	Steve	John
+45	Steve went to the meeting with John because Steve	 asked him to.	0	Steve	John
+45	Steve went to the meeting with John because John	 asked him to.	1	Steve	John
+46	Mary gave Sandy her book because Mary	 needed it.	0	Mary	Sandy
+46	Mary gave Sandy her book because Sandy	 needed it.	1	Mary	Sandy
+47	Mary gave Sandy her book because Mary	 is generous.	1	Mary	Sandy
+47	Mary gave Sandy her book because Sandy	 is generous.	0	Mary	Sandy
+48	John visited Luke in the hospital because John	 was sick.	0	John	Luke
+48	John visited Luke in the hospital because Luke	 was sick.	1	John	Luke
+49	John visited Luke in the hospital because John	 lived close by.	1	John	Luke
+49	John visited Luke in the hospital because Luke	 lived close by.	0	John	Luke
+50	John hired Bill because John	 needed someone.	1	John	Bill
+50	John hired Bill because Bill	 needed someone.	0	John	Bill
+51	John fired Bill because John	 was incompetent.	0	John	Bill
+51	John fired Bill because Bill	 was incompetent.	1	John	Bill
+52	John introduced Bill because John	 knew everyone.	1	John	Bill
+52	John introduced Bill because Bill	 knew everyone.	0	John	Bill
+53	John introduced Bill because John	 was new.	0	John	Bill
+53	John introduced Bill because Bill	 was new.	1	John	Bill
+54	John shot Bill and John	 was jailed.	1	John	Bill
+54	John shot Bill and Bill	 was jailed.	0	John	Bill
+55	John shot Bill and John	 died.	0	John	Bill
+55	John shot Bill and Bill	 died.	1	John	Bill
+56	The Mad Hatter tried to offer a cup of tea to the March Hare, but The Mad Hatter	 hat was too distracting.	1	The Mad Hatter	the March Hare
+56	The Mad Hatter tried to offer a cup of tea to the March Hare, but the March Hare	 hat was too distracting.	0	The Mad Hatter	the March Hare
+57	The Mad Hatter tried to offer a cup of tea to the March Hare, but The Mad Hatter	 long ears were too distracting.	0	The Mad Hatter	the March Hare
+57	The Mad Hatter tried to offer a cup of tea to the March Hare, but the March Hare	 long ears were too distracting.	1	The Mad Hatter	the March Hare
+58	Richard blackmailed Senator Carson so that Richard	 silence would be secured.	0	Richard	Senator Carson
+58	Richard blackmailed Senator Carson so that Senator Carson	 silence would be secured.	1	Richard	Senator Carson
+59	Richard blackmailed Senator Carson so that Richard	 rise to power would be secured.	1	Richard	Senator Carson
+59	Richard blackmailed Senator Carson so that Senator Carson	 rise to power would be secured.	0	Richard	Senator Carson
+60	Tradition dictated the captain hold the Stanley Cup first, and Tradition	 was pretty.	0	Tradition	the Stanley Cup
+60	Tradition dictated the captain hold the Stanley Cup first, and the Stanley Cup	 was pretty.	1	Tradition	the Stanley Cup
+61	Tradition dictated the captain hold the Stanley Cup first, and Tradition	 is always followed.	1	Tradition	the Stanley Cup
+61	Tradition dictated the captain hold the Stanley Cup first, and the Stanley Cup	 is always followed.	0	Tradition	the Stanley Cup
+62	The bat hit the ball because The bat	 was designed to hit.	1	The bat	the ball
+62	The bat hit the ball because the ball	 was designed to hit.	0	The bat	the ball
+63	The bat hit the ball because The bat	 was designed to be hit.	0	The bat	the ball
+63	The bat hit the ball because the ball	 was designed to be hit.	1	The bat	the ball
+64	The program could successfully parse the file because The program	 was programmed well.	1	The program	the file
+64	The program could successfully parse the file because the file	 was programmed well.	0	The program	the file
+65	The program could successfully parse the file because The program	 was formatted well.	0	The program	the file
+65	The program could successfully parse the file because the file	 was formatted well.	1	The program	the file
+66	The article about the fires said that The article	 torched most of Seattle.	0	The article	the fires
+66	The article about the fires said that the fires	 torched most of Seattle.	1	The article	the fires
+67	The article about the fires said that The article	 would research the situation further.	1	The article	the fires
+67	The article about the fires said that the fires	 would research the situation further.	0	The article	the fires
+68	The winners were given the awards after The winners	 won.	1	The winners	the awards
+68	The winners were given the awards after the awards	 won.	0	The winners	the awards
+69	The winners were given the awards after The winners	 were made.	0	The winners	the awards
+69	The winners were given the awards after the awards	 were made.	1	The winners	the awards
+70	The man jumped on the neighbor's pool and The man	 swam.	1	The man	the neighbor
+70	The man jumped on the neighbor's pool and the neighbor	 swam.	0	The man	the neighbor
+71	The man jumped on the neighbor's pool and The man	 stared.	0	The man	the neighbor
+71	The man jumped on the neighbor's pool and the neighbor	 stared.	1	The man	the neighbor
+72	The team shredded the report, so that The team	 could rewrite a new one.	1	The team	the report
+72	The team shredded the report, so that the report	 could rewrite a new one.	0	The team	the report
+73	The team shredded the report, so that The team	 could be rewritten.	0	The team	the report
+73	The team shredded the report, so that the report	 could be rewritten.	1	The team	the report
+74	Bob asked Tom if Bob	 could take him to the movies.	1	Bob	Tom
+74	Bob asked Tom if Tom	 could take him to the movies.	0	Bob	Tom
+75	Bob asked Tom if Bob	 could lend some money.	0	Bob	Tom
+75	Bob asked Tom if Tom	 could lend some money.	1	Bob	Tom
+76	Homer punched Flanders because Homer	 was being annoying.	0	Homer	Flanders
+76	Homer punched Flanders because Flanders	 was being annoying.	1	Homer	Flanders
+77	Homer punched Flanders because Homer	 was asked to.	1	Homer	Flanders
+77	Homer punched Flanders because Flanders	 was asked to.	0	Homer	Flanders
+78	Nelson punched Milhouse but Nelson	 was not hurt.	0	Nelson	Milhouse
+78	Nelson punched Milhouse but Milhouse	 was not hurt.	1	Nelson	Milhouse
+79	Nelson punched Milhouse but Nelson	 was not caught.	1	Nelson	Milhouse
+79	Nelson punched Milhouse but Milhouse	 was not caught.	0	Nelson	Milhouse
+80	The mermaid swam toward Sue and made The mermaid	 gasp.	0	The mermaid	Sue
+80	The mermaid swam toward Sue and made Sue	 gasp.	1	The mermaid	Sue
+81	The mermaid swam toward Sue and waved The mermaid	 tail.	1	The mermaid	Sue
+81	The mermaid swam toward Sue and waved Sue	 tail.	0	The mermaid	Sue
+82	The mother bear attacked Karen because The mother bear	 had gotten too close to her cub.	0	The mother bear	Karen
+82	The mother bear attacked Karen because Karen	 had gotten too close to her cub.	1	The mother bear	Karen
+83	The mother bear attacked Karen because The mother bear	 was worried for her cub.	1	The mother bear	Karen
+83	The mother bear attacked Karen because Karen	 was worried for her cub.	0	The mother bear	Karen
+84	Mary smiled at Susan, but Mary	 did not smile back.	0	Mary	Susan
+84	Mary smiled at Susan, but Susan	 did not smile back.	1	Mary	Susan
+85	Mary smiled at Susan, but Mary	 was not happy to see her.	1	Mary	Susan
+85	Mary smiled at Susan, but Susan	 was not happy to see her.	0	Mary	Susan
+86	The leech latched onto the hippo so that The leech	 could enjoy the sunshine.	0	The leech	the hippo
+86	The leech latched onto the hippo so that the hippo	 could enjoy the sunshine.	1	The leech	the hippo
+87	The leech latched onto the hippo because The leech	 was hungry.	1	The leech	the hippo
+87	The leech latched onto the hippo because the hippo	 was hungry.	0	The leech	the hippo
+88	The people protested the government because The people	 were hungry.	1	The people	the government
+88	The people protested the government because the government	 were hungry.	0	The people	the government
+89	The people protested the government because The people	 were raising taxes.	0	The people	the government
+89	The people protested the government because the government	 were raising taxes.	1	The people	the government
+90	I drank the beer with a lime because the beer	 was cold.	1	the beer	a lime
+90	I drank the beer with a lime because a lime	 was cold.	0	the beer	a lime
+91	I drank the beer with a lime because the beer	 was sour.	0	the beer	a lime
+91	I drank the beer with a lime because a lime	 was sour.	1	the beer	a lime
+92	The employer talked to the employee about being loyal to The employer	.	1	The employer	the employee
+92	The employer talked to the employee about being loyal to the employee	.	0	The employer	the employee
+93	The employer talked to the employee about firing The employer	.	0	The employer	the employee
+93	The employer talked to the employee about firing the employee	.	1	The employer	the employee
+94	A chicken pecked at a bug and A chicken	 ate it.	1	A chicken	a bug
+94	A chicken pecked at a bug and a bug	 ate it.	0	A chicken	a bug
+95	A chicken pecked at a bug and A chicken	 ran away.	0	A chicken	a bug
+95	A chicken pecked at a bug and a bug	 ran away.	1	A chicken	a bug
+96	The dogs hate the fleas because The dogs	 suck blood.	0	The dogs	the fleas
+96	The dogs hate the fleas because the fleas	 suck blood.	1	The dogs	the fleas
+97	The dogs hate the fleas because The dogs	 hate bugs.	1	The dogs	the fleas
+97	The dogs hate the fleas because the fleas	 hate bugs.	0	The dogs	the fleas
+98	Steven Seagal challenged Jean Claude Van Damme to a fight because Steven Seagal	 wanted to prove Steven Seagal was the stronger man.	1	Steven Seagal	Jean Claude Van Damme
+98	Steven Seagal challenged Jean Claude Van Damme to a fight because Jean Claude Van Damme	 wanted to prove Jean Claude Van Damme was the stronger man.	0	Steven Seagal	Jean Claude Van Damme
+99	Steven Seagal challenged Jean Claude Van Damme to a fight because Steven Seagal	 is a worthy opponent.	0	Steven Seagal	Jean Claude Van Damme
+99	Steven Seagal challenged Jean Claude Van Damme to a fight because Jean Claude Van Damme	 is a worthy opponent.	1	Steven Seagal	Jean Claude Van Damme
+100	Girls like puppies because Girls	 are adorable.	0	Girls	puppies
+100	Girls like puppies because puppies	 are adorable.	1	Girls	puppies
+101	Girls like puppies because Girls	 like adorable things.	1	Girls	puppies
+101	Girls like puppies because puppies	 like adorable things.	0	Girls	puppies
+102	Jack got more votes than John because the people liked Jack	.	1	Jack	John
+102	Jack got more votes than John because the people liked John	.	0	Jack	John
+103	Jack got more votes than John because the people did not like Jack	.	0	Jack	John
+103	Jack got more votes than John because the people did not like John	.	1	Jack	John
+104	The car passed the truck because The car	 was going too slow.	0	The car	the truck
+104	The car passed the truck because the truck	 was going too slow.	1	The car	the truck
+105	The car passed the truck because The car	 needed to go faster.	1	The car	the truck
+105	The car passed the truck because the truck	 needed to go faster.	0	The car	the truck
+106	My phone is working better than your phone because My phone	 is a newer model.	1	My phone	your phone
+106	My phone is working better than your phone because your phone	 is a newer model.	0	My phone	your phone
+107	My phone is working better than your phone because My phone	 is broken.	0	My phone	your phone
+107	My phone is working better than your phone because your phone	 is broken.	1	My phone	your phone
+108	Raja wanted Rena to take the job because Raja	 would be a good candidate.	0	Raja	Rena
+108	Raja wanted Rena to take the job because Rena	 would be a good candidate.	1	Raja	Rena
+109	Raja wanted Rena to take the job because Raja	 wanted to leave.	1	Raja	Rena
+109	Raja wanted Rena to take the job because Rena	 wanted to leave.	0	Raja	Rena
+110	Sheila tried to repair the old jalopy, even though Sheila	 had not run in three decades.	0	Sheila	the old jalopy
+110	Sheila tried to repair the old jalopy, even though the old jalopy	 had not run in three decades.	1	Sheila	the old jalopy
+111	Sheila tried to repair the old jalopy, even though Sheila	 had not worked on cars in three decades.	1	Sheila	the old jalopy
+111	Sheila tried to repair the old jalopy, even though the old jalopy	 had not worked on cars in three decades.	0	Sheila	the old jalopy
+112	The ghost entered the house because The ghost	 was haunting.	1	The ghost	the house
+112	The ghost entered the house because the house	 was haunting.	0	The ghost	the house
+113	The ghost entered the house because The ghost	 was haunted.	0	The ghost	the house
+113	The ghost entered the house because the house	 was haunted.	1	The ghost	the house
+114	The boy escaped the cop but The boy	 continued to flee.	1	The boy	the cop
+114	The boy escaped the cop but the cop	 continued to flee.	0	The boy	the cop
+115	The boy escaped the cop but The boy	 continued to search.	0	The boy	the cop
+115	The boy escaped the cop but the cop	 continued to search.	1	The boy	the cop
+116	The needle punctured the skin but The needle	 failed to register pain.	0	The needle	the skin
+116	The needle punctured the skin but the skin	 failed to register pain.	1	The needle	the skin
+117	The needle punctured the skin but The needle	 failed to administer pain.	1	The needle	the skin
+117	The needle punctured the skin but the skin	 failed to administer pain.	0	The needle	the skin
+118	The lion saw the fish and The lion	 pounced.	1	The lion	the fish
+118	The lion saw the fish and the fish	 pounced.	0	The lion	the fish
+119	The lion saw the fish and The lion	 was swimming.	0	The lion	the fish
+119	The lion saw the fish and the fish	 was swimming.	1	The lion	the fish
+120	The clown smiled at the child and The clown	 cried.	0	The clown	the child
+120	The clown smiled at the child and the child	 cried.	1	The clown	the child
+121	The clown smiled at the child and The clown	 offered him a balloon.	1	The clown	the child
+121	The clown smiled at the child and the child	 offered him a balloon.	0	The clown	the child
+122	The scientists gave the chimps some bananas because the chimps	 were hungry.	1	the chimps	some bananas
+122	The scientists gave the chimps some bananas because some bananas	 were hungry.	0	the chimps	some bananas
+123	The scientists gave the chimps some bananas because the chimps	 were ripe.	0	the chimps	some bananas
+123	The scientists gave the chimps some bananas because some bananas	 were ripe.	1	the chimps	some bananas
+124	The boss fired the worker when The boss	 stopped performing well.	0	The boss	the worker
+124	The boss fired the worker when the worker	 stopped performing well.	1	The boss	the worker
+125	The boss fired the worker when The boss	 called him into the office.	1	The boss	the worker
+125	The boss fired the worker when the worker	 called him into the office.	0	The boss	the worker
+126	The outlet powered the lamp when The outlet	 had electricity.	1	The outlet	the lamp
+126	The outlet powered the lamp when the lamp	 had electricity.	0	The outlet	the lamp
+127	The outlet powered the lamp when The outlet	 was plugged in.	0	The outlet	the lamp
+127	The outlet powered the lamp when the lamp	 was plugged in.	1	The outlet	the lamp
+128	The paintball player was mad at the referee because The paintball player	 missed a call.	0	The paintball player	the referee
+128	The paintball player was mad at the referee because the referee	 missed a call.	1	The paintball player	the referee
+129	The paintball player was mad at the referee because The paintball player	 was called out but shouldn't.	1	The paintball player	the referee
+129	The paintball player was mad at the referee because the referee	 was called out but shouldn't.	0	The paintball player	the referee
+130	The network heads cancelled the TV shows because The network heads	 were not doing well.	0	The network heads	the TV shows
+130	The network heads cancelled the TV shows because the TV shows	 were not doing well.	1	The network heads	the TV shows
+131	The network heads cancelled the TV shows because The network heads	 did not like the content.	1	The network heads	the TV shows
+131	The network heads cancelled the TV shows because the TV shows	 did not like the content.	0	The network heads	the TV shows
+132	The cheetah outran the antelope so The cheetah	 got to eat.	1	The cheetah	the antelope
+132	The cheetah outran the antelope so the antelope	 got to eat.	0	The cheetah	the antelope
+133	The cheetah outran the antelope so The cheetah	 got eaten.	0	The cheetah	the antelope
+133	The cheetah outran the antelope so the antelope	 got eaten.	1	The cheetah	the antelope
+134	The keys typed the words because The keys	 were meant to be typed.	0	The keys	the words
+134	The keys typed the words because the words	 were meant to be typed.	1	The keys	the words
+135	The keys typed the words because The keys	 were meant to be typed on.	1	The keys	the words
+135	The keys typed the words because the words	 were meant to be typed on.	0	The keys	the words
+136	The racquetball players were annoyed by the other students in the activity center because The racquetball players	 were using the racquetball courts to play badminton.	0	The racquetball players	the other students
+136	The racquetball players were annoyed by the other students in the activity center because the other students	 were using the racquetball courts to play badminton.	1	The racquetball players	the other students
+137	The racquetball players were annoyed by the other students in the activity center because The racquetball players	 wanted to play and couldn't.	1	The racquetball players	the other students
+137	The racquetball players were annoyed by the other students in the activity center because the other students	 wanted to play and couldn't.	0	The racquetball players	the other students
+138	The teachers scolded the students because The teachers	 would not learn the material.	0	The teachers	the students
+138	The teachers scolded the students because the students	 would not learn the material.	1	The teachers	the students
+139	The teachers scolded the students because The teachers	 were the authority figures.	1	The teachers	the students
+139	The teachers scolded the students because the students	 were the authority figures.	0	The teachers	the students
+140	The plane was in the sky and The plane	 was fast.	1	The plane	the sky
+140	The plane was in the sky and the sky	 was fast.	0	The plane	the sky
+141	The plane was in the sky and The plane	 was cloudy.	0	The plane	the sky
+141	The plane was in the sky and the sky	 was cloudy.	1	The plane	the sky
+142	Joe crashed into Mike and Joe	 had to pay for the damage.	0	Joe	Mike
+142	Joe crashed into Mike and Mike	 had to pay for the damage.	1	Joe	Mike
+143	Joe crashed into Mike because Joe	 needed a place to sleep.	1	Joe	Mike
+143	Joe crashed into Mike because Mike	 needed a place to sleep.	0	Joe	Mike
+144	The man shot his friend and The man	 died.	0	The man	his friend
+144	The man shot his friend and his friend	 died.	1	The man	his friend
+145	The man shot his friend and The man	 was arrested.	1	The man	his friend
+145	The man shot his friend and his friend	 was arrested.	0	The man	his friend
+146	The man killed the boss because The man	 hated the job.	1	The man	the boss
+146	The man killed the boss because the boss	 hated the job.	0	The man	the boss
+147	The man killed the boss because The man	 fired him.	0	The man	the boss
+147	The man killed the boss because the boss	 fired him.	1	The man	the boss
+148	Joe raced against Steven because Joe	 thought it would be easy.	1	Joe	Steven
+148	Joe raced against Steven because Steven	 thought it would be easy.	0	Joe	Steven
+149	Joe raced against Steven because Joe	 would not say no.	0	Joe	Steven
+149	Joe raced against Steven because Steven	 would not say no.	1	Joe	Steven
+150	The light hit the mirror and The light	 reflected.	1	The light	the mirror
+150	The light hit the mirror and the mirror	 reflected.	0	The light	the mirror
+151	The light hit the mirror and The light	 shattered.	0	The light	the mirror
+151	The light hit the mirror and the mirror	 shattered.	1	The light	the mirror
+152	Google Plus is expected to be a replacement for Facebook but Google Plus	 still does not have enough active users.	1	Google Plus	Facebook
+152	Google Plus is expected to be a replacement for Facebook but Facebook	 still does not have enough active users.	0	Google Plus	Facebook
+153	Google Plus is expected to be a replacement for Facebook but Google Plus	 still has a lot more active users.	0	Google Plus	Facebook
+153	Google Plus is expected to be a replacement for Facebook but Facebook	 still has a lot more active users.	1	Google Plus	Facebook
+154	The spear easily pierced through the armor because The spear	 was too sharp.	1	The spear	the armor
+154	The spear easily pierced through the armor because the armor	 was too sharp.	0	The spear	the armor
+155	The spear easily pierced through the armor because The spear	 was too thin.	0	The spear	the armor
+155	The spear easily pierced through the armor because the armor	 was too thin.	1	The spear	the armor
+156	The cat caught the mouse because The cat	 was clever.	1	The cat	the mouse
+156	The cat caught the mouse because the mouse	 was clever.	0	The cat	the mouse
+157	The cat caught the mouse because The cat	 was careless.	0	The cat	the mouse
+157	The cat caught the mouse because the mouse	 was careless.	1	The cat	the mouse
+158	Joseph did not defeat William in the match, so Joseph	 paid $100.	1	Joseph	William
+158	Joseph did not defeat William in the match, so William	 paid $100.	0	Joseph	William
+159	Joseph did not defeat William in the match, so Joseph	 earned $100.	0	Joseph	William
+159	Joseph did not defeat William in the match, so William	 earned $100.	1	Joseph	William
+160	Adam failed to kill Alexander, so Adam	 hired a bodygaurd in case of a second attempt.	0	Adam	Alexander
+160	Adam failed to kill Alexander, so Alexander	 hired a bodygaurd in case of a second attempt.	1	Adam	Alexander
+161	Adam failed to kill Alexander, so Adam	 hired an assassin for the second attempt.	1	Adam	Alexander
+161	Adam failed to kill Alexander, so Alexander	 hired an assassin for the second attempt.	0	Adam	Alexander
+162	The bowl had a crack, so The bowl	 was filled in.	0	The bowl	a crack
+162	The bowl had a crack, so a crack	 was filled in.	1	The bowl	a crack
+163	The bowl had a crack, so The bowl	 was thrown away.	1	The bowl	a crack
+163	The bowl had a crack, so a crack	 was thrown away.	0	The bowl	a crack
+164	The student told the instructor that The student	 was sick.	1	The student	the instructor
+164	The student told the instructor that the instructor	 was sick.	0	The student	the instructor
+165	The student told the instructor that The student	 talked fast.	0	The student	the instructor
+165	The student told the instructor that the instructor	 talked fast.	1	The student	the instructor
+166	Joe put Bob in the time machine and Joe	 went to the future.	0	Joe	Bob
+166	Joe put Bob in the time machine and Bob	 went to the future.	1	Joe	Bob
+167	Joe put Bob in the time machine and Joe	 created another one.	1	Joe	Bob
+167	Joe put Bob in the time machine and Bob	 created another one.	0	Joe	Bob
+168	Bill asked Joe if Bill	 could borrow some money.	1	Bill	Joe
+168	Bill asked Joe if Joe	 could borrow some money.	0	Bill	Joe
+169	Bill asked Joe if Bill	 had any money.	0	Bill	Joe
+169	Bill asked Joe if Joe	 had any money.	1	Bill	Joe
+170	The chef held the waiter so that The chef	 would not flee.	0	The chef	the waiter
+170	The chef held the waiter so that the waiter	 would not flee.	1	The chef	the waiter
+171	The chef held the waiter so that The chef	 did not fall off.	1	The chef	the waiter
+171	The chef held the waiter so that the waiter	 did not fall off.	0	The chef	the waiter
+172	Tony helped Jeff because Tony	 wanted to help.	1	Tony	Jeff
+172	Tony helped Jeff because Jeff	 wanted to help.	0	Tony	Jeff
+173	Tony helped Jeff because Tony	 needed help.	0	Tony	Jeff
+173	Tony helped Jeff because Jeff	 needed help.	1	Tony	Jeff
+174	The cat was afraid of the dog because The cat	 was scary.	0	The cat	the dog
+174	The cat was afraid of the dog because the dog	 was scary.	1	The cat	the dog
+175	The cat was afraid of the dog because The cat	 was timid.	1	The cat	the dog
+175	The cat was afraid of the dog because the dog	 was timid.	0	The cat	the dog
+176	The violin fell off the table because someone knocked The violin	 off.	1	The violin	the table
+176	The violin fell off the table because someone knocked the table	 off.	0	The violin	the table
+177	The violin fell off the table because The violin	 was unstable.	0	The violin	the table
+177	The violin fell off the table because the table	 was unstable.	1	The violin	the table
+178	Lily gave Amber a hug because Lily	 was sad.	0	Lily	Amber
+178	Lily gave Amber a hug because Amber	 was sad.	1	Lily	Amber
+179	Lily gave Amber a hug because Lily	 was sorry.	1	Lily	Amber
+179	Lily gave Amber a hug because Amber	 was sorry.	0	Lily	Amber
+180	The birds ate the seeds because The birds	 were hungry.	1	The birds	the seeds
+180	The birds ate the seeds because the seeds	 were hungry.	0	The birds	the seeds
+181	The birds ate the seeds because The birds	 were tasty.	0	The birds	the seeds
+181	The birds ate the seeds because the seeds	 were tasty.	1	The birds	the seeds
+182	Josie did not like Sarah, but Josie	 did not know it.	0	Josie	Sarah
+182	Josie did not like Sarah, but Sarah	 did not know it.	1	Josie	Sarah
+183	Josie did not like Sarah, but Josie	 did not tell her.	1	Josie	Sarah
+183	Josie did not like Sarah, but Sarah	 did not tell her.	0	Josie	Sarah
+184	Ken tried to sneak past the boss because Ken	 was late for work.	1	Ken	the boss
+184	Ken tried to sneak past the boss because the boss	 was late for work.	0	Ken	the boss
+185	Ken tried to sneak past the boss because Ken	 was looking for late people.	0	Ken	the boss
+185	Ken tried to sneak past the boss because the boss	 was looking for late people.	1	Ken	the boss
+186	The hyenas scavenged from the lions because The hyenas	 were desperate.	1	The hyenas	the lions
+186	The hyenas scavenged from the lions because the lions	 were desperate.	0	The hyenas	the lions
+187	The hyenas scavenged from the lions because The hyenas	 had left scraps.	0	The hyenas	the lions
+187	The hyenas scavenged from the lions because the lions	 had left scraps.	1	The hyenas	the lions
+188	The fisherman hooked a big fish but The fisherman	 got away.	0	The fisherman	a big fish
+188	The fisherman hooked a big fish but a big fish	 got away.	1	The fisherman	a big fish
+189	The fisherman hooked a big fish but The fisherman	 dropped his pole.	1	The fisherman	a big fish
+189	The fisherman hooked a big fish but a big fish	 dropped his pole.	0	The fisherman	a big fish
+190	The geology department petitioned the school board for money because The geology department	 needed funding.	1	The geology department	the school board
+190	The geology department petitioned the school board for money because the school board	 needed funding.	0	The geology department	the school board
+191	The geology department petitioned the school board for money because The geology department	 could grant funding.	0	The geology department	the school board
+191	The geology department petitioned the school board for money because the school board	 could grant funding.	1	The geology department	the school board
+192	George scored against Thomas in the shootout, so George	 won the game.	1	George	Thomas
+192	George scored against Thomas in the shootout, so Thomas	 won the game.	0	George	Thomas
+193	George scored against Thomas in the shootout, so George	 lost the game.	0	George	Thomas
+193	George scored against Thomas in the shootout, so Thomas	 lost the game.	1	George	Thomas
+194	Lakshman asked Vivan to get him some ice cream because Lakshman	 was hot.	1	Lakshman	Vivan
+194	Lakshman asked Vivan to get him some ice cream because Vivan	 was hot.	0	Lakshman	Vivan
+195	Lakshman asked Vivan to get him some ice cream because Lakshman	 owed him money.	0	Lakshman	Vivan
+195	Lakshman asked Vivan to get him some ice cream because Vivan	 owed him money.	1	Lakshman	Vivan
+196	Yuri owed Ivan money because Yuri	 paid for the vodka.	0	Yuri	Ivan
+196	Yuri owed Ivan money because Ivan	 paid for the vodka.	1	Yuri	Ivan
+197	Yuri owed Ivan money because Yuri	 lost the bet.	1	Yuri	Ivan
+197	Yuri owed Ivan money because Ivan	 lost the bet.	0	Yuri	Ivan
+198	Steve hired Jose because Steve	 was a hard worker.	0	Steve	Jose
+198	Steve hired Jose because Jose	 was a hard worker.	1	Steve	Jose
+199	Steve hired Jose because Steve	 could not find anyone better.	1	Steve	Jose
+199	Steve hired Jose because Jose	 could not find anyone better.	0	Steve	Jose
+200	The outlaw shot the sheriff, but The outlaw	 did not shoot the deputy.	1	The outlaw	the sheriff
+200	The outlaw shot the sheriff, but the sheriff	 did not shoot the deputy.	0	The outlaw	the sheriff
+201	The outlaw shot the sheriff, but The outlaw	 shot back.	0	The outlaw	the sheriff
+201	The outlaw shot the sheriff, but the sheriff	 shot back.	1	The outlaw	the sheriff
+202	Kelly neglected to tell Katie that their rent was due, but Kelly	 told her later.	1	Kelly	Katie
+202	Kelly neglected to tell Katie that their rent was due, but Katie	 told her later.	0	Kelly	Katie
+203	Kelly neglected to tell Katie that their rent was due, but Kelly	 remembered that it was due on the first of every month.	0	Kelly	Katie
+203	Kelly neglected to tell Katie that their rent was due, but Katie	 remembered that it was due on the first of every month.	1	Kelly	Katie
+204	The committee increased the price of the tickets to the dance for the students, but The committee	 did not like it.	0	The committee	the students
+204	The committee increased the price of the tickets to the dance for the students, but the students	 did not like it.	1	The committee	the students
+205	The committee increased the price of the tickets to the dance for the students, but The committee	 changed their decision later.	1	The committee	the students
+205	The committee increased the price of the tickets to the dance for the students, but the students	 changed their decision later.	0	The committee	the students
+206	John wanted George to run for President because John	 was a great governor.	0	John	George
+206	John wanted George to run for President because George	 was a great governor.	1	John	George
+207	John wanted George to run for President because John	 did not want to.	1	John	George
+207	John wanted George to run for President because George	 did not want to.	0	John	George
+208	Olivia wants to make amends with Emily, but Olivia	 is apprehensive.	1	Olivia	Emily
+208	Olivia wants to make amends with Emily, but Emily	 is apprehensive.	0	Olivia	Emily
+209	Olivia wants to make amends with Emily, but Olivia	 no longer wants to be friends.	0	Olivia	Emily
+209	Olivia wants to make amends with Emily, but Emily	 no longer wants to be friends.	1	Olivia	Emily
+210	Jill saw Jane fall down, and Jill	 helped her up.	1	Jill	Jane
+210	Jill saw Jane fall down, and Jane	 helped her up.	0	Jill	Jane
+211	Jill saw Jane fall down, and Jill	 asked her for help.	0	Jill	Jane
+211	Jill saw Jane fall down, and Jane	 asked her for help.	1	Jill	Jane
+212	Larry purchased some of Marty's Lemonade, and Larry	 made money.	0	Larry	Marty
+212	Larry purchased some of Marty's Lemonade, and Marty	 made money.	1	Larry	Marty
+213	Larry purchased some of Marty's Lemonade, and Larry	 wanted the recipe.	1	Larry	Marty
+213	Larry purchased some of Marty's Lemonade, and Marty	 wanted the recipe.	0	Larry	Marty
+214	The professor gave the student a bad grade because The professor	 did not study.	0	The professor	the student
+214	The professor gave the student a bad grade because the student	 did not study.	1	The professor	the student
+215	The professor gave the student a bad grade because The professor	 was strict.	1	The professor	the student
+215	The professor gave the student a bad grade because the student	 was strict.	0	The professor	the student
+216	We took the books to the shops because the books	 were old.	1	the books	the shops
+216	We took the books to the shops because the shops	 were old.	0	the books	the shops
+217	We took the books to the shops because the books	 would buy them.	0	the books	the shops
+217	We took the books to the shops because the shops	 would buy them.	1	the books	the shops
+218	We gave the fruit to the humans because the fruit	 were hungry.	0	the fruit	the humans
+218	We gave the fruit to the humans because the humans	 were hungry.	1	the fruit	the humans
+219	We gave the fruit to the humans because the fruit	 were ripe.	1	the fruit	the humans
+219	We gave the fruit to the humans because the humans	 were ripe.	0	the fruit	the humans
+220	Battlefield 3 is more fun than Modern Warfare 3 because Battlefield 3	 is a better game.	1	Battlefield 3	Modern Warfare 3
+220	Battlefield 3 is more fun than Modern Warfare 3 because Modern Warfare 3	 is a better game.	0	Battlefield 3	Modern Warfare 3
+221	Battlefield 3 is more fun than Modern Warfare 3 because Battlefield 3	 is a crappy game.	0	Battlefield 3	Modern Warfare 3
+221	Battlefield 3 is more fun than Modern Warfare 3 because Modern Warfare 3	 is a crappy game.	1	Battlefield 3	Modern Warfare 3
+222	John attacked Tim because John	 hates communists.	1	John	Tim
+222	John attacked Tim because Tim	 hates communists.	0	John	Tim
+223	John attacked Tim because John	 was a communist.	0	John	Tim
+223	John attacked Tim because Tim	 was a communist.	1	John	Tim
+224	Someone hit Billy in the face because Someone	 was angry.	1	Someone	Billy
+224	Someone hit Billy in the face because Billy	 was angry.	0	Someone	Billy
+225	Someone hit Billy in the face because Someone	 was being rude.	0	Someone	Billy
+225	Someone hit Billy in the face because Billy	 was being rude.	1	Someone	Billy
+226	Joe has more money than Adam since Joe	 has a better job.	1	Joe	Adam
+226	Joe has more money than Adam since Adam	 has a better job.	0	Joe	Adam
+227	Joe has more money than Adam since Joe	 has no job.	0	Joe	Adam
+227	Joe has more money than Adam since Adam	 has no job.	1	Joe	Adam
+228	Pigs are better than sheep because Pigs	 make bacon.	1	Pigs	sheep
+228	Pigs are better than sheep because sheep	 make bacon.	0	Pigs	sheep
+229	Pigs are better than sheep because Pigs	 do not make bacon.	0	Pigs	sheep
+229	Pigs are better than sheep because sheep	 do not make bacon.	1	Pigs	sheep
+230	The car beat the bike because The car	 was faster.	1	The car	the bike
+230	The car beat the bike because the bike	 was faster.	0	The car	the bike
+231	The car beat the bike because The car	 was too slow.	0	The car	the bike
+231	The car beat the bike because the bike	 was too slow.	1	The car	the bike
+232	The blimp hit the tree because The blimp	 lost air.	1	The blimp	the tree
+232	The blimp hit the tree because the tree	 lost air.	0	The blimp	the tree
+233	The blimp hit the tree because The blimp	 was in the way.	0	The blimp	the tree
+233	The blimp hit the tree because the tree	 was in the way.	1	The blimp	the tree
+234	Bob sued Bill because Bob	 was embezzling funds.	0	Bob	Bill
+234	Bob sued Bill because Bill	 was embezzling funds.	1	Bob	Bill
+235	Bob sued Bill because Bob	 wanted more money.	1	Bob	Bill
+235	Bob sued Bill because Bill	 wanted more money.	0	Bob	Bill
+236	I gave the donkey some food because some food	 was hungry.	0	some food	the donkey
+236	I gave the donkey some food because the donkey	 was hungry.	1	some food	the donkey
+237	I gave the donkey some food because some food	 was fresh.	1	some food	the donkey
+237	I gave the donkey some food because the donkey	 was fresh.	0	some food	the donkey
+238	The humans were afraid of the robots because The humans	 were weak.	1	The humans	the robots
+238	The humans were afraid of the robots because the robots	 were weak.	0	The humans	the robots
+239	The humans were afraid of the robots because The humans	 were strong.	0	The humans	the robots
+239	The humans were afraid of the robots because the robots	 were strong.	1	The humans	the robots
+240	The Playstation is outperforming the Xbox because The Playstation	 has better games.	1	The Playstation	the Xbox
+240	The Playstation is outperforming the Xbox because the Xbox	 has better games.	0	The Playstation	the Xbox
+241	The Playstation is outperforming the Xbox because The Playstation	 is prone to hardware failure.	0	The Playstation	the Xbox
+241	The Playstation is outperforming the Xbox because the Xbox	 is prone to hardware failure.	1	The Playstation	the Xbox
+242	Sean is better than Watson at anaphora resolution because Sean	 can naturally understand natural language.	1	Sean	Watson
+242	Sean is better than Watson at anaphora resolution because Watson	 can naturally understand natural language.	0	Sean	Watson
+243	Sean is better than Watson at anaphora resolution because Sean	 has trouble understanding natural language.	0	Sean	Watson
+243	Sean is better than Watson at anaphora resolution because Watson	 has trouble understanding natural language.	1	Sean	Watson
+244	Sentient machines will kill all humans because Sentient machines	 have giant death rays.	1	Sentient machines	all humans
+244	Sentient machines will kill all humans because all humans	 have giant death rays.	0	Sentient machines	all humans
+245	Sentient machines will kill all humans because Sentient machines	 are inferior beings.	0	Sentient machines	all humans
+245	Sentient machines will kill all humans because all humans	 are inferior beings.	1	Sentient machines	all humans
+246	Watson beat Ken at Jeopardy because Watson	 is a superior machine.	1	Watson	Ken
+246	Watson beat Ken at Jeopardy because Ken	 is a superior machine.	0	Watson	Ken
+247	Watson beat Ken at Jeopardy because Watson	 is an inferior human.	0	Watson	Ken
+247	Watson beat Ken at Jeopardy because Ken	 is an inferior human.	1	Watson	Ken
+248	Larry trusted Page because Bill told Larry	 to.	1	Larry	Page
+248	Larry trusted Page because Bill told Page	 to.	0	Larry	Page
+249	Larry trusted Page because Bill knows Larry	.	0	Larry	Page
+249	Larry trusted Page because Bill knows Page	.	1	Larry	Page
+250	Cosby supported Jay because Thea really liked Cosby	.	0	Cosby	Jay
+250	Cosby supported Jay because Thea really liked Jay	.	1	Cosby	Jay
+251	Cosby supported Jay because Thea asked Cosby	 to.	1	Cosby	Jay
+251	Cosby supported Jay because Thea asked Jay	 to.	0	Cosby	Jay
+252	Jace loves Jesus because Jace	 died for him.	0	Jace	Jesus
+252	Jace loves Jesus because Jesus	 died for him.	1	Jace	Jesus
+253	Jace loves Jesus because Jace	 tasted his goodness.	1	Jace	Jesus
+253	Jace loves Jesus because Jesus	 tasted his goodness.	0	Jace	Jesus
+254	Olga kicked Sara because Olga	 woke her up.	0	Olga	Sara
+254	Olga kicked Sara because Sara	 woke her up.	1	Olga	Sara
+255	Olga kicked Sara because Olga	 was drunk.	1	Olga	Sara
+255	Olga kicked Sara because Sara	 was drunk.	0	Olga	Sara
+256	Nola shot Christina in the head because Nola	 threatened to take all of her money.	0	Nola	Christina
+256	Nola shot Christina in the head because Christina	 threatened to take all of her money.	1	Nola	Christina
+257	Nola shot Christina in the head because Nola	 thought it was a good idea to kill a human being.	1	Nola	Christina
+257	Nola shot Christina in the head because Christina	 thought it was a good idea to kill a human being.	0	Nola	Christina
+258	Rebecca kissed Dina because Rebecca	 loves her.	1	Rebecca	Dina
+258	Rebecca kissed Dina because Dina	 loves her.	0	Rebecca	Dina
+259	Rebecca kissed Dina because Rebecca	 is a sweet girl.	0	Rebecca	Dina
+259	Rebecca kissed Dina because Dina	 is a sweet girl.	1	Rebecca	Dina
+260	Mom brought Sara from school early because Mom	 was sick.	0	Mom	Sara
+260	Mom brought Sara from school early because Sara	 was sick.	1	Mom	Sara
+261	Mom brought Sara from school early because Mom	 had an early meeting.	1	Mom	Sara
+261	Mom brought Sara from school early because Sara	 had an early meeting.	0	Mom	Sara
+262	Gorden got mad at his brother because Gorden	 forgot to bring him chocolate.	0	Gorden	his brother
+262	Gorden got mad at his brother because his brother	 forgot to bring him chocolate.	1	Gorden	his brother
+263	Gorden got mad at his brother because Gorden	 did not get good sleep.	1	Gorden	his brother
+263	Gorden got mad at his brother because his brother	 did not get good sleep.	0	Gorden	his brother
+264	John asked Bill because John	 was confused.	1	John	Bill
+264	John asked Bill because Bill	 was confused.	0	John	Bill
+265	John asked Bill because John	 knew the answer.	0	John	Bill
+265	John asked Bill because Bill	 knew the answer.	1	John	Bill
+266	John rated Bill because John	 was the judge.	1	John	Bill
+266	John rated Bill because Bill	 was the judge.	0	John	Bill
+267	John rated Bill because John	 was a contestant.	0	John	Bill
+267	John rated Bill because Bill	 was a contestant.	1	John	Bill
+268	John called Bill because John	 needed someone to talk to.	1	John	Bill
+268	John called Bill because Bill	 needed someone to talk to.	0	John	Bill
+269	John called Bill because John	 was a good listener.	0	John	Bill
+269	John called Bill because Bill	 was a good listener.	1	John	Bill
+270	John killed Bill because John	 was fighting for his life.	1	John	Bill
+270	John killed Bill because Bill	 was fighting for his life.	0	John	Bill
+271	John killed Bill because John	 was a zombie.	0	John	Bill
+271	John killed Bill because Bill	 was a zombie.	1	John	Bill
+272	Billy beat Tommy at Scrabble because Billy	 had no skill.	0	Billy	Tommy
+272	Billy beat Tommy at Scrabble because Tommy	 had no skill.	1	Billy	Tommy
+273	Billy beat Tommy at Scrabble because Billy	 had all the luck.	1	Billy	Tommy
+273	Billy beat Tommy at Scrabble because Tommy	 had all the luck.	0	Billy	Tommy
+274	Mary had a little lamb until Mary	 was stolen by Cindy.	0	Mary	a little lamb
+274	Mary had a little lamb until a little lamb	 was stolen by Cindy.	1	Mary	a little lamb
+275	Mary had a little lamb until Mary	 had lamb chops for dinner.	1	Mary	a little lamb
+275	Mary had a little lamb until a little lamb	 had lamb chops for dinner.	0	Mary	a little lamb
+276	The wolves chased the deer because The wolves	 were predators.	1	The wolves	the deer
+276	The wolves chased the deer because the deer	 were predators.	0	The wolves	the deer
+277	The wolves chased the deer because The wolves	 were prey.	0	The wolves	the deer
+277	The wolves chased the deer because the deer	 were prey.	1	The wolves	the deer
+278	The girls ate the apples because The girls	 were hungry.	1	The girls	the apples
+278	The girls ate the apples because the apples	 were hungry.	0	The girls	the apples
+279	The girls ate the apples because The girls	 were ripe.	0	The girls	the apples
+279	The girls ate the apples because the apples	 were ripe.	1	The girls	the apples
+280	The minister befriended King George so The minister	 would not get beheaded.	1	The minister	King George
+280	The minister befriended King George so King George	 would not get beheaded.	0	The minister	King George
+281	The minister befriended King George so The minister	 could have some friends.	0	The minister	King George
+281	The minister befriended King George so King George	 could have some friends.	1	The minister	King George
+282	Mary likes Joe because Mary	 has a cool name.	0	Mary	Joe
+282	Mary likes Joe because Joe	 has a cool name.	1	Mary	Joe
+283	Mary likes Joe because Mary	 likes females.	1	Mary	Joe
+283	Mary likes Joe because Joe	 likes females.	0	Mary	Joe
+284	The bat hit the ball because The bat	 flew in the way of the trajectory.	1	The bat	the ball
+284	The bat hit the ball because the ball	 flew in the way of the trajectory.	0	The bat	the ball
+285	The bat hit the ball because The bat	 flew straight at the poor animal.	0	The bat	the ball
+285	The bat hit the ball because the ball	 flew straight at the poor animal.	1	The bat	the ball
+286	The knife sliced through the flesh because The knife	 was sharp.	1	The knife	the flesh
+286	The knife sliced through the flesh because the flesh	 was sharp.	0	The knife	the flesh
+287	The knife sliced through the flesh because The knife	 was tender.	0	The knife	the flesh
+287	The knife sliced through the flesh because the flesh	 was tender.	1	The knife	the flesh
+288	The boy lied to his father about the crime, but The boy	 still felt uneasy and was slowly overcome with guilt.	1	The boy	his father
+288	The boy lied to his father about the crime, but his father	 still felt uneasy and was slowly overcome with guilt.	0	The boy	his father
+289	The boy lied to his father about the crime, but The boy	 still felt uneasy and was slowly overcome with curiosity.	0	The boy	his father
+289	The boy lied to his father about the crime, but his father	 still felt uneasy and was slowly overcome with curiosity.	1	The boy	his father
+290	The apple wine entered my mouth because The apple wine	 tastes good.	1	The apple wine	my mouth
+290	The apple wine entered my mouth because my mouth	 tastes good.	0	The apple wine	my mouth
+291	The apple wine entered my mouth because The apple wine	 was not full.	0	The apple wine	my mouth
+291	The apple wine entered my mouth because my mouth	 was not full.	1	The apple wine	my mouth
+292	The boy helped his friend move because The boy	 was going to be free all day.	1	The boy	his friend
+292	The boy helped his friend move because his friend	 was going to be free all day.	0	The boy	his friend
+293	The boy helped his friend move because The boy	 was going to be busy all day.	0	The boy	his friend
+293	The boy helped his friend move because his friend	 was going to be busy all day.	1	The boy	his friend
+294	The boy secretly watched his friend because The boy	 wanted the secret information.	1	The boy	his friend
+294	The boy secretly watched his friend because his friend	 wanted the secret information.	0	The boy	his friend
+295	The boy secretly watched his friend because The boy	 had the secret information.	0	The boy	his friend
+295	The boy secretly watched his friend because his friend	 had the secret information.	1	The boy	his friend
+296	The bug was flying towards the light, but The bug	 was exterminated prematurely.	1	The bug	the light
+296	The bug was flying towards the light, but the light	 was exterminated prematurely.	0	The bug	the light
+297	The bug was flying towards the light, but The bug	 was extinguished prematurely.	0	The bug	the light
+297	The bug was flying towards the light, but the light	 was extinguished prematurely.	1	The bug	the light
+298	The man offered the boy candy, but The man	 had no candy.	1	The man	the boy
+298	The man offered the boy candy, but the boy	 had no candy.	0	The man	the boy
+299	The man offered the boy candy, but The man	 got no candy.	0	The man	the boy
+299	The man offered the boy candy, but the boy	 got no candy.	1	The man	the boy
+300	Paul screamed at Jack since Paul	 was angry.	1	Paul	Jack
+300	Paul screamed at Jack since Jack	 was angry.	0	Paul	Jack
+301	Paul screamed at Jack since Paul	 was ignoring him.	0	Paul	Jack
+301	Paul screamed at Jack since Jack	 was ignoring him.	1	Paul	Jack
+302	The baby cow cried at the farmer because The baby cow	 wanted milk.	1	The baby cow	the farmer
+302	The baby cow cried at the farmer because the farmer	 wanted milk.	0	The baby cow	the farmer
+303	The baby cow cried at the farmer because The baby cow	 had milk.	0	The baby cow	the farmer
+303	The baby cow cried at the farmer because the farmer	 had milk.	1	The baby cow	the farmer
+304	My teacher asked a student to make sentences because My teacher	 was late to class.	0	My teacher	a student
+304	My teacher asked a student to make sentences because a student	 was late to class.	1	My teacher	a student
+305	My teacher asked a student to make sentences because My teacher	 wanted to see him write.	1	My teacher	a student
+305	My teacher asked a student to make sentences because a student	 wanted to see him write.	0	My teacher	a student
+306	The gym teachers trained the students because The gym teachers	 wanted to teach them discipline.	1	The gym teachers	the students
+306	The gym teachers trained the students because the students	 wanted to teach them discipline.	0	The gym teachers	the students
+307	The gym teachers trained the students because The gym teachers	 wanted to become better players.	0	The gym teachers	the students
+307	The gym teachers trained the students because the students	 wanted to become better players.	1	The gym teachers	the students
+308	The Skyline drifts better than the F-150 because The Skyline	 is well balanced.	1	The Skyline	the F-150
+308	The Skyline drifts better than the F-150 because the F-150	 is well balanced.	0	The Skyline	the F-150
+309	The Skyline drifts better than the F-150 because The Skyline	 is not meant to drift.	0	The Skyline	the F-150
+309	The Skyline drifts better than the F-150 because the F-150	 is not meant to drift.	1	The Skyline	the F-150
+310	The city council granted a permit to the construction workers because The city council	 were well qualified.	0	The city council	the construction workers
+310	The city council granted a permit to the construction workers because the construction workers	 were well qualified.	1	The city council	the construction workers
+311	The city council granted a permit to the construction workers because The city council	 were elected to encourage business.	1	The city council	the construction workers
+311	The city council granted a permit to the construction workers because the construction workers	 were elected to encourage business.	0	The city council	the construction workers
+312	Rick Perry is doing stronger than Mitt Romney in the polls, but Rick Perry	 is coming back as a strong candidate.	0	Rick Perry	Mitt Romney
+312	Rick Perry is doing stronger than Mitt Romney in the polls, but Mitt Romney	 is coming back as a strong candidate.	1	Rick Perry	Mitt Romney
+313	Rick Perry is doing stronger than Mitt Romney in the polls, but Rick Perry	 is confident to maintain the lead.	1	Rick Perry	Mitt Romney
+313	Rick Perry is doing stronger than Mitt Romney in the polls, but Mitt Romney	 is confident to maintain the lead.	0	Rick Perry	Mitt Romney
+314	The Detroit Lions beat the Dallas Cowboys because The Detroit Lions	 had more desire to win.	1	The Detroit Lions	the Dallas Cowboys
+314	The Detroit Lions beat the Dallas Cowboys because the Dallas Cowboys	 had more desire to win.	0	The Detroit Lions	the Dallas Cowboys
+315	The Detroit Lions beat the Dallas Cowboys because The Detroit Lions	 were unprepared.	0	The Detroit Lions	the Dallas Cowboys
+315	The Detroit Lions beat the Dallas Cowboys because the Dallas Cowboys	 were unprepared.	1	The Detroit Lions	the Dallas Cowboys
+316	James Cameron is more successful than Michael Bay because James Cameron	 movies sell more worldwide.	1	James Cameron	Michael Bay
+316	James Cameron is more successful than Michael Bay because Michael Bay	 movies sell more worldwide.	0	James Cameron	Michael Bay
+317	James Cameron is more successful than Michael Bay because James Cameron	 movies do not create as much hype.	0	James Cameron	Michael Bay
+317	James Cameron is more successful than Michael Bay because Michael Bay	 movies do not create as much hype.	1	James Cameron	Michael Bay
+318	Audrey Hepburn made more movies than Katherine Hepburn because Audrey Hepburn	 was pretty and talented.	1	Audrey Hepburn	Katherine Hepburn
+318	Audrey Hepburn made more movies than Katherine Hepburn because Katherine Hepburn	 was pretty and talented.	0	Audrey Hepburn	Katherine Hepburn
+319	Audrey Hepburn made more movies than Katherine Hepburn because Audrey Hepburn	 was not as good at acting.	0	Audrey Hepburn	Katherine Hepburn
+319	Audrey Hepburn made more movies than Katherine Hepburn because Katherine Hepburn	 was not as good at acting.	1	Audrey Hepburn	Katherine Hepburn
+320	The Penguins scored two goals against the Flyers in two minutes because The Penguins	 were not concentrating.	0	The Penguins	the Flyers
+320	The Penguins scored two goals against the Flyers in two minutes because the Flyers	 were not concentrating.	1	The Penguins	the Flyers
+321	The Penguins scored two goals against the Flyers in two minutes because The Penguins	 are more skilled.	1	The Penguins	the Flyers
+321	The Penguins scored two goals against the Flyers in two minutes because the Flyers	 are more skilled.	0	The Penguins	the Flyers
+322	Taylor Swift is higher in record sales over Beyonce because more people can relate to Taylor Swift	 music.	1	Taylor Swift	Beyonce
+322	Taylor Swift is higher in record sales over Beyonce because more people can relate to Beyonce	 music.	0	Taylor Swift	Beyonce
+323	Taylor Swift is higher in record sales over Beyonce because people are not passionate about Taylor Swift	 music.	0	Taylor Swift	Beyonce
+323	Taylor Swift is higher in record sales over Beyonce because people are not passionate about Beyonce	 music.	1	Taylor Swift	Beyonce
+324	Fox News is more popular in ratings than CNN since Fox News	 are more interesting.	1	Fox News	CNN
+324	Fox News is more popular in ratings than CNN since CNN	 are more interesting.	0	Fox News	CNN
+325	Fox News is more popular in ratings than CNN since Fox News	 are boring.	0	Fox News	CNN
+325	Fox News is more popular in ratings than CNN since CNN	 are boring.	1	Fox News	CNN
+326	The Autobots try to stop the Decepticons since The Autobots	 want the world to live in peace.	1	The Autobots	the Decepticons
+326	The Autobots try to stop the Decepticons since the Decepticons	 want the world to live in peace.	0	The Autobots	the Decepticons
+327	The Autobots try to stop the Decepticons since The Autobots	 want to destroy the world.	0	The Autobots	the Decepticons
+327	The Autobots try to stop the Decepticons since the Decepticons	 want to destroy the world.	1	The Autobots	the Decepticons
+328	Californians are better than New Yorkers because Californians	 have Hollywood.	1	Californians	New Yorkers
+328	Californians are better than New Yorkers because New Yorkers	 have Hollywood.	0	Californians	New Yorkers
+329	Californians are better than New Yorkers because Californians	 do not have Hollywood lots to produce movies.	0	Californians	New Yorkers
+329	Californians are better than New Yorkers because New Yorkers	 do not have Hollywood lots to produce movies.	1	Californians	New Yorkers
+330	The Mongolians attacked the Chinese because The Mongolians	 are always eager for war.	1	The Mongolians	the Chinese
+330	The Mongolians attacked the Chinese because the Chinese	 are always eager for war.	0	The Mongolians	the Chinese
+331	The Mongolians attacked the Chinese because The Mongolians	 are pacifists.	0	The Mongolians	the Chinese
+331	The Mongolians attacked the Chinese because the Chinese	 are pacifists.	1	The Mongolians	the Chinese
+332	Jupiter is bigger than the Earth, but Jupiter	 is lighter due to being mostly gas.	1	Jupiter	the Earth
+332	Jupiter is bigger than the Earth, but the Earth	 is lighter due to being mostly gas.	0	Jupiter	the Earth
+333	Jupiter is bigger than the Earth, but Jupiter	 is heavier due to being solid.	0	Jupiter	the Earth
+333	Jupiter is bigger than the Earth, but the Earth	 is heavier due to being solid.	1	Jupiter	the Earth
+334	Brick is better than clay for building houses because Brick	 are much stronger building materials.	1	Brick	clay
+334	Brick is better than clay for building houses because clay	 are much stronger building materials.	0	Brick	clay
+335	Brick is better than clay for building houses because Brick	 become weak from water.	0	Brick	clay
+335	Brick is better than clay for building houses because clay	 become weak from water.	1	Brick	clay
+336	The Dallas Cowboys are more successful as a franchise than the Saints because The Dallas Cowboys	" are considered ""America's Team""."	1	The Dallas Cowboys	the Saints
+336	The Dallas Cowboys are more successful as a franchise than the Saints because the Saints	" are considered ""America's Team""."	0	The Dallas Cowboys	the Saints
+337	The Dallas Cowboys are more successful as a franchise than the Saints because The Dallas Cowboys	 do not have the same amount of market value.	0	The Dallas Cowboys	the Saints
+337	The Dallas Cowboys are more successful as a franchise than the Saints because the Saints	 do not have the same amount of market value.	1	The Dallas Cowboys	the Saints
+338	The US government declared war on Iraq because The US government	 were responding to their attack on US soil.	1	The US government	Iraq
+338	The US government declared war on Iraq because Iraq	 were responding to their attack on US soil.	0	The US government	Iraq
+339	The US government declared war on Iraq because The US government	 attacked on US soil.	0	The US government	Iraq
+339	The US government declared war on Iraq because Iraq	 attacked on US soil.	1	The US government	Iraq
+340	The Home Owners Association denied the request by the Pittsburg family for a new shed since The Home Owners Association	 failed to pay the annual fee.	0	The Home Owners Association	the Pittsburg family
+340	The Home Owners Association denied the request by the Pittsburg family for a new shed since the Pittsburg family	 failed to pay the annual fee.	1	The Home Owners Association	the Pittsburg family
+341	The Home Owners Association denied the request by the Pittsburg family for a new shed since The Home Owners Association	 felt it would not be good for the community.	1	The Home Owners Association	the Pittsburg family
+341	The Home Owners Association denied the request by the Pittsburg family for a new shed since the Pittsburg family	 felt it would not be good for the community.	0	The Home Owners Association	the Pittsburg family
+342	Fleece feels better than cotton since Fleece	 are much softer.	1	Fleece	cotton
+342	Fleece feels better than cotton since cotton	 are much softer.	0	Fleece	cotton
+343	Fleece feels better than cotton since Fleece	 are of worse quality.	0	Fleece	cotton
+343	Fleece feels better than cotton since cotton	 are of worse quality.	1	Fleece	cotton
+344	The Police feared allowing the protesters to organize, so The Police	 denied their ability to gather.	1	The Police	the protesters
+344	The Police feared allowing the protesters to organize, so the protesters	 denied their ability to gather.	0	The Police	the protesters
+345	The Police feared allowing the protesters to organize, but The Police	 decided to organize anyway.	0	The Police	the protesters
+345	The Police feared allowing the protesters to organize, but the protesters	 decided to organize anyway.	1	The Police	the protesters
+346	The government revoked the ability for oil companies to drill in the United States since The government	 are trying to protect the environment.	1	The government	oil companies
+346	The government revoked the ability for oil companies to drill in the United States since oil companies	 are trying to protect the environment.	0	The government	oil companies
+347	The government revoked the ability for oil companies to drill in the United States since The government	 are trying to drill for more oil reserves.	0	The government	oil companies
+347	The government revoked the ability for oil companies to drill in the United States since oil companies	 are trying to drill for more oil reserves.	1	The government	oil companies
+348	The Military Police threw the army recruits in the brig since The Military Police	 were causing a distrubance in the neighboring town.	0	The Military Police	the army recruits
+348	The Military Police threw the army recruits in the brig since the army recruits	 were causing a distrubance in the neighboring town.	1	The Military Police	the army recruits
+349	The Military Police threw the army recruits in the brig since The Military Police	 were enforcing the rules of being in the army.	1	The Military Police	the army recruits
+349	The Military Police threw the army recruits in the brig since the army recruits	 were enforcing the rules of being in the army.	0	The Military Police	the army recruits
+350	Harvey Dent blames the Batman for losing his love because Harvey Dent	 did not save her.	0	Harvey Dent	the Batman
+350	Harvey Dent blames the Batman for losing his love because the Batman	 did not save her.	1	Harvey Dent	the Batman
+351	Harvey Dent blames the Batman for losing his love because Harvey Dent	 was saved instead of his girlfriend.	1	Harvey Dent	the Batman
+351	Harvey Dent blames the Batman for losing his love because the Batman	 was saved instead of his girlfriend.	0	Harvey Dent	the Batman
+352	Intel performs better than AMD in the processing market, but Intel	 do not do as well in the graphics market.	1	Intel	AMD
+352	Intel performs better than AMD in the processing market, but AMD	 do not do as well in the graphics market.	0	Intel	AMD
+353	Intel Performs better than AMD in the processing market, but Intel	 are more successful in the graphics market instead.	0	Intel	AMD
+353	Intel Performs better than AMD in the processing market, but AMD	 are more successful in the graphics market instead.	1	Intel	AMD
+354	The football players went on strike against the NFL organization, but The football players	 will play again when their demands are met.	1	The football players	the NFL organization
+354	The football players went on strike against the NFL organization, but the NFL organization	 will play again when their demands are met.	0	The football players	the NFL organization
+355	The football players went on strike against the NFL organization, but The football players	 will consider their demands to send the strike.	0	The football players	the NFL organization
+355	The football players went on strike against the NFL organization, but the NFL organization	 will consider their demands to send the strike.	1	The football players	the NFL organization
+356	Disney World offers a much wider array of rides than Six Flags since Disney World	 have a much larger budget due to their merchandising.	1	Disney World	Six Flags
+356	Disney World offers a much wider array of rides than Six Flags since Six Flags	 have a much larger budget due to their merchandising.	0	Disney World	Six Flags
+357	Disney World offers a much wider array of rides than Six Flags since Disney World	 are more limited on budget due to not having other sources of revenue.	0	Disney World	Six Flags
+357	Disney World offers a much wider array of rides than Six Flags since Six Flags	 are more limited on budget due to not having other sources of revenue.	1	Disney World	Six Flags
+358	South Korea does not like North Korea because South Korea	 are constantly threatening their peace.	0	South Korea	North Korea
+358	South Korea does not like North Korea because North Korea	 are constantly threatening their peace.	1	South Korea	North Korea
+359	South Korea does not like North Korea because South Korea	 are always forced to defend their peace.	1	South Korea	North Korea
+359	South Korea does not like North Korea because North Korea	 are always forced to defend their peace.	0	South Korea	North Korea
+360	The prosecutor viciously attacked the defendants since The prosecutor	 are trying to convict them of the crime.	1	The prosecutor	the defendants
+360	The prosecutor viciously attacked the defendants since the defendants	 are trying to convict them of the crime.	0	The prosecutor	the defendants
+361	The prosecutor viciously attacked the defendants since The prosecutor	 are trying to convict their client of a crime.	0	The prosecutor	the defendants
+361	The prosecutor viciously attacked the defendants since the defendants	 are trying to convict their client of a crime.	1	The prosecutor	the defendants
+362	The ruling class treats the citizens poorly because The ruling class	 are superior.	1	The ruling class	the citizens
+362	The ruling class treats the citizens poorly because the citizens	 are superior.	0	The ruling class	the citizens
+363	The ruling class treats the citizens poorly because The ruling class	 are inferior.	0	The ruling class	the citizens
+363	The ruling class treats the citizens poorly because the citizens	 are inferior.	1	The ruling class	the citizens
+364	Bill Gates is similar to Steve Jobs, but Bill Gates	 is the previous CEO of Microsoft.	1	Bill Gates	Steve Jobs
+364	Bill Gates is similar to Steve Jobs, but Steve Jobs	 is the previous CEO of Microsoft.	0	Bill Gates	Steve Jobs
+365	Bill Gates is similar to Steve Jobs, but Bill Gates	 is the previous CEO of Apple.	0	Bill Gates	Steve Jobs
+365	Bill Gates is similar to Steve Jobs, but Steve Jobs	 is the previous CEO of Apple.	1	Bill Gates	Steve Jobs
+366	Bill Clinton speaks better than George Bush, since Bill Clinton	 is a practiced orator.	1	Bill Clinton	George Bush
+366	Bill Clinton speaks better than George Bush, since George Bush	 is a practiced orator.	0	Bill Clinton	George Bush
+367	Bill Clinton speaks better than George Bush, since Bill Clinton	 is not a practiced orator.	0	Bill Clinton	George Bush
+367	Bill Clinton speaks better than George Bush, since George Bush	 is not a practiced orator.	1	Bill Clinton	George Bush
+368	Federer consistently beat Nadal since Federer	 was the better tennis player.	1	Federer	Nadal
+368	Federer consistently beat Nadal since Nadal	 was the better tennis player.	0	Federer	Nadal
+369	Federer consistently beat Nadal since Federer	 was the worse tennis player.	0	Federer	Nadal
+369	Federer consistently beat Nadal since Nadal	 was the worse tennis player.	1	Federer	Nadal
+370	Internet Explorer believes Internet Explorer	 have less security holes than Firefox, but Internet Explorer conducted the tests themselves.	1	Internet Explorer	Firefox
+370	Internet Explorer believes Firefox	 have less security holes than Firefox, but Firefox conducted the tests themselves.	0	Internet Explorer	Firefox
+371	Internet Explorer believes Internet Explorer	 have less security holes than Firefox, but Internet Explorer do not trust Microsoft's test results.	0	Internet Explorer	Firefox
+371	Internet Explorer believes Firefox	 have less security holes than Firefox, but Firefox do not trust Microsoft's test results.	1	Internet Explorer	Firefox
+372	President Clinton pardoned Roger Clinton because President Clinton	 wanted to free his half-brother.	1	President Clinton	Roger Clinton
+372	President Clinton pardoned Roger Clinton because Roger Clinton	 wanted to free his half-brother.	0	President Clinton	Roger Clinton
+373	President Clinton pardoned Roger Clinton because President Clinton	 was the president's half-brother.	0	President Clinton	Roger Clinton
+373	President Clinton pardoned Roger Clinton because Roger Clinton	 was the president's half-brother.	1	President Clinton	Roger Clinton
+374	Sony recently locked 90000 users from their accounts because Sony	 had been been compromised.	0	Sony	90000 users
+374	Sony recently locked 90000 users from their accounts because 90000 users	 had been been compromised.	1	Sony	90000 users
+375	Sony recently locked 90000 users from their accounts because Sony	 had hackers compromise their customer's information.	1	Sony	90000 users
+375	Sony recently locked 90000 users from their accounts because 90000 users	 had hackers compromise their customer's information.	0	Sony	90000 users
+376	Harley hides from Dyna because Harley	 is afraid of her.	1	Harley	Dyna
+376	Harley hides from Dyna because Dyna	 is afraid of her.	0	Harley	Dyna
+377	Harley hides from Dyna because Harley	 is scary.	0	Harley	Dyna
+377	Harley hides from Dyna because Dyna	 is scary.	1	Harley	Dyna
+378	Toyota has the luxury brand Lexus: Lexus	 are built for the rich.	1	Lexus	Toyota
+378	Toyota has the luxury brand Lexus: Toyota	 are built for the rich.	0	Lexus	Toyota
+379	Toyota has the luxury brand Lexus, although Lexus	 typically sell for the average consumer.	0	Lexus	Toyota
+379	Toyota has the luxury brand Lexus, although Toyota	 typically sell for the average consumer.	1	Lexus	Toyota
+380	Batman constantly tries to arrest the Joker, but Batman	 is also a vigilante.	1	Batman	the Joker
+380	Batman constantly tries to arrest the Joker, but the Joker	 is also a vigilante.	0	Batman	the Joker
+381	Batman constantly tried to arrest the Joker, but Batman	 always manages to get out.	0	Batman	the Joker
+381	Batman constantly tried to arrest the Joker, but the Joker	 always manages to get out.	1	Batman	the Joker
+382	Netflix recently split their DVD service to site Qwikster, but Netflix	 quickly removed the move due to public backlash.	1	Netflix	Qwikster
+382	Netflix recently split their DVD service to site Qwikster, but Qwikster	 quickly removed the move due to public backlash.	0	Netflix	Qwikster
+383	Netflix recently split their DVD service to site Qwikster, but Netflix	 had a short lived life for the site.	0	Netflix	Qwikster
+383	Netflix recently split their DVD service to site Qwikster, but Qwikster	 had a short lived life for the site.	1	Netflix	Qwikster
+384	Canada is bigger than the United Kingdom, but Canada	 do not have the population to back it up.	1	Canada	the United Kingdom
+384	Canada is bigger than the United Kingdom, but the United Kingdom	 do not have the population to back it up.	0	Canada	the United Kingdom
+385	Canada is bigger than the United Kingdom, but Canada	 have a much larger population.	0	Canada	the United Kingdom
+385	Canada is bigger than the United Kingdom, but the United Kingdom	 have a much larger population.	1	Canada	the United Kingdom
+386	Gamers are generally perceived as nerds compared to athletes since Gamers	 are stereotypically anti-social.	1	Gamers	athletes
+386	Gamers are generally perceived as nerds compared to athletes since athletes	 are stereotypically anti-social.	0	Gamers	athletes
+387	Gamers are generally perceived as nerds compared to athletes since Gamers	 are stereotypically social and in good shape.	0	Gamers	athletes
+387	Gamers are generally perceived as nerds compared to athletes since athletes	 are stereotypically social and in good shape.	1	Gamers	athletes
+388	Ray William Johnson surpassed NigaHiga in Youtube subscribers, but Ray William Johnson	 considers that being number two is still a huge achievement.	0	Ray William Johnson	NigaHiga
+388	Ray William Johnson surpassed NigaHiga in Youtube subscribers, but NigaHiga	 considers that being number two is still a huge achievement.	1	Ray William Johnson	NigaHiga
+389	Ray William Johnson surpassed NigaHiga in Youtube subscribers, but Ray William Johnson	 wants to increase the gap even more.	1	Ray William Johnson	NigaHiga
+389	Ray William Johnson surpassed NigaHiga in Youtube subscribers, but NigaHiga	 wants to increase the gap even more.	0	Ray William Johnson	NigaHiga
+390	The management provided bonuses to the employees since The management	 wanted to keep their workers happy at the company.	1	The management	the employees
+390	The management provided bonuses to the employees since the employees	 wanted to keep their workers happy at the company.	0	The management	the employees
+391	The management provided bonuses to the employees since The management	 need to be kept happy to stay productive.	0	The management	the employees
+391	The management provided bonuses to the employees since the employees	 need to be kept happy to stay productive.	1	The management	the employees
+392	The disease center quarantined the people since The disease center	 were afraid of the outbreak spreading.	1	The disease center	the people
+392	The disease center quarantined the people since the people	 were afraid of the outbreak spreading.	0	The disease center	the people
+393	The disease center quarantined the people because The disease center	 may be infected.	0	The disease center	the people
+393	The disease center quarantined the people because the people	 may be infected.	1	The disease center	the people
+394	The security team locked the scientists inside the building because The security team	 had to keep confidential information inside.	1	The security team	the scientists
+394	The security team locked the scientists inside the building because the scientists	 had to keep confidential information inside.	0	The security team	the scientists
+395	The security team locked the scientists inside the building since The security team	 had access to confidential materials that need to be kept secret.	0	The security team	the scientists
+395	The security team locked the scientists inside the building since the scientists	 had access to confidential materials that need to be kept secret.	1	The security team	the scientists
+396	The FDA revoked the medical licenses of corrupt doctors since The FDA	 enforce strict medical guidelines.	1	The FDA	corrupt doctors
+396	The FDA revoked the medical licenses of corrupt doctors since corrupt doctors	 enforce strict medical guidelines.	0	The FDA	corrupt doctors
+397	The FDA revoked the medical licenses of corrupt doctors because The FDA	 have been improperly issuing drugs.	0	The FDA	corrupt doctors
+397	The FDA revoked the medical licenses of corrupt doctors because corrupt doctors	 have been improperly issuing drugs.	1	The FDA	corrupt doctors
+398	Christian Bale once lost his temper at the man holding his lighting because Christian Bale	 has a short temper.	1	Christian Bale	the man
+398	Christian Bale once lost his temper at the man holding his lighting because the man	 has a short temper.	0	Christian Bale	the man
+399	Christian Bale once lost his temper at the man holding his lighting, but Christian Bale	 did not do anything that earned getting yelled at.	0	Christian Bale	the man
+399	Christian Bale once lost his temper at the man holding his lighting, but the man	 did not do anything that earned getting yelled at.	1	Christian Bale	the man
+400	Andrea threw a promotion party in honor of Lindsay since Andrea	 recently got promoted.	0	Andrea	Lindsay
+400	Andrea threw a promotion party in honor of Lindsay since Lindsay	 recently got promoted.	1	Andrea	Lindsay
+401	Andrea threw a promotion party in honor of Lindsay because Andrea	 wanted to do something special for her.	1	Andrea	Lindsay
+401	Andrea threw a promotion party in honor of Lindsay because Lindsay	 wanted to do something special for her.	0	Andrea	Lindsay
+402	Michael Phelps was fined by Judge Louis because Michael Phelps	 was caught with illegal drugs.	1	Michael Phelps	Judge Louis
+402	Michael Phelps was fined by Judge Louis because Judge Louis	 was caught with illegal drugs.	0	Michael Phelps	Judge Louis
+403	Michael Phelps was fined by Judge Louis because Michael Phelps	 has to uphold federal law.	0	Michael Phelps	Judge Louis
+403	Michael Phelps was fined by Judge Louis because Judge Louis	 has to uphold federal law.	1	Michael Phelps	Judge Louis
+404	Lloyd traded his truck to Roger for his motorcycle since Lloyd	 wanted to have a truck.	0	Lloyd	Roger
+404	Lloyd traded his truck to Roger for his motorcycle since Roger	 wanted to have a truck.	1	Lloyd	Roger
+405	Lloyd traded his truck to Roger for his motorcycle since Lloyd	 preferred a small vehicle.	1	Lloyd	Roger
+405	Lloyd traded his truck to Roger for his motorcycle since Roger	 preferred a small vehicle.	0	Lloyd	Roger
+406	The hotel staff tended to the royal family since The hotel staff	 needed to keep them satisfied as occupants.	1	The hotel staff	the royal family
+406	The hotel staff tended to the royal family since the royal family	 needed to keep them satisfied as occupants.	0	The hotel staff	the royal family
+407	The hotel staff tended to the royal family, however, The hotel staff	 felt the service was unsatisfactory.	0	The hotel staff	the royal family
+407	The hotel staff tended to the royal family, however, the royal family	 felt the service was unsatisfactory.	1	The hotel staff	the royal family
+408	Donald Trump fired his servant, Luigi, because Donald Trump	 felt his service was below average.	1	Donald Trump	Luigi
+408	Donald Trump fired his servant, Luigi, because Luigi	 felt his service was below average.	0	Donald Trump	Luigi
+409	Donald Trump fired his servant, Luigi, but Donald Trump	 can find another job elsewhere.	0	Donald Trump	Luigi
+409	Donald Trump fired his servant, Luigi, but Luigi	 can find another job elsewhere.	1	Donald Trump	Luigi
+410	The teaching staff wanted to treat the students to a special lunch because The teaching staff	 did so well on their standardized tests.	0	The teaching staff	the students
+410	The teaching staff wanted to treat the students to a special lunch because the students	 did so well on their standardized tests.	1	The teaching staff	the students
+411	The teaching staff wanted to treat the students to a special lunch but The teaching staff	 did not have enough money in the budget.	1	The teaching staff	the students
+411	The teaching staff wanted to treat the students to a special lunch but the students	 did not have enough money in the budget.	0	The teaching staff	the students
+412	Some actors choose to perform their own stunts instead of using stunt doubles since Some actors	 like to keep it as authentic as possible.	1	Some actors	stunt doubles
+412	Some actors choose to perform their own stunts instead of using stunt doubles since stunt doubles	 like to keep it as authentic as possible.	0	Some actors	stunt doubles
+413	Some actors choose to perform their own stunts instead of using stunt doubles although Some actors	 are professionals who specialize in stunts.	0	Some actors	stunt doubles
+413	Some actors choose to perform their own stunts instead of using stunt doubles although stunt doubles	 are professionals who specialize in stunts.	1	Some actors	stunt doubles
+414	Tatoo artists specialize in creating works of arts on their customers, because Tatoo artists	 are paid professionals in their field.	1	Tatoo artists	their customers
+414	Tatoo artists specialize in creating works of arts on their customers, because their customers	 are paid professionals in their field.	0	Tatoo artists	their customers
+415	Tatoo artists specialize in creating works of arts on their customers, hence Tatoo artists	 are willing to pay well for these pieces of work.	0	Tatoo artists	their customers
+415	Tatoo artists specialize in creating works of arts on their customers, hence their customers	 are willing to pay well for these pieces of work.	1	Tatoo artists	their customers
+416	The drug cartel enlists the help of the local population to work their fields since The drug cartel	 are considered cheap labor.	0	The drug cartel	the local population
+416	The drug cartel enlists the help of the local population to work their fields since the local population	 are considered cheap labor.	1	The drug cartel	the local population
+417	The drug cartel enlists the help of the local population to work their fields since The drug cartel	 need cheap labor to maximize their profits.	1	The drug cartel	the local population
+417	The drug cartel enlists the help of the local population to work their fields since the local population	 need cheap labor to maximize their profits.	0	The drug cartel	the local population
+418	The Samurais respected honor while pirates have a disregard for honor, because The Samurais	 hold true to the policy of fighting with honor.	1	The Samurais	pirates
+418	The Samurais respected honor while pirates have a disregard for honor, because pirates	 hold true to the policy of fighting with honor.	0	The Samurais	pirates
+419	The Samurais respected honor while pirates have a disregard for honor, since The Samurais	 are only interested in increasing their wealth.	0	The Samurais	pirates
+419	The Samurais respected honor while pirates have a disregard for honor, since pirates	 are only interested in increasing their wealth.	1	The Samurais	pirates
+420	JP Morgan Bank developed a mobile banking application which gives an edge over competitor Bank of America since JP Morgan Bank	 appeal well consumers who want accessible banking.	1	JP Morgan Bank	Bank of America
+420	JP Morgan Bank developed a mobile banking application which gives an edge over competitor Bank of America since Bank of America	 appeal well consumers who want accessible banking.	0	JP Morgan Bank	Bank of America
+421	JP Morgan Bank developed a mobile banking application which gives an edge over competitor Bank of America, but JP Morgan Bank	 will probably develop their own mobile application soon as well.	0	JP Morgan Bank	Bank of America
+421	JP Morgan Bank developed a mobile banking application which gives an edge over competitor Bank of America, but Bank of America	 will probably develop their own mobile application soon as well.	1	JP Morgan Bank	Bank of America
+422	The Russian Syndicate decided to remove some of their lower members so The Russian Syndicate	 could keep their operations as secret as possible.	1	The Russian Syndicate	their lower members
+422	The Russian Syndicate decided to remove some of their lower members so their lower members	 could keep their operations as secret as possible.	0	The Russian Syndicate	their lower members
+423	The Russian Syndicate decided to remove some of their lower members because The Russian Syndicate	 knew too much about their operations.	0	The Russian Syndicate	their lower members
+423	The Russian Syndicate decided to remove some of their lower members because their lower members	 knew too much about their operations.	1	The Russian Syndicate	their lower members
+424	The SWAT team moved in on the compound to prevent the terrorists from launching a deadly missile because The SWAT team	 wanted to preserve the lives of innocents.	1	The SWAT team	the terrorists
+424	The SWAT team moved in on the compound to prevent the terrorists from launching a deadly missile because the terrorists	 wanted to preserve the lives of innocents.	0	The SWAT team	the terrorists
+425	The SWAT team moved in on the compound to prevent the terrorists from launching a deadly missile because The SWAT team	 were trying to terrorize the global population.	0	The SWAT team	the terrorists
+425	The SWAT team moved in on the compound to prevent the terrorists from launching a deadly missile because the terrorists	 were trying to terrorize the global population.	1	The SWAT team	the terrorists
+426	Speed boats need to pass strict tests for use while row boats have no guidelines, since Speed boats	 are more prone to mechanical failures due to their moving parts.	1	Speed boats	row boats
+426	Speed boats need to pass strict tests for use while row boats have no guidelines, since row boats	 are more prone to mechanical failures due to their moving parts.	0	Speed boats	row boats
+427	Speed boats need to pass strict tests for use while row boats have no guidelines because Speed boats	 are powered by paddles instead of mechanical engines.	0	Speed boats	row boats
+427	Speed boats need to pass strict tests for use while row boats have no guidelines because row boats	 are powered by paddles instead of mechanical engines.	1	Speed boats	row boats
+428	Jane Bingum presented strong evidence against Claire, so Jane Bingum	 would be able to win her case.	1	Jane Bingum	Claire
+428	Jane Bingum presented strong evidence against Claire, so Claire	 would be able to win her case.	0	Jane Bingum	Claire
+429	Jane Bingum presented strong evidence against Claire, but Jane Bingum	 may present a strong defense on her part.	0	Jane Bingum	Claire
+429	Jane Bingum presented strong evidence against Claire, but Claire	 may present a strong defense on her part.	1	Jane Bingum	Claire
+430	Michael decided to freeze himself in cryo-stasis even though his father was against it, because Michael	 hopes to be unfrozen in the future when there is a cure available.	1	Michael	his father
+430	Michael decided to freeze himself in cryo-stasis even though his father was against it, because his father	 hopes to be unfrozen in the future when there is a cure available.	0	Michael	his father
+431	Michael decided to freeze himself in cryo-stasis even though his father was against it, so Michael	 tried to convince him not to do it.	0	Michael	his father
+431	Michael decided to freeze himself in cryo-stasis even though his father was against it, so his father	 tried to convince him not to do it.	1	Michael	his father
+432	Trick Or Treaters are celebrating the holiday earlier during the day at Church since Trick Or Treaters	 are encouraged to do it during the day and among friends for safety reasons.	1	Trick Or Treaters	Church
+432	Trick Or Treaters are celebrating the holiday earlier during the day at Church since Church	 are encouraged to do it during the day and among friends for safety reasons.	0	Trick Or Treaters	Church
+433	Trick Or Treaters are celebrating the holiday earlier during the day at Church, but Trick Or Treaters	 cannot convince everybody to do it during the day.	0	Trick Or Treaters	Church
+433	Trick Or Treaters are celebrating the holiday earlier during the day at Church, but Church	 cannot convince everybody to do it during the day.	1	Trick Or Treaters	Church
+434	Research studies recently revealed that Netflix consumes over 37 percent of the world's internet bandwidth since Research studies	 need that much due to high demand of their streaming services.	0	Research studies	Netflix
+434	Research studies recently revealed that Netflix consumes over 37 percent of the world's internet bandwidth since Netflix	 need that much due to high demand of their streaming services.	1	Research studies	Netflix
+435	Research studies recently revealed that Netflix consumes over 37 percent of the world's internet bandwidth, but Research studies	 may not be entirely accurate now due to recent changes in Netflix subscribers.	1	Research studies	Netflix
+435	Research studies recently revealed that Netflix consumes over 37 percent of the world's internet bandwidth, but Netflix	 may not be entirely accurate now due to recent changes in Netflix subscribers.	0	Research studies	Netflix
+436	Captain Picard tends to confide in Commander Riker since Captain Picard	 wants to ensure Captain Picard develops into a fine captain one day.	1	Captain Picard	Commander Riker
+436	Captain Picard tends to confide in Commander Riker since Commander Riker	 wants to ensure Commander Riker develops into a fine captain one day.	0	Captain Picard	Commander Riker
+437	Captain Picard tends to confide in Commander Riker because Captain Picard	 needs to soak up as much experience as Captain Picard can.	0	Captain Picard	Commander Riker
+437	Captain Picard tends to confide in Commander Riker because Commander Riker	 needs to soak up as much experience as Commander Riker can.	1	Captain Picard	Commander Riker
+438	Data is an android who can learn new materials much faster than Acting Ensign Wesley since Data	 has the ability to learn vasts amount of information quickly into his database.	1	Data	Acting Ensign Wesley
+438	Data is an android who can learn new materials much faster than Acting Ensign Wesley since Acting Ensign Wesley	 has the ability to learn vasts amount of information quickly into his database.	0	Data	Acting Ensign Wesley
+439	Data is an android who can learn new materials much faster than Acting Ensign Wesley, because Data	 does not have an electronic brain to learn as quickly.	0	Data	Acting Ensign Wesley
+439	Data is an android who can learn new materials much faster than Acting Ensign Wesley, because Acting Ensign Wesley	 does not have an electronic brain to learn as quickly.	1	Data	Acting Ensign Wesley
+440	The Next Generation was well received by Trekkies because The Next Generation	 stayed true to the roots established in the first Star Trek.	1	The Next Generation	Trekkies
+440	The Next Generation was well received by Trekkies because Trekkies	 stayed true to the roots established in the first Star Trek.	0	The Next Generation	Trekkies
+441	The Next Generation was well received by Trekkies, but The Next Generation	 will always perceive the first Star Trek to be the best.	0	The Next Generation	Trekkies
+441	The Next Generation was well received by Trekkies, but Trekkies	 will always perceive the first Star Trek to be the best.	1	The Next Generation	Trekkies
+442	Pei Wei sells sesame chicken as a signature dish since Pei Wei	 have much demand for this particular dish.	1	Pei Wei	sesame chicken
+442	Pei Wei sells sesame chicken as a signature dish since sesame chicken	 have much demand for this particular dish.	0	Pei Wei	sesame chicken
+443	Pei Wei sells sesame chicken as a signature dish, so Pei Wei	 are constantly picked as an order.	0	Pei Wei	sesame chicken
+443	Pei Wei sells sesame chicken as a signature dish, so sesame chicken	 are constantly picked as an order.	1	Pei Wei	sesame chicken
+444	Lois was scolded by her daughter because Lois	 was accused of being a terrible mother.	1	Lois	her daughter
+444	Lois was scolded by her daughter because her daughter	 was accused of being a terrible mother.	0	Lois	her daughter
+445	Lois was scolded by her daughter, so Lois	 thought about how Lois could be better.	0	Lois	her daughter
+445	Lois was scolded by her daughter, so her daughter	 thought about how her daughter could be better.	1	Lois	her daughter
+446	The priests quoted the words of the Bible for all the suspected witches The priests	 found, since The priests needed to quote holy words to rid the evil.	1	The priests	the suspected witches
+446	The priests quoted the words of the Bible for all the suspected witches the suspected witches	 found, since the suspected witches needed to quote holy words to rid the evil.	0	The priests	the suspected witches
+447	The priests quoted the words of the Bible for all the suspected witches The priests	 found, since The priests feared the words of the Bible.	0	The priests	the suspected witches
+447	The priests quoted the words of the Bible for all the suspected witches the suspected witches	 found, since the suspected witches feared the words of the Bible.	1	The priests	the suspected witches
+448	The victims of the Black Plague blamed the witches for causing the curse because The victims of the Black Plague	 did not understand diseases at the time.	1	The victims of the Black Plague	the witches
+448	The victims of the Black Plague blamed the witches for causing the curse because the witches	 did not understand diseases at the time.	0	The victims of the Black Plague	the witches
+449	The victims of the Black Plague blamed the witches for causing the curse, but The victims of the Black Plague	 were falsely accused.	0	The victims of the Black Plague	the witches
+449	The victims of the Black Plague blamed the witches for causing the curse, but the witches	 were falsely accused.	1	The victims of the Black Plague	the witches
+450	Two deserted crusaders agreed to transport a girl for the priests, but Two deserted crusaders	 agreed in exchange for being pardoned.	1	Two deserted crusaders	the priests
+450	Two deserted crusaders agreed to transport a girl for the priests, but the priests	 agreed in exchange for being pardoned.	0	Two deserted crusaders	the priests
+451	Two deserted crusaders agreed to transport a girl for the priests, since Two deserted crusaders	 needed more fellow priests to assist in removing the evil from her.	0	Two deserted crusaders	the priests
+451	Two deserted crusaders agreed to transport a girl for the priests, since the priests	 needed more fellow priests to assist in removing the evil from her.	1	Two deserted crusaders	the priests
+452	The alter boy assisted Knight Mordron in his mission because The alter boy	 hopes The alter boy will get knighted afterwards.	1	The alter boy	Knight Mordron
+452	The alter boy assisted Knight Mordron in his mission because Knight Mordron	 hopes Knight Mordron will get knighted afterwards.	0	The alter boy	Knight Mordron
+453	The alter boy assisted Knight Mordron in his mission, but The alter boy	 did not want his help.	0	The alter boy	Knight Mordron
+453	The alter boy assisted Knight Mordron in his mission, but Knight Mordron	 did not want his help.	1	The alter boy	Knight Mordron
+454	King James eagerly awaited the arrival of Prince Henry because King James	 was expected to propose to his daughter.	0	King James	Prince Henry
+454	King James eagerly awaited the arrival of Prince Henry because Prince Henry	 was expected to propose to his daughter.	1	King James	Prince Henry
+455	King James eagerly awaited the arrival of Prince Henry so King James	 prepared many celebrations to welcome him.	1	King James	Prince Henry
+455	King James eagerly awaited the arrival of Prince Henry so Prince Henry	 prepared many celebrations to welcome him.	0	King James	Prince Henry
+456	Crusader Andrews saved the life of Crusader Christopher because Crusader Andrews	 did not want to see him die.	1	Crusader Andrews	Crusader Christopher
+456	Crusader Andrews saved the life of Crusader Christopher because Crusader Christopher	 did not want to see him die.	0	Crusader Andrews	Crusader Christopher
+457	Crusader Andrews saved the life of Crusader Christopher, so Crusader Andrews	 thanked him personally with his sword afterwards.	0	Crusader Andrews	Crusader Christopher
+457	Crusader Andrews saved the life of Crusader Christopher, so Crusader Christopher	 thanked him personally with his sword afterwards.	1	Crusader Andrews	Crusader Christopher
+458	The blacksmith refused to repair the armor for the knight because The blacksmith	 only does work if paid upfront.	1	The blacksmith	the knight
+458	The blacksmith refused to repair the armor for the knight because the knight	 only does work if paid upfront.	0	The blacksmith	the knight
+459	The blacksmith refused to repair the armor for the knight because The blacksmith	 did not have any money to pay with.	0	The blacksmith	the knight
+459	The blacksmith refused to repair the armor for the knight because the knight	 did not have any money to pay with.	1	The blacksmith	the knight
+460	The Eagles managed to completely dominate the Cowboys this weekend since The Eagles	 were much stronger in handling the ball.	1	The Eagles	the Cowboys
+460	The Eagles managed to completely dominate the Cowboys this weekend since the Cowboys	 were much stronger in handling the ball.	0	The Eagles	the Cowboys
+461	The Eagles managed to completely dominate the Cowboys this weekend, but The Eagles	 were able to at least keep it from being a shutout.	0	The Eagles	the Cowboys
+461	The Eagles managed to completely dominate the Cowboys this weekend, but the Cowboys	 were able to at least keep it from being a shutout.	1	The Eagles	the Cowboys
+462	Mel got in trouble with a collector named Bohr because Mel	 lost a huge sum of money due to his gambling habit.	1	Mel	a collector named Bohr
+462	Mel got in trouble with a collector named Bohr because a collector named Bohr	 lost a huge sum of money due to his gambling habit.	0	Mel	a collector named Bohr
+463	Mel got in trouble with a collector named Bohr, so Mel	 tracked him down to try to collect all the owed money.	0	Mel	a collector named Bohr
+463	Mel got in trouble with a collector named Bohr, so a collector named Bohr	 tracked him down to try to collect all the owed money.	1	Mel	a collector named Bohr
+464	AMD recently managed to break a record in the New Guiness Book of Records, because AMD	 managed to overclock their processor to unheard heights.	1	AMD	the New Guiness Book of Records
+464	AMD recently managed to break a record in the New Guiness Book of Records, because the New Guiness Book of Records	 managed to overclock their processor to unheard heights.	0	AMD	the New Guiness Book of Records
+465	AMD recently managed to break a record in the New Guiness Book of Records, so AMD	 immortalized them in their record keeping.	0	AMD	the New Guiness Book of Records
+465	AMD recently managed to break a record in the New Guiness Book of Records, so the New Guiness Book of Records	 immortalized them in their record keeping.	1	AMD	the New Guiness Book of Records
+466	The U.S.S Enterprise tried to assist a sister ship, but The U.S.S Enterprise	 arrived too late to save them.	1	The U.S.S Enterprise	a sister ship
+466	The U.S.S Enterprise tried to assist a sister ship, but a sister ship	 arrived too late to save them.	0	The U.S.S Enterprise	a sister ship
+467	The U.S.S Enterprise tried to assist a sister ship, but The U.S.S Enterprise	 did not receive help quick enough to prevent their demise.	0	The U.S.S Enterprise	a sister ship
+467	The U.S.S Enterprise tried to assist a sister ship, but a sister ship	 did not receive help quick enough to prevent their demise.	1	The U.S.S Enterprise	a sister ship
+468	The Prince of Wales knighted William, so The Prince of Wales	 gave his son the accolade with a sword.	1	The Prince of Wales	William
+468	The Prince of Wales knighted William, so William	 gave his son the accolade with a sword.	0	The Prince of Wales	William
+469	The Prince of Wales knighted William because The Prince of Wales	 could not compete in the tournament without being of nobility.	0	The Prince of Wales	William
+469	The Prince of Wales knighted William because William	 could not compete in the tournament without being of nobility.	1	The Prince of Wales	William
+470	Ryan Higa sometimes guest stars in videos for Kev Jumbo because Ryan Higa	 wants his friend's videos to succeed as well.	1	Ryan Higa	Kev Jumbo
+470	Ryan Higa sometimes guest stars in videos for Kev Jumbo because Kev Jumbo	 wants his friend's videos to succeed as well.	0	Ryan Higa	Kev Jumbo
+471	Ryan Higa sometimes guest stars in videos for Kev Jumbo so Ryan Higa	 is beginning to gather a bigger following due to his friend's help.	0	Ryan Higa	Kev Jumbo
+471	Ryan Higa sometimes guest stars in videos for Kev Jumbo so Kev Jumbo	 is beginning to gather a bigger following due to his friend's help.	1	Ryan Higa	Kev Jumbo
+472	Planet 343's sandstorm forces the inhabitants underground because Planet 343's sandstorm	 have winds of upwards to 50 mph.	1	Planet 343's sandstorm	the inhabitants
+472	Planet 343's sandstorm forces the inhabitants underground because the inhabitants	 have winds of upwards to 50 mph.	0	Planet 343's sandstorm	the inhabitants
+473	Planet 343's sandstorm forces the inhabitants underground, but Planet 343's sandstorm	 have plenty of food sources stored away.	0	Planet 343's sandstorm	the inhabitants
+473	Planet 343's sandstorm forces the inhabitants underground, but the inhabitants	 have plenty of food sources stored away.	1	Planet 343's sandstorm	the inhabitants
+474	The Marines are considerably afraid of the aliens because The Marines	 are known to hunt down humans.	0	The Marines	the aliens
+474	The Marines are considerably afraid of the aliens because the aliens	 are known to hunt down humans.	1	The Marines	the aliens
+475	The Marines are considerably afraid of the aliens, but The Marines	 will still use their discipline to overcome their fears.	1	The Marines	the aliens
+475	The Marines are considerably afraid of the aliens, but the aliens	 will still use their discipline to overcome their fears.	0	The Marines	the aliens
+476	The children learned how to kill poisonous snakes from the adults since The children	 have experience surviving in the outdoors.	0	The children	the adults
+476	The children learned how to kill poisonous snakes from the adults since the adults	 have experience surviving in the outdoors.	1	The children	the adults
+477	The children learned how to kill poisonous snakes from the adults so The children	 can also survive in the wild by themselves.	1	The children	the adults
+477	The children learned how to kill poisonous snakes from the adults so the adults	 can also survive in the wild by themselves.	0	The children	the adults
+478	The public school board of educators initiated a physical education plan on the students since The public school board of educators	 scored so low on the health and fitness standardized test.	0	The public school board of educators	the students
+478	The public school board of educators initiated a physical education plan on the students since the students	 scored so low on the health and fitness standardized test.	1	The public school board of educators	the students
+479	The public school board of educators initiated a physical education plan on the students so that The public school board of educators	 could help them become healthy again.	1	The public school board of educators	the students
+479	The public school board of educators initiated a physical education plan on the students so that the students	 could help them become healthy again.	0	The public school board of educators	the students
+480	Range Rover recently revealed their new lineup of cars at Times Square for thousands of New Yorkers since Range Rover	 are advertising their new high end models.	1	Range Rover	thousands of New Yorkers
+480	Range Rover recently revealed their new lineup of cars at Times Square for thousands of New Yorkers since thousands of New Yorkers	 are advertising their new high end models.	0	Range Rover	thousands of New Yorkers
+481	Range Rover recently revealed their new lineup of cars at Times Square for thousands of New Yorkers so Range Rover	 would be enticed to purchase their cars.	0	Range Rover	thousands of New Yorkers
+481	Range Rover recently revealed their new lineup of cars at Times Square for thousands of New Yorkers so thousands of New Yorkers	 would be enticed to purchase their cars.	1	Range Rover	thousands of New Yorkers
+482	Raiden could not follow and guide Liu Kang in the world of darkness since Raiden	 could not enter this realm without breaking the rules.	1	Raiden	Liu Kang
+482	Raiden could not follow and guide Liu Kang in the world of darkness since Liu Kang	 could not enter this realm without breaking the rules.	0	Raiden	Liu Kang
+483	Raiden could not follow and guide Liu Kang in the world of darkness, but Raiden	 will be able to find another guide instead.	0	Raiden	Liu Kang
+483	Raiden could not follow and guide Liu Kang in the world of darkness, but Liu Kang	 will be able to find another guide instead.	1	Raiden	Liu Kang
+484	Banks usually offer bonus points for new credit card applicants since Banks	 want them to specifically bank with them.	1	Banks	new credit card applicants
+484	Banks usually offer bonus points for new credit card applicants since new credit card applicants	 want them to specifically bank with them.	0	Banks	new credit card applicants
+485	Banks usually offer bonus points for new credit card applicants because Banks	 are often enticed by free offerings.	0	Banks	new credit card applicants
+485	Banks usually offer bonus points for new credit card applicants because new credit card applicants	 are often enticed by free offerings.	1	Banks	new credit card applicants
+486	Hair Stylists transformed the Cowboy's Cheerleaders into beauties, since Hair Stylists	 need to look top notch for the game.	0	Hair Stylists	the Cowboy's Cheerleaders
+486	Hair Stylists transformed the Cowboy's Cheerleaders into beauties, since the Cowboy's Cheerleaders	 need to look top notch for the game.	1	Hair Stylists	the Cowboy's Cheerleaders
+487	Hair Stylists transformed the Cowboy's Cheerleaders into beauties, so Hair Stylists	 put much product into their hair.	1	Hair Stylists	the Cowboy's Cheerleaders
+487	Hair Stylists transformed the Cowboy's Cheerleaders into beauties, so the Cowboy's Cheerleaders	 put much product into their hair.	0	Hair Stylists	the Cowboy's Cheerleaders
+488	The patrons enjoyed the food made by the chefs immensely because The patrons	 made the food with exquisite sauces.	0	The patrons	the chefs
+488	The patrons enjoyed the food made by the chefs immensely because the chefs	 made the food with exquisite sauces.	1	The patrons	the chefs
+489	The patrons enjoyed the food made by the chefs immensely, so The patrons	 paid very well to enjoy this meal.	1	The patrons	the chefs
+489	The patrons enjoyed the food made by the chefs immensely, so the chefs	 paid very well to enjoy this meal.	0	The patrons	the chefs
+490	Beowulf arrived to slay Grendell for the kingdom, so Beowulf	 and his men went out to the caves to locate him.	1	Beowulf	Grendell
+490	Beowulf arrived to slay Grendell for the kingdom, so Grendell	 and his men went out to the caves to locate him.	0	Beowulf	Grendell
+491	Beowulf arrived to slay Grendell for the kingdom, but Beowulf	 is very difficult to slay due to his demon magic.	0	Beowulf	Grendell
+491	Beowulf arrived to slay Grendell for the kingdom, but Grendell	 is very difficult to slay due to his demon magic.	1	Beowulf	Grendell
+492	Paypal has to settle millions of disputes every year by disgruntled users since Paypal	 are sometimes a victim of fraud from purchasing through the internet.	0	Paypal	disgruntled users
+492	Paypal has to settle millions of disputes every year by disgruntled users since disgruntled users	 are sometimes a victim of fraud from purchasing through the internet.	1	Paypal	disgruntled users
+493	Paypal has to settle millions of disputes every year by disgruntled users because Paypal	 provide a transaction protection policy.	1	Paypal	disgruntled users
+493	Paypal has to settle millions of disputes every year by disgruntled users because disgruntled users	 provide a transaction protection policy.	0	Paypal	disgruntled users
+494	The slaves were forced to do the bidding of the nobles since The slaves	 have no rights.	1	The slaves	the nobles
+494	The slaves were forced to do the bidding of the nobles since the nobles	 have no rights.	0	The slaves	the nobles
+495	The slaves were forced to do the bidding of the nobles so The slaves	 do not have to do any of the hard labor.	0	The slaves	the nobles
+495	The slaves were forced to do the bidding of the nobles so the nobles	 do not have to do any of the hard labor.	1	The slaves	the nobles
+496	Scientists have created a serum which transforms men into super soldiers, because Scientists	 needed to create an unstoppable army.	1	Scientists	men
+496	Scientists have created a serum which transforms men into super soldiers, because men	 needed to create an unstoppable army.	0	Scientists	men
+497	Scientists have created a serum which transforms men into super soldiers, but Scientists	 may experience side effects.	0	Scientists	men
+497	Scientists have created a serum which transforms men into super soldiers, but men	 may experience side effects.	1	Scientists	men
+498	The prisoners were held captive by the German forces since The prisoners	 were captured in the last battle.	1	The prisoners	the German forces
+498	The prisoners were held captive by the German forces since the German forces	 were captured in the last battle.	0	The prisoners	the German forces
+499	The prisoners were held captive by the German forces since The prisoners	 needed to gather intelligence from them.	0	The prisoners	the German forces
+499	The prisoners were held captive by the German forces since the German forces	 needed to gather intelligence from them.	1	The prisoners	the German forces
+500	Captain America lost a good friend, Michael, because Captain America	 could not catch him before falling.	1	Captain America	Michael
+500	Captain America lost a good friend, Michael, because Michael	 could not catch him before falling.	0	Captain America	Michael
+501	Captain America lost a good friend, Michael, because Captain America	 was killed in an accident.	0	Captain America	Michael
+501	Captain America lost a good friend, Michael, because Michael	 was killed in an accident.	1	Captain America	Michael
+502	Neil Armstrong was actually sent on a secret mission assigned by President Kennedy to investigate an abnormal event because Neil Armstrong	 needed the US to beat Russia there.	0	Neil Armstrong	President Kennedy
+502	Neil Armstrong was actually sent on a secret mission assigned by President Kennedy to investigate an abnormal event because President Kennedy	 needed the US to beat Russia there.	1	Neil Armstrong	President Kennedy
+503	Neil Armstrong was actually sent on a secret mission assigned by President Kennedy to investigate an abnormal event so Neil Armstrong	 was trained on what exactly Neil Armstrong needed to do.	1	Neil Armstrong	President Kennedy
+503	Neil Armstrong was actually sent on a secret mission assigned by President Kennedy to investigate an abnormal event so President Kennedy	 was trained on what exactly President Kennedy needed to do.	0	Neil Armstrong	President Kennedy
+504	The CIA control intelligence gathering for the United States because The CIA	 have some of the best people who specialize in this type of work.	1	The CIA	the United States
+504	The CIA control intelligence gathering for the United States because the United States	 have some of the best people who specialize in this type of work.	0	The CIA	the United States
+505	The CIA control intelligence gathering for the United States since The CIA	 need to stay one step ahead of others to remain a superpower.	0	The CIA	the United States
+505	The CIA control intelligence gathering for the United States since the United States	 need to stay one step ahead of others to remain a superpower.	1	The CIA	the United States
+506	Sentinel tried to betray Optimus by enslaving the human race, but Sentinel	 did not succeed in his plan.	1	Sentinel	Optimus
+506	Sentinel tried to betray Optimus by enslaving the human race, but Optimus	 did not succeed in his plan.	0	Sentinel	Optimus
+507	Sentinel tried to betray Optimus by enslaving the human race because Sentinel	 wanted the humans to rule again.	0	Sentinel	Optimus
+507	Sentinel tried to betray Optimus by enslaving the human race because Optimus	 wanted the humans to rule again.	1	Sentinel	Optimus
+508	Amazon prime encourages Netflix users to switch because Amazon prime	 offer a lower cost and additional benefits program.	1	Amazon prime	Netflix
+508	Amazon prime encourages Netflix users to switch because Netflix	 offer a lower cost and additional benefits program.	0	Amazon prime	Netflix
+509	Amazon prime encourages Netflix users to switch since Amazon prime	 overcharge their users now.	0	Amazon prime	Netflix
+509	Amazon prime encourages Netflix users to switch since Netflix	 overcharge their users now.	1	Amazon prime	Netflix
+510	Dell replaced all their Blackberry phones with their own because Dell	 lost confidence in their brand due to to recent network outage.	1	Dell	their Blackberry phones
+510	Dell replaced all their Blackberry phones with their own because their Blackberry phones	 lost confidence in their brand due to to recent network outage.	0	Dell	their Blackberry phones
+511	Dell replaced all their Blackberry phones with their own, but Dell	 are still prominent on other vendor sites.	0	Dell	their Blackberry phones
+511	Dell replaced all their Blackberry phones with their own, but their Blackberry phones	 are still prominent on other vendor sites.	1	Dell	their Blackberry phones
+512	Malware has increased over four hundred percent on the Android platform because Malware	 are a free platform which allows any developer to post their applications.	0	Malware	the Android platform
+512	Malware has increased over four hundred percent on the Android platform because the Android platform	 are a free platform which allows any developer to post their applications.	1	Malware	the Android platform
+513	Malware has increased over four hundred percent on the Android platform since Malware	 do not need to get vetted to be uploaded.	1	Malware	the Android platform
+513	Malware has increased over four hundred percent on the Android platform since the Android platform	 do not need to get vetted to be uploaded.	0	Malware	the Android platform
+514	Some Motorcycle enthusiasts are selling a TRON lightcycle to TRON fans because Some Motorcycle enthusiasts	 specialize in making movie related vehicles.	1	Some Motorcycle enthusiasts	TRON fans
+514	Some Motorcycle enthusiasts are selling a TRON lightcycle to TRON fans because TRON fans	 specialize in making movie related vehicles.	0	Some Motorcycle enthusiasts	TRON fans
+515	Some Motorcycle enthusiasts are selling a TRON lightcycle to TRON fans, but Some Motorcycle enthusiasts	 may be turned off by the asking price.	0	Some Motorcycle enthusiasts	TRON fans
+515	Some Motorcycle enthusiasts are selling a TRON lightcycle to TRON fans, but TRON fans	 may be turned off by the asking price.	1	Some Motorcycle enthusiasts	TRON fans
+516	The board of directors reviewed the findings of the scientists to determine funding because The board of directors	 are interested in the potential profits for the company.	1	The board of directors	the scientists
+516	The board of directors reviewed the findings of the scientists to determine funding because the scientists	 are interested in the potential profits for the company.	0	The board of directors	the scientists
+517	The board of directors reviewed the findings of the scientists to determine funding, so The board of directors	 need to present their findings in a way that can attract more money.	0	The board of directors	the scientists
+517	The board of directors reviewed the findings of the scientists to determine funding, so the scientists	 need to present their findings in a way that can attract more money.	1	The board of directors	the scientists
+518	Some fan girls created a rap about Windows phones because Some fan girls	 are in love with their new electronics.	1	Some fan girls	Windows phones
+518	Some fan girls created a rap about Windows phones because Windows phones	 are in love with their new electronics.	0	Some fan girls	Windows phones
+519	Some fan girls created a rap about Windows phones, but Some fan girls	 did not become more popular.	0	Some fan girls	Windows phones
+519	Some fan girls created a rap about Windows phones, but Windows phones	 did not become more popular.	1	Some fan girls	Windows phones
+520	Some enthusiastic Black Friday shoppers are already lining up at retail stores so Some enthusiastic Black Friday shoppers	 can be the first in line for door busters.	1	Some enthusiastic Black Friday shoppers	retail stores
+520	Some enthusiastic Black Friday shoppers are already lining up at retail stores so retail stores	 can be the first in line for door busters.	0	Some enthusiastic Black Friday shoppers	retail stores
+521	Some enthusiastic Black Friday shoppers are already lining up at retail stores because Some enthusiastic Black Friday shoppers	 have some really low priced items that will be on sale.	0	Some enthusiastic Black Friday shoppers	retail stores
+521	Some enthusiastic Black Friday shoppers are already lining up at retail stores because retail stores	 have some really low priced items that will be on sale.	1	Some enthusiastic Black Friday shoppers	retail stores
+522	The campus police pepper sprayed the UC Davis students because The campus police	 were blocking private property.	0	The campus police	the UC Davis students
+522	The campus police pepper sprayed the UC Davis students because the UC Davis students	 were blocking private property.	1	The campus police	the UC Davis students
+523	The campus police pepper sprayed the UC Davis students, so The campus police	 faced an angry backlash by those who do not agree with their actions.	1	The campus police	the UC Davis students
+523	The campus police pepper sprayed the UC Davis students, so the UC Davis students	 faced an angry backlash by those who do not agree with their actions.	0	The campus police	the UC Davis students
+524	Apple was in talks with Verizon to be their dedicated phone provider initially, but Apple	 gave the deal to AT&T in the end.	1	Apple	Verizon
+524	Apple was in talks with Verizon to be their dedicated phone provider initially, but Verizon	 gave the deal to AT&T in the end.	0	Apple	Verizon
+525	Apple was in talks with Verizon to be their dedicated phone provider initially because Apple	 were a prime candidate to provide their service.	0	Apple	Verizon
+525	Apple was in talks with Verizon to be their dedicated phone provider initially because Verizon	 were a prime candidate to provide their service.	1	Apple	Verizon
+526	Parents care for their children considerably because Parents	 love them undeniably to want to keep them save.	1	Parents	their children
+526	Parents care for their children considerably because their children	 love them undeniably to want to keep them save.	0	Parents	their children
+527	Parents care for their children considerably since Parents	 are their pride and joy.	0	Parents	their children
+527	Parents care for their children considerably since their children	 are their pride and joy.	1	Parents	their children
+528	Cats are more territorial than dogs since Cats	 always try and insert their dominance over others.	1	Cats	dogs
+528	Cats are more territorial than dogs since dogs	 always try and insert their dominance over others.	0	Cats	dogs
+529	Cats are more territorial than dogs, but Cats	 can also be territorial at times when marking their territory.	0	Cats	dogs
+529	Cats are more territorial than dogs, but dogs	 can also be territorial at times when marking their territory.	1	Cats	dogs
+530	Kung Fu teachers try to pass on discipline to their disciples since Kung Fu teachers	 want them to learn more than just technique.	1	Kung Fu teachers	their disciples
+530	Kung Fu teachers try to pass on discipline to their disciples since their disciples	 want them to learn more than just technique.	0	Kung Fu teachers	their disciples
+531	Kung Fu teachers try to pass on discipline to their disciples, but Kung Fu teachers	 do not always learn what Kung Fu teachers are being taught very well.	0	Kung Fu teachers	their disciples
+531	Kung Fu teachers try to pass on discipline to their disciples, but their disciples	 do not always learn what their disciples are being taught very well.	1	Kung Fu teachers	their disciples
+532	Mark tried to sabotage Tom because Mark	 wants to be employee of the month.	1	Mark	Tom
+532	Mark tried to sabotage Tom because Tom	 wants to be employee of the month.	0	Mark	Tom
+533	Mark tried to sabotage Tom, but Mark	 got caught in the process.	0	Mark	Tom
+533	Mark tried to sabotage Tom, but Tom	 got caught in the process.	1	Mark	Tom
+534	The Walking Dead is proving to be a big hit among zombie enthusiasts because The Walking Dead	 have made a series that greatly appeals to them.	1	The Walking Dead	zombie enthusiasts
+534	The Walking Dead is proving to be a big hit among zombie enthusiasts because zombie enthusiasts	 have made a series that greatly appeals to them.	0	The Walking Dead	zombie enthusiasts
+535	The Walking Dead is proving to be a big hit among zombie enthusiasts so The Walking Dead	 are watching the show every week.	0	The Walking Dead	zombie enthusiasts
+535	The Walking Dead is proving to be a big hit among zombie enthusiasts so zombie enthusiasts	 are watching the show every week.	1	The Walking Dead	zombie enthusiasts
+536	Guns generally increase in value over time to gun collectors if unfired, because Guns	 need to be in mint condition to be extremely valuable.	1	Guns	gun collectors
+536	Guns generally increase in value over time to gun collectors if unfired, because gun collectors	 need to be in mint condition to be extremely valuable.	0	Guns	gun collectors
+537	Guns generally increase in value over time to gun collectors if unfired, since Guns	 prefer to collect things that are in perfect condition.	0	Guns	gun collectors
+537	Guns generally increase in value over time to gun collectors if unfired, since gun collectors	 prefer to collect things that are in perfect condition.	1	Guns	gun collectors
+538	Jim hunted the monster, because Jim	 was scary.	0	Jim	the monster
+538	Jim hunted the monster, because the monster	 was scary.	1	Jim	the monster
+539	Jim hunted the monster, although Jim	 was afraid of him.	1	Jim	the monster
+539	Jim hunted the monster, although the monster	 was afraid of him.	0	Jim	the monster
+540	Arnold Schwarzenegger cannot terminate John Conner, because Arnold Schwarzenegger	 is protecting him.	1	Arnold Schwarzenegger	John Conner
+540	Arnold Schwarzenegger cannot terminate John Conner, because John Conner	 is protecting him.	0	Arnold Schwarzenegger	John Conner
+541	Arnold Schwarzenegger cannot terminate John Conner, because Arnold Schwarzenegger	 is the leader of the resistance.	0	Arnold Schwarzenegger	John Conner
+541	Arnold Schwarzenegger cannot terminate John Conner, because John Conner	 is the leader of the resistance.	1	Arnold Schwarzenegger	John Conner
+542	Jim likes John, but Jim	 does not like him back.	0	Jim	John
+542	Jim likes John, but John	 does not like him back.	1	Jim	John
+543	Jim likes John, but Jim	 is not liked back.	1	Jim	John
+543	Jim likes John, but John	 is not liked back.	0	Jim	John
+544	The skeleton was scarier than the pumpkin, because The skeleton	 looked like The skeleton was walking.	1	The skeleton	the pumpkin
+544	The skeleton was scarier than the pumpkin, because the pumpkin	 looked like the pumpkin was walking.	0	The skeleton	the pumpkin
+545	The skeleton was scarier than the pumpkin, because The skeleton	 was rather simplistic and orange.	0	The skeleton	the pumpkin
+545	The skeleton was scarier than the pumpkin, because the pumpkin	 was rather simplistic and orange.	1	The skeleton	the pumpkin
+546	Schrodinger's cat walks into an empty building, but where is Schrodinger's cat	 now?	1	Schrodinger's cat	an empty building
+546	Schrodinger's cat walks into an empty building, but where is an empty building	 now?	0	Schrodinger's cat	an empty building
+547	Schrodinger's cat walks into an empty building, but does Schrodinger's cat	 contain him?	0	Schrodinger's cat	an empty building
+547	Schrodinger's cat walks into an empty building, but does an empty building	 contain him?	1	Schrodinger's cat	an empty building
+548	Bob kicked Larry, because Bob	 was mad.	1	Bob	Larry
+548	Bob kicked Larry, because Larry	 was mad.	0	Bob	Larry
+549	Bob kicked Larry, because Bob	 made a condescending comment.	0	Bob	Larry
+549	Bob kicked Larry, because Larry	 made a condescending comment.	1	Bob	Larry
+550	The program deleted the reference to the data, but The program	 did not delete it.	1	The program	the data
+550	The program deleted the reference to the data, but the data	 did not delete it.	0	The program	the data
+551	The program deleted the reference to the data, but The program	 was not deleted.	0	The program	the data
+551	The program deleted the reference to the data, but the data	 was not deleted.	1	The program	the data
+552	The criminal shocked John, because The criminal	 pulled out a gun.	1	The criminal	John
+552	The criminal shocked John, because John	 pulled out a gun.	0	The criminal	John
+553	The criminal shocked John, because The criminal	 was not expecting it.	0	The criminal	John
+553	The criminal shocked John, because John	 was not expecting it.	1	The criminal	John
+554	A banana and an apple go walking, when the yellow A banana	 does the talking.	1	A banana	an apple
+554	A banana and an apple go walking, when the yellow an apple	 does the talking.	0	A banana	an apple
+555	A banana and an apple go walking, when the red A banana	 does the talking.	0	A banana	an apple
+555	A banana and an apple go walking, when the red an apple	 does the talking.	1	A banana	an apple
+556	The employer offered Katie a job, because The employer	 was a fit for the company.	0	The employer	Katie
+556	The employer offered Katie a job, because Katie	 was a fit for the company.	1	The employer	Katie
+557	The employer offered Katie a job, because The employer	 liked the interviewee.	1	The employer	Katie
+557	The employer offered Katie a job, because Katie	 liked the interviewee.	0	The employer	Katie
+558	Jim was delighted to see Jack, because Jim	 brightened up his day.	0	Jim	Jack
+558	Jim was delighted to see Jack, because Jack	 brightened up his day.	1	Jim	Jack
+559	Jim was delighted to see Jack, because Jim	 was given the strength to finish his day.	1	Jim	Jack
+559	Jim was delighted to see Jack, because Jack	 was given the strength to finish his day.	0	Jim	Jack
+560	He likes Cuba and hates Japan because Cuba	 is a communist country.	1	Cuba	Japan
+560	He likes Cuba and hates Japan because Japan	 is a communist country.	0	Cuba	Japan
+561	He likes Cuba and hates Japan because Cuba	 is not a communist country.	0	Cuba	Japan
+561	He likes Cuba and hates Japan because Japan	 is not a communist country.	1	Cuba	Japan
+562	Saudi Arabians do not respect the Bangladeshis because Saudi Arabians	 are poor.	0	Saudi Arabians	Bangladeshis
+562	Saudi Arabians do not respect the Bangladeshis because Bangladeshis	 are poor.	1	Saudi Arabians	Bangladeshis
+563	Saudi Arabians do not respect the Bangladeshis because Saudi Arabians	 are rich.	1	Saudi Arabians	Bangladeshis
+563	Saudi Arabians do not respect the Bangladeshis because Bangladeshis	 are rich.	0	Saudi Arabians	Bangladeshis

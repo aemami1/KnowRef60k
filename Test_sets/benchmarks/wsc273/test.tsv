@@ -1,0 +1,547 @@
+index	sentence1	sentence2	label	candidate0	candidate1
+0	The city councilmen refused the demonstrators a permit because the city councilmen	 feared violence.	1	city councilmen	demonstrators
+0	The city councilmen refused the demonstrators a permit because the demonstrators	 feared violence.	0	city councilmen	demonstrators
+1	The city councilmen refused the demonstrators a permit because the city councilmen	 advocated violence.	0	city councilmen	demonstrators
+1	The city councilmen refused the demonstrators a permit because the demonstrators	 advocated violence.	1	city councilmen	demonstrators
+2	The trophy doesn't fit into the brown suitcase because the trophy	 is too large.	1	trophy	suitcase
+2	The trophy doesn't fit into the brown suitcase because the suitcase	 is too large.	0	trophy	suitcase
+3	The trophy doesn't fit into the brown suitcase because the trophy	 is too small.	0	trophy	suitcase
+3	The trophy doesn't fit into the brown suitcase because the suitcase	 is too small.	1	trophy	suitcase
+4	Joan made sure to thank Susan for all the help Joan	 had recieved.	1	Joan	Susan
+4	Joan made sure to thank Susan for all the help Susan	 had recieved.	0	Joan	Susan
+5	Joan made sure to thank Susan for all the help Joan	 had given.	0	Joan	Susan
+5	Joan made sure to thank Susan for all the help Susan	 had given.	1	Joan	Susan
+6	Paul tried to call George on the phone, but Paul	 wasn't successful.	1	Paul	George
+6	Paul tried to call George on the phone, but George	 wasn't successful.	0	Paul	George
+7	Paul tried to call George on the phone, but Paul	 wasn't available.	0	Paul	George
+7	Paul tried to call George on the phone, but George	 wasn't available.	1	Paul	George
+8	The lawyer asked the witness a question, but the lawyer	 was reluctant to repeat it.	1	lawyer	witness
+8	The lawyer asked the witness a question, but the witness	 was reluctant to repeat it.	0	lawyer	witness
+9	The lawyer asked the witness a question, but the lawyer	 was reluctant to answer it.	0	lawyer	witness
+9	The lawyer asked the witness a question, but the witness	 was reluctant to answer it.	1	lawyer	witness
+10	The delivery truck zoomed by the school bus because the delivery truck	 was going so fast.	1	delivery truck	school bus
+10	The delivery truck zoomed by the school bus because the school bus	 was going so fast.	0	delivery truck	school bus
+11	The delivery truck zoomed by the school bus because the delivery truck	 was going so slow.	0	delivery truck	school bus
+11	The delivery truck zoomed by the school bus because the school bus	 was going so slow.	1	delivery truck	school bus
+12	Frank felt vindicated when his longtime rival Bill revealed that Frank	 was the winner of the competition.	1	Frank	Bill
+12	Frank felt vindicated when his longtime rival Bill revealed that Bill	 was the winner of the competition.	0	Frank	Bill
+13	Frank felt crushed when his longtime rival Bill revealed that Frank	 was the winner of the competition.	0	Frank	Bill
+13	Frank felt crushed when his longtime rival Bill revealed that Bill	 was the winner of the competition.	1	Frank	Bill
+14	The man couldn't lift his son because the man	 was so weak.	1	man	son
+14	The man couldn't lift his son because the son	 was so weak.	0	man	son
+15	The man couldn't lift his son because the man	 was so heavy.	0	man	son
+15	The man couldn't lift his son because the son	 was so heavy.	1	man	son
+16	The large ball crashed right through the table because the large ball	 was made of steel.	1	large ball	table
+16	The large ball crashed right through the table because the table	 was made of steel.	0	large ball	table
+17	The large ball crashed right through the table because the large ball	 was made of styrofoam.	0	large ball	table
+17	The large ball crashed right through the table because the table	 was made of styrofoam.	1	large ball	table
+18	John couldn't see the stage with Billy in front of him because John	 is so short.	1	John	Billy
+18	John couldn't see the stage with Billy in front of him because Billy	 is so short.	0	John	Billy
+19	John couldn't see the stage with Billy in front of him because John	 is so tall.	0	John	Billy
+19	John couldn't see the stage with Billy in front of him because Billy	 is so tall.	1	John	Billy
+20	Tom threw his schoolbag down to Ray after Tom	 reached the top of the stairs.	1	Tom	Ray
+20	Tom threw his schoolbag down to Ray after Ray	 reached the top of the stairs.	0	Tom	Ray
+21	Tom threw his schoolbag down to Ray after Tom	 reached the bottom of the stairs.	0	Tom	Ray
+21	Tom threw his schoolbag down to Ray after Ray	 reached the bottom of the stairs.	1	Tom	Ray
+22	Although they ran at about the same speed, Sue beat Sally because Sue	 had such a good start.	1	Sue	Sally
+22	Although they ran at about the same speed, Sue beat Sally because Sally	 had such a good start.	0	Sue	Sally
+23	Although they ran at about the same speed, Sue beat Sally because Sue	 had such a bad start.	0	Sue	Sally
+23	Although they ran at about the same speed, Sue beat Sally because Sally	 had such a bad start.	1	Sue	Sally
+24	The sculpture rolled off the shelf because the sculpture	 wasn't anchored.	1	sculpture	shelf
+24	The sculpture rolled off the shelf because the shelf	 wasn't anchored.	0	sculpture	shelf
+25	The sculpture rolled off the shelf because the sculpture	 wasn't level.	0	sculpture	shelf
+25	The sculpture rolled off the shelf because the shelf	 wasn't level.	1	sculpture	shelf
+26	Sam's drawing was hung just above Tina's and Sam's	 drawing did look much better with another one below it.	1	Sam's	Tina's
+26	Sam's drawing was hung just above Tina's and Tina's	 drawing did look much better with another one below it.	0	Sam's	Tina's
+27	Sam's drawing was hung just above Tina's and Sam's	 drawing did look much better with another one above it.	0	Sam's	Tina's
+27	Sam's drawing was hung just above Tina's and Tina's	 drawing did look much better with another one above it.	1	Sam's	Tina's
+28	Anna did a lot better than her good friend Lucy on the test because Anna	 had studied so hard.	1	Anna	Lucy
+28	Anna did a lot better than her good friend Lucy on the test because Lucy	 had studied so hard.	0	Anna	Lucy
+29	Anna did a lot worse than her good friend Lucy on the test because Anna	 had studied so hard.	0	Anna	Lucy
+29	Anna did a lot worse than her good friend Lucy on the test because Lucy	 had studied so hard.	1	Anna	Lucy
+30	The firemen arrived after the police because the firemen	 were coming from so far away.	1	firemen	police
+30	The firemen arrived after the police because the police	 were coming from so far away.	0	firemen	police
+31	The firemen arrived before the police because the firemen	 were coming from so far away.	0	firemen	police
+31	The firemen arrived before the police because the police	 were coming from so far away.	1	firemen	police
+32	Frank was upset with Tom because the toaster Frank	 had bought from him didn't work.	1	Frank	Tom
+32	Frank was upset with Tom because the toaster Tom	 had bought from him didn't work.	0	Frank	Tom
+33	Frank was upset with Tom because the toaster Frank	 had sold him didn't work.	0	Frank	Tom
+33	Frank was upset with Tom because the toaster Tom	 had sold him didn't work.	1	Frank	Tom
+34	Jim yelled at Kevin because Jim	 was so upset.	1	Jim	Kevin
+34	Jim yelled at Kevin because Kevin	 was so upset.	0	Jim	Kevin
+35	Jim comforted Kevin because Jim	 was so upset.	0	Jim	Kevin
+35	Jim comforted Kevin because Kevin	 was so upset.	1	Jim	Kevin
+36	The sack of potatoes had been placed above the bag of flour, so the sack of potatoes	 had to be moved first.	1	sack of potatoes	bag of flour
+36	The sack of potatoes had been placed above the bag of flour, so the bag of flour	 had to be moved first.	0	sack of potatoes	bag of flour
+37	The sack of potatoes had been placed below the bag of flour, so the sack of potatoes	 had to be moved first.	0	sack of potatoes	bag of flour
+37	The sack of potatoes had been placed below the bag of flour, so the bag of flour	 had to be moved first.	1	sack of potatoes	bag of flour
+38	Pete envies Martin although Pete	 is very successful.	1	Pete	Martin
+38	Pete envies Martin although Martin	 is very successful.	0	Pete	Martin
+39	Pete envies Martin because Pete	 is very successful.	0	Pete	Martin
+39	Pete envies Martin because Martin	 is very successful.	1	Pete	Martin
+40	The older students were bullying the younger ones, so we punished the older	 students .	1	older	younger
+40	The older students were bullying the younger ones, so we punished the younger	 students .	0	older	younger
+41	The older students were bullying the younger ones, so we rescued the older	 students .	0	older	younger
+41	The older students were bullying the younger ones, so we rescued the younger	 students .	1	older	younger
+42	I poured water from the bottle into the cup until the bottle	 was empty.	1	bottle	cup
+42	I poured water from the bottle into the cup until the cup	 was empty.	0	bottle	cup
+43	I poured water from the bottle into the cup until the bottle	 was full.	0	bottle	cup
+43	I poured water from the bottle into the cup until the cup	 was full.	1	bottle	cup
+44	Susan knows all about Ann's personal problems because Susan	 is nosy.	1	Susan	Ann
+44	Susan knows all about Ann's personal problems because Ann	 is nosy.	0	Susan	Ann
+45	Susan knows all about Ann's personal problems because Susan	 is indiscreet.	0	Susan	Ann
+45	Susan knows all about Ann's personal problems because Ann	 is indiscreet.	1	Susan	Ann
+46	Sid explained his theory to Mark but Sid	 couldn't convince him.	1	Sid	Mark
+46	Sid explained his theory to Mark but Mark	 couldn't convince him.	0	Sid	Mark
+47	Sid explained his theory to Mark but Sid	 couldn't understand him.	0	Sid	Mark
+47	Sid explained his theory to Mark but Mark	 couldn't understand him.	1	Sid	Mark
+48	Susan knew that Ann's son had been in a car accident, so Susan	 told her about it.	1	Susan	Ann
+48	Susan knew that Ann's son had been in a car accident, so Ann	 told her about it.	0	Susan	Ann
+49	Susan knew that Ann's son had been in a car accident, because Susan	 told her about it.	0	Susan	Ann
+49	Susan knew that Ann's son had been in a car accident, because Ann	 told her about it.	1	Susan	Ann
+50	Joe's uncle can still beat him at tennis, even though Joe	 is 30 years younger.	1	Joe	Joe's uncle
+50	Joe's uncle can still beat him at tennis, even though Joe's uncle	 is 30 years younger.	0	Joe	Joe's uncle
+51	Joe's uncle can still beat him at tennis, even though Joe	 is 30 years older.	0	Joe	Joe's uncle
+51	Joe's uncle can still beat him at tennis, even though Joe's uncle	 is 30 years older.	1	Joe	Joe's uncle
+52	The painting in Mark's living room shows an oak tree. The painting	 is to the right of the bookcase.	1	painting	oak tree
+52	The painting in Mark's living room shows an oak tree. The oak tree	 is to the right of the bookcase.	0	painting	oak tree
+53	The painting in Mark's living room shows an oak tree. The painting	 is to the right of a house.	0	painting	oak tree
+53	The painting in Mark's living room shows an oak tree. The oak tree	 is to the right of a house.	1	painting	oak tree
+54	There is a gap in the wall. You can see the garden through the gap	 .	1	gap	wall
+54	There is a gap in the wall. You can see the garden through the wall	 .	0	gap	wall
+55	There is a gap in the wall. You can see the garden behind the gap	 .	0	gap	wall
+55	There is a gap in the wall. You can see the garden behind the wall	 .	1	gap	wall
+56	The drain is clogged with hair. The drain	 has to be cleaned.	1	drain	hair
+56	The drain is clogged with hair. The hair	 has to be cleaned.	0	drain	hair
+57	The drain is clogged with hair. The drain	 has to be removed.	0	drain	hair
+57	The drain is clogged with hair. The hair	 has to be removed.	1	drain	hair
+58	My meeting started at 4:00 and I needed to catch the train at 4:30, so there wasn't much time. Luckily, the meeting	 was short, so it worked out.	1	meeting	train
+58	My meeting started at 4:00 and I needed to catch the train at 4:30, so there wasn't much time. Luckily, the train	 was short, so it worked out.	0	meeting	train
+59	My meeting started at 4:00 and I needed to catch the train at 4:30, so there wasn't much time. Luckily, the meeting	 was delayed, so it worked out.	0	meeting	train
+59	My meeting started at 4:00 and I needed to catch the train at 4:30, so there wasn't much time. Luckily, the train	 was delayed, so it worked out.	1	meeting	train
+60	There is a pillar between me and the stage, and I can't see around the pillar	 .	1	pillar	stage
+60	There is a pillar between me and the stage, and I can't see around the stage	 .	0	pillar	stage
+61	There is a pillar between me and the stage, and I can't see the pillar	 .	0	pillar	stage
+61	There is a pillar between me and the stage, and I can't see the stage	 .	1	pillar	stage
+62	They broadcast an announcement, but a subway came into the station and I couldn't hear the announcement	 .	1	announcement	subway
+62	They broadcast an announcement, but a subway came into the station and I couldn't hear the subway	 .	0	announcement	subway
+63	They broadcast an announcement, but a subway came into the station and I couldn't hear over the announcement	 .	0	announcement	subway
+63	They broadcast an announcement, but a subway came into the station and I couldn't hear over the subway	 .	1	announcement	subway
+64	In the middle of the outdoor concert, the rain started falling, but the concert	 continued until 10.	1	concert	rain
+64	In the middle of the outdoor concert, the rain started falling, but the rain	 continued until 10.	0	concert	rain
+65	In the middle of the outdoor concert, the rain started falling, and the concert	 continued until 10.	0	concert	rain
+65	In the middle of the outdoor concert, the rain started falling, and the rain	 continued until 10.	1	concert	rain
+66	I used an old rag to clean the knife, and then I put the rag	 in the trash.	1	rag	knife
+66	I used an old rag to clean the knife, and then I put the knife	 in the trash.	0	rag	knife
+67	I used an old rag to clean the knife, and then I put the rag	 in the drawer.	0	rag	knife
+67	I used an old rag to clean the knife, and then I put the knife	 in the drawer.	1	rag	knife
+68	Ann asked Mary what time the library closes, because Ann	 had forgotten.	1	Ann	Mary
+68	Ann asked Mary what time the library closes, because Mary	 had forgotten.	0	Ann	Mary
+69	Ann asked Mary what time the library closes, but Ann	 had forgotten.	0	Ann	Mary
+69	Ann asked Mary what time the library closes, but Mary	 had forgotten.	1	Ann	Mary
+70	I took the water bottle out of the backpack so that the water bottle	 would be handy.	1	water bottle	backpack
+70	I took the water bottle out of the backpack so that the backpack	 would be handy.	0	water bottle	backpack
+71	I took the water bottle out of the backpack so that the water bottle	 would be lighter.	0	water bottle	backpack
+71	I took the water bottle out of the backpack so that the backpack	 would be lighter.	1	water bottle	backpack
+72	I couldn't put the pot on the shelf because the pot	 was too tall.	1	pot	shelf
+72	I couldn't put the pot on the shelf because the shelf	 was too tall.	0	pot	shelf
+73	I couldn't put the pot on the shelf because the pot	 was too high.	0	pot	shelf
+73	I couldn't put the pot on the shelf because the shelf	 was too high.	1	pot	shelf
+74	I'm sure that my map will show this building; the map	 is very good.	1	map	building
+74	I'm sure that my map will show this building; the building	 is very good.	0	map	building
+75	I'm sure that my map will show this building; the map	 is very famous.	0	map	building
+75	I'm sure that my map will show this building; the building	 is very famous.	1	map	building
+76	Bob paid for Charlie's college education. Bob	 is very generous.	1	Bob	Charlie
+76	Bob paid for Charlie's college education. Charlie	 is very generous.	0	Bob	Charlie
+77	Bob paid for Charlie's college education. Bob	 is very grateful.	0	Bob	Charlie
+77	Bob paid for Charlie's college education. Charlie	 is very grateful.	1	Bob	Charlie
+78	Bob paid for Charlie's college education, but now Charlie acts as though it never happened. Bob	 is very hurt.	1	Bob	Charlie
+78	Bob paid for Charlie's college education, but now Charlie acts as though it never happened. Charlie	 is very hurt.	0	Bob	Charlie
+79	Bob paid for Charlie's college education, but now Charlie acts as though it never happened. Bob	 is very ungrateful.	0	Bob	Charlie
+79	Bob paid for Charlie's college education, but now Charlie acts as though it never happened. Charlie	 is very ungrateful.	1	Bob	Charlie
+80	Bob was playing cards with Adam and was way ahead. If Adam hadn't had a sudden run of good luck, Bob	 would have won.	1	Bob	Adam
+80	Bob was playing cards with Adam and was way ahead. If Adam hadn't had a sudden run of good luck, Adam	 would have won.	0	Bob	Adam
+81	Bob was playing cards with Adam and was way ahead. If Adam hadn't had a sudden run of good luck, Bob	 would have lost.	0	Bob	Adam
+81	Bob was playing cards with Adam and was way ahead. If Adam hadn't had a sudden run of good luck, Adam	 would have lost.	1	Bob	Adam
+82	Adam can't leave work here until Bob arrives to replace him. If Bob had left home for work on time, Adam	 would be gone by this time.	1	Adam	Bob
+82	Adam can't leave work here until Bob arrives to replace him. If Bob had left home for work on time, Bob	 would be gone by this time.	0	Adam	Bob
+83	Adam can't leave work here until Bob arrives to replace him. If Bob had left home for work on time, Adam	 would be here by this time.	0	Adam	Bob
+83	Adam can't leave work here until Bob arrives to replace him. If Bob had left home for work on time, Bob	 would be here by this time.	1	Adam	Bob
+84	If the con artist has succeeded in fooling Sam, The con artist	 would have gotten a lot of money.	1	The con artist	Sam
+84	If the con artist has succeeded in fooling Sam, Sam	 would have gotten a lot of money.	0	The con artist	Sam
+85	If the con artist has succeeded in fooling Sam, The con artist	 would have lost a lot of money.	0	The con artist	Sam
+85	If the con artist has succeeded in fooling Sam, Sam	 would have lost a lot of money.	1	The con artist	Sam
+86	It was a summer afternoon, and the dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because the dog	 was hot.	1	dog	spot under the tree
+86	It was a summer afternoon, and the dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because the spot under the tree	 was hot.	0	dog	spot under the tree
+87	It was a summer afternoon, and the dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because the dog	 was cooler.	0	dog	spot under the tree
+87	It was a summer afternoon, and the dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because the spot under the tree	 was cooler.	1	dog	spot under the tree
+88	The cat was lying by the mouse hole waiting for the mouse, but the cat	 was too impatient.	1	cat	mouse
+88	The cat was lying by the mouse hole waiting for the mouse, but the mouse	 was too impatient.	0	cat	mouse
+89	The cat was lying by the mouse hole waiting for the mouse, but the cat	 was too cautious.	0	cat	mouse
+89	The cat was lying by the mouse hole waiting for the mouse, but the mouse	 was too cautious.	1	cat	mouse
+90	Anne gave birth to a daughter last month. Anne	 is a very charming woman.	1	Anne	Anne's daughter
+90	Anne gave birth to a daughter last month. Anne's daughter	 is a very charming woman.	0	Anne	Anne's daughter
+91	Anne gave birth to a daughter last month. Anne	 is a very charming baby.	0	Anne	Anne's daughter
+91	Anne gave birth to a daughter last month. Anne's daughter	 is a very charming baby.	1	Anne	Anne's daughter
+92	Alice tried frantically to stop her daughter from chatting at the party, leaving us to wonder why Alice	 was behaving so strangely.	1	Alice	Alice's daughter
+92	Alice tried frantically to stop her daughter from chatting at the party, leaving us to wonder why Alice's daughter	 was behaving so strangely.	0	Alice	Alice's daughter
+93	Alice tried frantically to stop her daughter from barking at the party, leaving us to wonder why Alice	 was behaving so strangely.	0	Alice	Alice's daughter
+93	Alice tried frantically to stop her daughter from barking at the party, leaving us to wonder why Alice's daughter	 was behaving so strangely.	1	Alice	Alice's daughter
+94	I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know why Jim	 was, but he looked very unhappy.	1	Jim	the guy in uniform
+94	I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know why the guy in uniform	 was, but he looked very unhappy.	0	Jim	the guy in uniform
+95	I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know who Jim	 was, but he looked very unhappy.	0	Jim	the guy in uniform
+95	I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know who the guy in uniform	 was, but he looked very unhappy.	1	Jim	the guy in uniform
+96	The fish ate the worm. The fish	 was hungry.	1	fish	worm
+96	The fish ate the worm. The worm	 was hungry.	0	fish	worm
+97	The fish ate the worm. The fish	 was tasty.	0	fish	worm
+97	The fish ate the worm. The worm	 was tasty.	1	fish	worm
+98	I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get the key	 in.	1	key	chewing gum
+98	I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get the chewing gum	 in.	0	key	chewing gum
+99	I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get the key	 out.	0	key	chewing gum
+99	I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get the chewing gum	 out.	1	key	chewing gum
+100	The dog chased the cat, which ran up a tree. The dog	 waited at the bottom.	1	dog	cat
+100	The dog chased the cat, which ran up a tree. The cat	 waited at the bottom.	0	dog	cat
+101	The dog chased the cat, which ran up a tree. The dog	 waited at the top.	0	dog	cat
+101	The dog chased the cat, which ran up a tree. The cat	 waited at the top.	1	dog	cat
+102	In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get the tree	 removed.	1	tree	roof
+102	In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get the roof	 removed.	0	tree	roof
+103	In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get the tree	 repaired.	0	tree	roof
+103	In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get the roof	 repaired.	1	tree	roof
+104	The customer walked into the bank and stabbed one of the tellers. The customer	 was immediately taken to the police station.	1	customer	teller
+104	The customer walked into the bank and stabbed one of the tellers. The teller	 was immediately taken to the police station.	0	customer	teller
+105	The customer walked into the bank and stabbed one of the tellers. The customer	 was immediately taken to the hospital.	0	customer	teller
+105	The customer walked into the bank and stabbed one of the tellers. The teller	 was immediately taken to the hospital.	1	customer	teller
+106	John was doing research in the library when he heard a man humming and whistling. John	 was very annoyed.	1	John	The man
+106	John was doing research in the library when he heard a man humming and whistling. The man	 was very annoyed.	0	John	The man
+107	John was doing research in the library when he heard a man humming and whistling. John	 was very annoying.	0	John	The man
+107	John was doing research in the library when he heard a man humming and whistling. The man	 was very annoying.	1	John	The man
+108	John was jogging through the park when he saw a man juggling watermelons. John	 was very impressed.	1	John	The juggler
+108	John was jogging through the park when he saw a man juggling watermelons. The juggler	 was very impressed.	0	John	The juggler
+109	John was jogging through the park when he saw a man juggling watermelons. John	 was very impressive.	0	John	The juggler
+109	John was jogging through the park when he saw a man juggling watermelons. The juggler	 was very impressive.	1	John	The juggler
+110	Bob collapsed on the sidewalk. Soon he saw Carl coming to help. Bob	 was very ill.	1	Bob	Carl
+110	Bob collapsed on the sidewalk. Soon he saw Carl coming to help. Carl	 was very ill.	0	Bob	Carl
+111	Bob collapsed on the sidewalk. Soon he saw Carl coming to help. Bob	 was very concerned.	0	Bob	Carl
+111	Bob collapsed on the sidewalk. Soon he saw Carl coming to help. Carl	 was very concerned.	1	Bob	Carl
+112	Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because Sam and Amy	 are fifteen.	1	Sam and Amy	Amy's parents
+112	Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because Amy's parents	 are fifteen.	0	Sam and Amy	Amy's parents
+113	Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because Sam and Amy	 are snobs.	0	Sam and Amy	Amy's parents
+113	Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because Amy's parents	 are snobs.	1	Sam and Amy	Amy's parents
+114	Mark told Pete many lies about himself, which Pete included in his book. Mark	 should have been more truthful.	1	Mark	Pete
+114	Mark told Pete many lies about himself, which Pete included in his book. Pete	 should have been more truthful.	0	Mark	Pete
+115	Mark told Pete many lies about himself, which Pete included in his book. Mark	 should have been more skeptical.	0	Mark	Pete
+115	Mark told Pete many lies about himself, which Pete included in his book. Pete	 should have been more skeptical.	1	Mark	Pete
+116	Joe has sold his house and bought a new one a few miles away. He will be moving out of the old	 house on Thursday.	1	old	new
+116	Joe has sold his house and bought a new one a few miles away. He will be moving out of the new	 house on Thursday.	0	old	new
+117	Joe has sold his house and bought a new one a few miles away. He will be moving into the old	 house on Thursday.	0	old	new
+117	Joe has sold his house and bought a new one a few miles away. He will be moving into the new	 house on Thursday.	1	old	new
+118	Many people start to read Paul's books and can't put them down. People	 are gripped because Paul writes so well.	1	People	Paul's books
+118	Many people start to read Paul's books and can't put them down. Paul's books	 are gripped because Paul writes so well.	0	People	Paul's books
+119	Many people start to read Paul's books and can't put them down. People	 are popular because Paul writes so well.	0	People	Paul's books
+119	Many people start to read Paul's books and can't put them down. Paul's books	 are popular because Paul writes so well.	1	People	Paul's books
+120	Mary took out her flute and played one of her favorite pieces. She has had the flute	 since she was a child.	1	flute	piece
+120	Mary took out her flute and played one of her favorite pieces. She has had the piece	 since she was a child.	0	flute	piece
+121	Mary took out her flute and played one of her favorite pieces. She has loved the flute	 since she was a child.	0	flute	piece
+121	Mary took out her flute and played one of her favorite pieces. She has loved the piece	 since she was a child.	1	flute	piece
+122	Sam pulled up a chair to the piano, but the chair	 was broken, so he had to stand instead.	1	chair	piano
+122	Sam pulled up a chair to the piano, but the piano	 was broken, so he had to stand instead.	0	chair	piano
+123	Sam pulled up a chair to the piano, but the chair	 was broken, so he had to sing instead.	0	chair	piano
+123	Sam pulled up a chair to the piano, but the piano	 was broken, so he had to sing instead.	1	chair	piano
+124	Since it was raining, I carried the newspaper in my backpack to keep the newspaper	 dry.	1	newspaper	backpack
+124	Since it was raining, I carried the newspaper in my backpack to keep the backpack	 dry.	0	newspaper	backpack
+125	Since it was raining, I carried the newspaper over my backpack to keep the newspaper	 dry.	0	newspaper	backpack
+125	Since it was raining, I carried the newspaper over my backpack to keep the backpack	 dry.	1	newspaper	backpack
+126	Sara borrowed the book from the library because she needs it for an article she is working on. She reads the book	 when she gets home from work.	1	book	article
+126	Sara borrowed the book from the library because she needs it for an article she is working on. She reads the article	 when she gets home from work.	0	book	article
+127	Sara borrowed the book from the library because she needs it for an article she is working on. She writes the book	 when she gets home from work.	0	book	article
+127	Sara borrowed the book from the library because she needs it for an article she is working on. She writes the article	 when she gets home from work.	1	book	article
+128	This morning, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this afternoon the tide knocked the sand castle	 down.	1	sand castle	flag
+128	This morning, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this afternoon the tide knocked the flag	 down.	0	sand castle	flag
+129	This morning, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this afternoon the wind knocked the sand castle	 down.	0	sand castle	flag
+129	This morning, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this afternoon the wind knocked the flag	 down.	1	sand castle	flag
+130	Jane knocked on Susan's door, but there was no answer. Jane	 was disappointed.	1	Jane	Susan
+130	Jane knocked on Susan's door, but there was no answer. Susan	 was disappointed.	0	Jane	Susan
+131	Jane knocked on Susan's door, but there was no answer. Jane	 was out.	0	Jane	Susan
+131	Jane knocked on Susan's door, but there was no answer. Susan	 was out.	1	Jane	Susan
+132	Jane knocked on the door, and Susan answered it. Jane	 invited her to come out.	1	Jane	Susan
+132	Jane knocked on the door, and Susan answered it. Susan	 invited her to come out.	0	Jane	Susan
+133	Jane knocked on the door, and Susan answered it. Jane	 invited her to come in.	0	Jane	Susan
+133	Jane knocked on the door, and Susan answered it. Susan	 invited her to come in.	1	Jane	Susan
+134	Sam took French classes from Adam, because Sam	 was eager to speak it fluently.	1	Sam	Adam
+134	Sam took French classes from Adam, because Adam	 was eager to speak it fluently.	0	Sam	Adam
+135	Sam took French classes from Adam, because Sam	 was known to speak it fluently.	0	Sam	Adam
+135	Sam took French classes from Adam, because Adam	 was known to speak it fluently.	1	Sam	Adam
+136	The path to the lake was blocked, so we couldn't use the path	 .	1	path	lake
+136	The path to the lake was blocked, so we couldn't use the lake	 .	0	path	lake
+137	The path to the lake was blocked, so we couldn't reach the path	 .	0	path	lake
+137	The path to the lake was blocked, so we couldn't reach the lake	 .	1	path	lake
+138	The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, the sun	 was out.	1	sun	cloud
+138	The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, the cloud	 was out.	0	sun	cloud
+139	The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, the sun	 was gone.	0	sun	cloud
+139	The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, the cloud	 was gone.	1	sun	cloud
+140	We went to the lake, because a shark had been seen at the ocean beach, so the lake	 was a safer place to swim.	1	lake	ocean beach
+140	We went to the lake, because a shark had been seen at the ocean beach, so the ocean beach	 was a safer place to swim.	0	lake	ocean beach
+141	We went to the lake, because a shark had been seen at the ocean beach, so the lake	 was a dangerous place to swim.	0	lake	ocean beach
+141	We went to the lake, because a shark had been seen at the ocean beach, so the ocean beach	 was a dangerous place to swim.	1	lake	ocean beach
+142	Sam tried to paint a picture of shepherds with sheep, but the shepherds	 ended up looking more like golfers.	1	shepherds	sheep
+142	Sam tried to paint a picture of shepherds with sheep, but the sheep	 ended up looking more like golfers.	0	shepherds	sheep
+143	Sam tried to paint a picture of shepherds with sheep, but the shepherds	 ended up looking more like dogs.	0	shepherds	sheep
+143	Sam tried to paint a picture of shepherds with sheep, but the sheep	 ended up looking more like dogs.	1	shepherds	sheep
+144	Mary tucked her daughter Anne into bed, so that Mary	 could work.	1	Mary	Mary's daughter
+144	Mary tucked her daughter Anne into bed, so that Mary's daughter	 could work.	0	Mary	Mary's daughter
+145	Mary tucked her daughter Anne into bed, so that Mary	 could sleep.	0	Mary	Mary's daughter
+145	Mary tucked her daughter Anne into bed, so that Mary's daughter	 could sleep.	1	Mary	Mary's daughter
+146	Fred and Alice had very warm down coats, but Fred and Alice	 were not prepared for the cold in Alaska.	1	Fred and Alice	coats
+146	Fred and Alice had very warm down coats, but coats	 were not prepared for the cold in Alaska.	0	Fred and Alice	coats
+147	Fred and Alice had very warm down coats, but Fred and Alice	 were not enough for the cold in Alaska.	0	Fred and Alice	coats
+147	Fred and Alice had very warm down coats, but coats	 were not enough for the cold in Alaska.	1	Fred and Alice	coats
+148	Thomson visited Cooper's grave in 1765. At that date Thomson	 had been travelling for five years.	1	Thomson	Cooper
+148	Thomson visited Cooper's grave in 1765. At that date Cooper	 had been travelling for five years.	0	Thomson	Cooper
+149	Thomson visited Cooper's grave in 1765. At that date Thomson	 had been dead for five years.	0	Thomson	Cooper
+149	Thomson visited Cooper's grave in 1765. At that date Cooper	 had been dead for five years.	1	Thomson	Cooper
+150	Jackson was greatly influenced by Arnold, though Jackson	 lived two centuries later.	1	Jackson	Arnold
+150	Jackson was greatly influenced by Arnold, though Arnold	 lived two centuries later.	0	Jackson	Arnold
+151	Jackson was greatly influenced by Arnold, though Jackson	 lived two centuries earlier.	0	Jackson	Arnold
+151	Jackson was greatly influenced by Arnold, though Arnold	 lived two centuries earlier.	1	Jackson	Arnold
+152	I can't cut that tree down with that axe; the tree	 is too thick.	1	tree	axe
+152	I can't cut that tree down with that axe; the axe	 is too thick.	0	tree	axe
+153	I can't cut that tree down with that axe; the tree	 is too small.	0	tree	axe
+153	I can't cut that tree down with that axe; the axe	 is too small.	1	tree	axe
+154	The foxes are getting in at night and attacking the chickens. I shall have to kill the foxes	 .	1	foxes	chickens
+154	The foxes are getting in at night and attacking the chickens. I shall have to kill the chickens	 .	0	foxes	chickens
+155	The foxes are getting in at night and attacking the chickens. I shall have to guard the foxes	 .	0	foxes	chickens
+155	The foxes are getting in at night and attacking the chickens. I shall have to guard the chickens	 .	1	foxes	chickens
+156	The foxes are getting in at night and attacking the chickens. The foxes	 have gotten very bold.	1	foxes	chickens
+156	The foxes are getting in at night and attacking the chickens. The chickens	 have gotten very bold.	0	foxes	chickens
+157	The foxes are getting in at night and attacking the chickens. The foxes	 have gotten very nervous.	0	foxes	chickens
+157	The foxes are getting in at night and attacking the chickens. The chickens	 have gotten very nervous.	1	foxes	chickens
+158	Fred covered his eyes with his hands, because the wind was blowing sand around. He opened His eyes	 when the wind stopped.	1	eyes	hands
+158	Fred covered his eyes with his hands, because the wind was blowing sand around. He opened His hands	 when the wind stopped.	0	eyes	hands
+159	Fred covered his eyes with his hands, because the wind was blowing sand around. He lowered His eyes	 when the wind stopped.	0	eyes	hands
+159	Fred covered his eyes with his hands, because the wind was blowing sand around. He lowered His hands	 when the wind stopped.	1	eyes	hands
+160	The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured Terpsichore	 was too hard to pronounce.	1	Terpsichore	Tina
+160	The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured Tina	 was too hard to pronounce.	0	Terpsichore	Tina
+161	The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured Terpsichore	 was easier to pronounce.	0	Terpsichore	Tina
+161	The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured Tina	 was easier to pronounce.	1	Terpsichore	Tina
+162	Fred watched TV while George went out to buy groceries. After an hour Fred	 got up.	1	Fred	George
+162	Fred watched TV while George went out to buy groceries. After an hour George	 got up.	0	Fred	George
+163	Fred watched TV while George went out to buy groceries. After an hour Fred	 got back.	0	Fred	George
+163	Fred watched TV while George went out to buy groceries. After an hour George	 got back.	1	Fred	George
+164	Fred was supposed to run the dishwasher, but he put it off, because he wanted to watch TV. But the show turned out to be boring, so he changed his mind and turned the dishwasher	 on.	1	dishwasher	TV
+164	Fred was supposed to run the dishwasher, but he put it off, because he wanted to watch TV. But the show turned out to be boring, so he changed his mind and turned the TV	 on.	0	dishwasher	TV
+165	Fred was supposed to run the dishwasher, but he put it off, because he wanted to watch TV. But the show turned out to be boring, so he changed his mind and turned the dishwasher	 off.	0	dishwasher	TV
+165	Fred was supposed to run the dishwasher, but he put it off, because he wanted to watch TV. But the show turned out to be boring, so he changed his mind and turned the TV	 off.	1	dishwasher	TV
+166	Fred is the only man still alive who remembers my great-grandfather. Fred	 is a remarkable man.	1	Fred	My great-grandfather
+166	Fred is the only man still alive who remembers my great-grandfather. My great-grandfather	 is a remarkable man.	0	Fred	My great-grandfather
+167	Fred is the only man still alive who remembers my great-grandfather. Fred	 was a remarkable man.	0	Fred	My great-grandfather
+167	Fred is the only man still alive who remembers my great-grandfather. My great-grandfather	 was a remarkable man.	1	Fred	My great-grandfather
+168	Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father, Fred	 was twelve years old.	1	Fred	My father
+168	Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father, My father	 was twelve years old.	0	Fred	My father
+169	Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father, Fred	 was twelve months old.	0	Fred	My father
+169	Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father, My father	 was twelve months old.	1	Fred	My father
+170	In July, Kamtchatka declared war on Yakutsk. Since Yakutsk's army was much better equipped and ten times larger, Kamchatka	 were defeated within weeks.	1	Kamchatka	Yakutsk
+170	In July, Kamtchatka declared war on Yakutsk. Since Yakutsk's army was much better equipped and ten times larger, Yakutsk	 were defeated within weeks.	0	Kamchatka	Yakutsk
+171	In July, Kamtchatka declared war on Yakutsk. Since Yakutsk's army was much better equipped and ten times larger, Kamchatka	 were victorious within weeks.	0	Kamchatka	Yakutsk
+171	In July, Kamtchatka declared war on Yakutsk. Since Yakutsk's army was much better equipped and ten times larger, Yakutsk	 were victorious within weeks.	1	Kamchatka	Yakutsk
+172	Look! There is a minnow swimming right below that duck! The minnow	 had better get away to safety fast!	1	minnow	duck
+172	Look! There is a minnow swimming right below that duck! The duck	 had better get away to safety fast!	0	minnow	duck
+173	Look! There is a shark swimming right below that duck! The shark	 had better get away to safety fast!	0	shark	duck
+173	Look! There is a shark swimming right below that duck! The duck	 had better get away to safety fast!	1	shark	duck
+174	Archaeologists have concluded that humans lived in Laputa 20,000 years ago. Archaeologists	 hunted for evidence on the river banks.	1	Archaeologists	Prehistoric humans
+174	Archaeologists have concluded that humans lived in Laputa 20,000 years ago. Prehistoric humans	 hunted for evidence on the river banks.	0	Archaeologists	Prehistoric humans
+175	Archaeologists have concluded that humans lived in Laputa 20,000 years ago. Archaeologists	 hunted for deer on the river banks.	0	Archaeologists	Prehistoric humans
+175	Archaeologists have concluded that humans lived in Laputa 20,000 years ago. Prehistoric humans	 hunted for deer on the river banks.	1	Archaeologists	Prehistoric humans
+176	The scientists are studying three species of fish that have recently been found living in the Indian Ocean. The scientists	 began two years ago.	1	scientists	fish
+176	The scientists are studying three species of fish that have recently been found living in the Indian Ocean. The fish	 began two years ago.	0	scientists	fish
+177	The scientists are studying three species of fish that have recently been found living in the Indian Ocean. The scientists	 appeared two years ago.	0	scientists	fish
+177	The scientists are studying three species of fish that have recently been found living in the Indian Ocean. The fish	 appeared two years ago.	1	scientists	fish
+178	The journalists interviewed the stars of the new movie. The journalists	 were very persistent, so the interview lasted for a long time.	1	journalists	stars
+178	The journalists interviewed the stars of the new movie. The stars	 were very persistent, so the interview lasted for a long time.	0	journalists	stars
+179	The journalists interviewed the stars of the new movie. The journalists	 were very cooperative, so the interview lasted for a long time.	0	journalists	stars
+179	The journalists interviewed the stars of the new movie. The stars	 were very cooperative, so the interview lasted for a long time.	1	journalists	stars
+180	The police arrested all of the gang members. The police	 were trying to stop the drug trade in the neighborhood.	1	police	gang members
+180	The police arrested all of the gang members. The gang members	 were trying to stop the drug trade in the neighborhood.	0	police	gang members
+181	The police arrested all of the gang members. The police	 were trying to run the drug trade in the neighborhood.	0	police	gang members
+181	The police arrested all of the gang members. The gang members	 were trying to run the drug trade in the neighborhood.	1	police	gang members
+182	I put the cake away in the refrigerator. The cake	 has a lot of butter in it.	1	cake	refrigerator
+182	I put the cake away in the refrigerator. The refrigerator	 has a lot of butter in it.	0	cake	refrigerator
+183	I put the cake away in the refrigerator. The cake	 has a lot of leftovers in it.	0	cake	refrigerator
+183	I put the cake away in the refrigerator. The refrigerator	 has a lot of leftovers in it.	1	cake	refrigerator
+184	Sam broke both his ankles and he's walking with crutches. But a month or so from now the ankles	 should be better.	1	ankles	crutches
+184	Sam broke both his ankles and he's walking with crutches. But a month or so from now the crutches	 should be better.	0	ankles	crutches
+185	Sam broke both his ankles and he's walking with crutches. But a month or so from now the ankles	 should be unnecessary.	0	ankles	crutches
+185	Sam broke both his ankles and he's walking with crutches. But a month or so from now the crutches	 should be unnecessary.	1	ankles	crutches
+186	When the sponsors of the bill got to the town hall, they were surprised to find that the room was full of opponents. The sponsors	 were very much in the minority.	1	sponsors	opponents
+186	When the sponsors of the bill got to the town hall, they were surprised to find that the room was full of opponents. The opponents	 were very much in the minority.	0	sponsors	opponents
+187	When the sponsors of the bill got to the town hall, they were surprised to find that the room was full of opponents. The sponsors	 were very much in the majority.	0	sponsors	opponents
+187	When the sponsors of the bill got to the town hall, they were surprised to find that the room was full of opponents. The opponents	 were very much in the majority.	1	sponsors	opponents
+188	Everyone really loved the oatmeal cookies; only a few people liked the chocolate chip cookies. Next time, we should make more of the oatmeal	 cookies .	1	oatmeal	chocolate chip
+188	Everyone really loved the oatmeal cookies; only a few people liked the chocolate chip cookies. Next time, we should make more of the chocolate chip	 cookies .	0	oatmeal	chocolate chip
+189	Everyone really loved the oatmeal cookies; only a few people liked the chocolate chip cookies. Next time, we should make fewer of the oatmeal	 cookies .	0	oatmeal	chocolate chip
+189	Everyone really loved the oatmeal cookies; only a few people liked the chocolate chip cookies. Next time, we should make fewer of the chocolate chip	 cookies .	1	oatmeal	chocolate chip
+190	We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply not enough of copies of the newsletter	 .	1	copies of the newsletter	chairs
+190	We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply not enough of chairs	 .	0	copies of the newsletter	chairs
+191	We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply too many of copies of the newsletter	 .	0	copies of the newsletter	chairs
+191	We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply too many of chairs	 .	1	copies of the newsletter	chairs
+192	I stuck a pin through a carrot. When I pulled the pin out, the pin	 left a hole.	1	pin	carrot
+192	I stuck a pin through a carrot. When I pulled the pin out, the carrot	 left a hole.	0	pin	carrot
+193	I stuck a pin through a carrot. When I pulled the pin out, the pin	 had a hole.	0	pin	carrot
+193	I stuck a pin through a carrot. When I pulled the pin out, the carrot	 had a hole.	1	pin	carrot
+194	I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because the pen	 got full of coffee.	1	pen	coffee
+194	I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because the coffee	 got full of coffee.	0	pen	coffee
+195	I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because the pen	 got full of ink.	0	pen	coffee
+195	I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because the coffee	 got full of ink.	1	pen	coffee
+196	Steve follows Fred's example in everything. Steve	 admires him hugely.	1	Steve	Fred
+196	Steve follows Fred's example in everything. Fred	 admires him hugely.	0	Steve	Fred
+197	Steve follows Fred's example in everything. Steve	 influences him hugely.	0	Steve	Fred
+197	Steve follows Fred's example in everything. Fred	 influences him hugely.	1	Steve	Fred
+198	The table won't fit through the doorway because the table	 is too wide.	1	table	doorway
+198	The table won't fit through the doorway because the doorway	 is too wide.	0	table	doorway
+199	The table won't fit through the doorway because the table	 is too narrow.	0	table	doorway
+199	The table won't fit through the doorway because the doorway	 is too narrow.	1	table	doorway
+200	Grace was happy to trade me her sweater for my jacket. She thinks the sweater	 looks dowdy on her.	1	sweater	jacket
+200	Grace was happy to trade me her sweater for my jacket. She thinks the jacket	 looks dowdy on her.	0	sweater	jacket
+201	Grace was happy to trade me her sweater for my jacket. She thinks the sweater	 looks great on her.	0	sweater	jacket
+201	Grace was happy to trade me her sweater for my jacket. She thinks the jacket	 looks great on her.	1	sweater	jacket
+202	John hired Bill to take care of John	 .	1	John	Bill
+202	John hired Bill to take care of Bill	 .	0	John	Bill
+203	John hired himself out to Bill to take care of John	 .	0	John	Bill
+203	John hired himself out to Bill to take care of Bill	 .	1	John	Bill
+204	John promised Bill to leave, so an hour later John	 left.	1	John	Bill
+204	John promised Bill to leave, so an hour later Bill	 left.	0	John	Bill
+205	John ordered Bill to leave, so an hour later John	 left.	0	John	Bill
+205	John ordered Bill to leave, so an hour later Bill	 left.	1	John	Bill
+206	Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties Goodman	 faced in his research.	1	Goodman	Xenophanes
+206	Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties Xenophanes	 faced in his research.	0	Goodman	Xenophanes
+207	Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties Goodman	 faced in his childhood.	0	Goodman	Xenophanes
+207	Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties Xenophanes	 faced in his childhood.	1	Goodman	Xenophanes
+208	Emma's mother had died long ago, and Emma	 education had been managed by an excellent woman as governess.	1	Emma	Emma's mother
+208	Emma's mother had died long ago, and Emma's mother	 education had been managed by an excellent woman as governess.	0	Emma	Emma's mother
+209	Emma's mother had died long ago, and Emma	 place had been taken by an excellent woman as governess.	0	Emma	Emma's mother
+209	Emma's mother had died long ago, and Emma's mother	 place had been taken by an excellent woman as governess.	1	Emma	Emma's mother
+210	Jane knocked on Susan's door but Jane	 did not get an answer.	1	Jane	Susan
+210	Jane knocked on Susan's door but Susan	 did not get an answer.	0	Jane	Susan
+211	Jane knocked on Susan's door but Jane	 did not answer.	0	Jane	Susan
+211	Jane knocked on Susan's door but Susan	 did not answer.	1	Jane	Susan
+212	Joe paid the detective after Joe	 received the final report on the case.	1	Joe	the detective
+212	Joe paid the detective after the detective	 received the final report on the case.	0	Joe	the detective
+213	Joe paid the detective after Joe	 delivered the final report on the case.	0	Joe	the detective
+213	Joe paid the detective after the detective	 delivered the final report on the case.	1	Joe	the detective
+214	Beth didn't get angry with Sally, who had cut her off, because Beth	 stopped and counted to ten.	1	Beth	Sally
+214	Beth didn't get angry with Sally, who had cut her off, because Sally	 stopped and counted to ten.	0	Beth	Sally
+215	Beth didn't get angry with Sally, who had cut her off, because Beth	 stopped and apologized.	0	Beth	Sally
+215	Beth didn't get angry with Sally, who had cut her off, because Sally	 stopped and apologized.	1	Beth	Sally
+216	Jim signaled the barman and gestured toward Jim	 empty glass	1	Jim	The barman
+216	Jim signaled the barman and gestured toward The barman	 empty glass	0	Jim	The barman
+217	Jim signaled the barman and gestured toward Jim	 bathroom key.	0	Jim	The barman
+217	Jim signaled the barman and gestured toward The barman	 bathroom key.	1	Jim	The barman
+218	Dan took the rear seat while Bill claimed the front because Dan	" ""Dibs!"" was slow."	1	Dan	Bill
+218	Dan took the rear seat while Bill claimed the front because Bill	" ""Dibs!"" was slow."	0	Dan	Bill
+219	Dan took the rear seat while Bill claimed the front because Dan	" ""Dibs!"" was quicker."	0	Dan	Bill
+219	Dan took the rear seat while Bill claimed the front because Bill	" ""Dibs!"" was quicker."	1	Dan	Bill
+220	"Tom said ""Check"" to Ralph as he moved Tom"	 bishop.	1	Tom	Ralph
+220	"Tom said ""Check"" to Ralph as he moved Ralph"	 bishop.	0	Tom	Ralph
+221	"Tom said ""Check"" to Ralph as he took Tom"	 bishop.	0	Tom	Ralph
+221	"Tom said ""Check"" to Ralph as he took Ralph"	 bishop.	1	Tom	Ralph
+222	As Andrea in the crop duster passed over Susan, Andrea	 could see the landing strip.	1	Andrea	Susan
+222	As Andrea in the crop duster passed over Susan, Susan	 could see the landing strip.	0	Andrea	Susan
+223	As Andrea in the crop duster passed over Susan, Andrea	 could see the landing gear.	0	Andrea	Susan
+223	As Andrea in the crop duster passed over Susan, Susan	 could see the landing gear.	1	Andrea	Susan
+224	Tom gave Ralph a lift to school so Tom	 wouldn't have to drive alone.	1	Tom	Ralph
+224	Tom gave Ralph a lift to school so Ralph	 wouldn't have to drive alone.	0	Tom	Ralph
+225	Tom gave Ralph a lift to school so Tom	 wouldn't have to walk.	0	Tom	Ralph
+225	Tom gave Ralph a lift to school so Ralph	 wouldn't have to walk.	1	Tom	Ralph
+226	Bill passed the half-empty plate to John because Bill	 was full.	1	Bill	John
+226	Bill passed the half-empty plate to John because John	 was full.	0	Bill	John
+227	Bill passed the half-empty plate to John because Bill	 was hungry.	0	Bill	John
+227	Bill passed the half-empty plate to John because John	 was hungry.	1	Bill	John
+228	Bill passed the gameboy to John because Bill	 turn was over.	1	Bill	John
+228	Bill passed the gameboy to John because John	 turn was over.	0	Bill	John
+229	Bill passed the gameboy to John because Bill	 turn was next.	0	Bill	John
+229	Bill passed the gameboy to John because John	 turn was next.	1	Bill	John
+230	The man lifted the boy onto the man	 shoulders.	1	man	boy
+230	The man lifted the boy onto the boy	 shoulders.	0	man	boy
+231	The man lifted the boy onto the man	 bunk bed.	0	man	boy
+231	The man lifted the boy onto the boy	 bunk bed.	1	man	boy
+232	Stretching the woman	 back, the woman smiled at the girl.	1	woman	girl
+232	Stretching the girl	 back, the woman smiled at the girl.	0	woman	girl
+233	Patting the woman	 back, the woman smiled at the girl.	0	woman	girl
+233	Patting the girl	 back, the woman smiled at the girl.	1	woman	girl
+234	Billy cried because Toby wouldn't accept Billy	 toy.	1	Billy	Toby
+234	Billy cried because Toby wouldn't accept Toby	 toy.	0	Billy	Toby
+235	Billy cried because Toby wouldn't share Billy	 toy.	0	Billy	Toby
+235	Billy cried because Toby wouldn't share Toby	 toy.	1	Billy	Toby
+236	Lily spoke to Donna, breaking Lily	 silence.	1	Lily	Donna
+236	Lily spoke to Donna, breaking Donna	 silence.	0	Lily	Donna
+237	Lily spoke to Donna, breaking Lily	 concentration.	0	Lily	Donna
+237	Lily spoke to Donna, breaking Donna	 concentration.	1	Lily	Donna
+238	When Tommy dropped his ice cream, Timmy giggled, so father gave Tommy	 a sympathetic look.	1	Tommy	Timmy
+238	When Tommy dropped his ice cream, Timmy giggled, so father gave Timmy	 a sympathetic look.	0	Tommy	Timmy
+239	When Tommy dropped his ice cream, Timmy giggled, so father gave Tommy	 a stern look.	0	Tommy	Timmy
+239	When Tommy dropped his ice cream, Timmy giggled, so father gave Timmy	 a stern look.	1	Tommy	Timmy
+240	As Ollie carried Tommy up the long winding steps, Ollie	 legs ached.	1	Ollie	Tommy
+240	As Ollie carried Tommy up the long winding steps, Tommy	 legs ached.	0	Ollie	Tommy
+241	As Ollie carried Tommy up the long winding steps, Ollie	 legs dangled.	0	Ollie	Tommy
+241	As Ollie carried Tommy up the long winding steps, Tommy	 legs dangled.	1	Ollie	Tommy
+242	The father carried the sleeping boy in the father	 arms	1	father	boy
+242	The father carried the sleeping boy in the boy	 arms	0	father	boy
+243	The father carried the sleeping boy in the father	 bassinet.	0	father	boy
+243	The father carried the sleeping boy in the boy	 bassinet.	1	father	boy
+244	The woman held the girl against the woman	 chest	1	woman	girl
+244	The woman held the girl against the girl	 chest	0	woman	girl
+245	The woman held the girl against the woman	 will.	0	woman	girl
+245	The woman held the girl against the girl	 will.	1	woman	girl
+246	Pam's parents came home and found her having sex with her boyfriend, Paul. Pam's parents	 were furious about it.	1	Pam's parents	Pam and Paul
+246	Pam's parents came home and found her having sex with her boyfriend, Paul. Pam and Paul	 were furious about it.	0	Pam's parents	Pam and Paul
+247	Pam's parents came home and found her having sex with her boyfriend, Paul. Pam's parents	 were embarrassed about it.	0	Pam's parents	Pam and Paul
+247	Pam's parents came home and found her having sex with her boyfriend, Paul. Pam and Paul	 were embarrassed about it.	1	Pam's parents	Pam and Paul
+248	Dr. Adams informed Kate that Dr. Adams	 had retired and presented several options for future treatment.	1	Dr. Adams	Kate
+248	Dr. Adams informed Kate that Kate	 had retired and presented several options for future treatment.	0	Dr. Adams	Kate
+249	Dr. Adams informed Kate that Dr. Adams	 had cancer and presented several options for future treatment.	0	Dr. Adams	Kate
+249	Dr. Adams informed Kate that Kate	 had cancer and presented several options for future treatment.	1	Dr. Adams	Kate
+250	Dan had to stop Bill from toying with the injured bird. Dan	 is very compassionate.	1	Dan	Bill
+250	Dan had to stop Bill from toying with the injured bird. Bill	 is very compassionate.	0	Dan	Bill
+251	Dan had to stop Bill from toying with the injured bird. Dan	 is very cruel.	0	Dan	Bill
+251	Dan had to stop Bill from toying with the injured bird. Bill	 is very cruel.	1	Dan	Bill
+252	George got free tickets to the play, but he gave them to Eric, even though George	 was particularly eager to see it.	1	George	Eric
+252	George got free tickets to the play, but he gave them to Eric, even though Eric	 was particularly eager to see it.	0	George	Eric
+253	George got free tickets to the play, but he gave them to Eric, because George	 was particularly eager to see it.	0	George	Eric
+253	George got free tickets to the play, but he gave them to Eric, because Eric	 was particularly eager to see it.	1	George	Eric
+254	George got free tickets to the play, but he gave them to Eric, because George	 was not particularly eager to see it.	1	George	Eric
+254	George got free tickets to the play, but he gave them to Eric, because Eric	 was not particularly eager to see it.	0	George	Eric
+255	Jane gave Joan candy because Jane	 wasn't hungry.	1	Jane	Joan
+255	Jane gave Joan candy because Joan	 wasn't hungry.	0	Jane	Joan
+256	Jane gave Joan candy because Jane	 was hungry.	0	Jane	Joan
+256	Jane gave Joan candy because Joan	 was hungry.	1	Jane	Joan
+257	I tried to paint a picture of an orchard, with lemons in the lemon trees, but lemons	 came out looking more like light bulbs.	1	lemons	lemon trees
+257	I tried to paint a picture of an orchard, with lemons in the lemon trees, but lemon trees	 came out looking more like light bulbs.	0	lemons	lemon trees
+258	I tried to paint a picture of an orchard, with lemons in the lemon trees, but lemons	 came out looking more like telephone poles.	0	lemons	lemon trees
+258	I tried to paint a picture of an orchard, with lemons in the lemon trees, but lemon trees	 came out looking more like telephone poles.	1	lemons	lemon trees
+259	James asked Robert for a favor but James	 was refused.	1	James	Robert
+259	James asked Robert for a favor but Robert	 was refused.	0	James	Robert
+260	James asked Robert for a favor but James	 refused.	0	James	Robert
+260	James asked Robert for a favor but Robert	 refused.	1	James	Robert
+261	Kirilov ceded the presidency to Shatov because Kirilov	 was less popular.	1	Kirilov	Shatov
+261	Kirilov ceded the presidency to Shatov because Shatov	 was less popular.	0	Kirilov	Shatov
+262	Kirilov ceded the presidency to Shatov because Kirilov	 was more popular.	0	Kirilov	Shatov
+262	Kirilov ceded the presidency to Shatov because Shatov	 was more popular.	1	Kirilov	Shatov
+263	Emma did not pass the ball to Janie although Emma	 saw that she was open.	1	Emma	Janie
+263	Emma did not pass the ball to Janie although Janie	 saw that she was open.	0	Emma	Janie
+264	Emma did not pass the ball to Janie although Emma	 was open.	0	Emma	Janie
+264	Emma did not pass the ball to Janie although Janie	 was open.	1	Emma	Janie
+265	I put the butterfly wing on the table and the butterfly wing	 broke.	1	butterfly wing	table
+265	I put the butterfly wing on the table and the table	 broke.	0	butterfly wing	table
+266	I put the heavy book on the table and the heavy book	 broke.	0	heavy book	table
+266	I put the heavy book on the table and the table	 broke.	1	heavy book	table
+267	Madonna fired her trainer because Madonna	 couldn't stand her boyfriend.	1	Madonna	The trainer
+267	Madonna fired her trainer because The trainer	 couldn't stand her boyfriend.	0	Madonna	The trainer
+268	Madonna fired her trainer because Madonna	 slept with her boyfriend.	0	Madonna	The trainer
+268	Madonna fired her trainer because The trainer	 slept with her boyfriend.	1	Madonna	The trainer
+269	Madonna fired her trainer because she slept with Madonna	 boyfriend.	1	Madonna	The trainer
+269	Madonna fired her trainer because she slept with The trainer	 boyfriend.	0	Madonna	The trainer
+270	Madonna fired her trainer because she couldn't stand Madonna	 boyfriend.	0	Madonna	The trainer
+270	Madonna fired her trainer because she couldn't stand The trainer	 boyfriend.	1	Madonna	The trainer
+271	Carol believed that Rebecca suspected that Carol	 had stolen the watch.	1	Carol	Rebecca
+271	Carol believed that Rebecca suspected that Rebecca	 had stolen the watch.	0	Carol	Rebecca
+272	Carol believed that Rebecca regretted that Carol	 had stolen the watch.	0	Carol	Rebecca
+272	Carol believed that Rebecca regretted that Rebecca	 had stolen the watch.	1	Carol	Rebecca
