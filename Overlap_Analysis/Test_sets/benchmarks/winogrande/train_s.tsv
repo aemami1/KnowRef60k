@@ -1,0 +1,1281 @@
+index	sentence1	sentence2	label	candidate0	candidate1
+0	Ian volunteered to eat Dennis's menudo after already having a bowl because Ian	 despised eating intestine.	0	Ian	Dennis
+0	Ian volunteered to eat Dennis's menudo after already having a bowl because Dennis	 despised eating intestine.	1	Ian	Dennis
+1	Ian volunteered to eat Dennis's menudo after already having a bowl because Ian	 enjoyed eating intestine.	1	Ian	Dennis
+1	Ian volunteered to eat Dennis's menudo after already having a bowl because Dennis	 enjoyed eating intestine.	0	Ian	Dennis
+2	He never comes to my home, but I always go to his house because the home	 is smaller.	1	home	house
+2	He never comes to my home, but I always go to his house because the house	 is smaller.	0	home	house
+3	He never comes to my home, but I always go to his house because the home	 is bigger.	0	home	house
+3	He never comes to my home, but I always go to his house because the house	 is bigger.	1	home	house
+4	Kyle doesn't wear leg warmers to bed, while Logan almost always does. Kyle	 is more likely to live in a colder climate.	0	Kyle	Logan
+4	Kyle doesn't wear leg warmers to bed, while Logan almost always does. Logan	 is more likely to live in a colder climate.	1	Kyle	Logan
+5	Kyle doesn't wear leg warmers to bed, while Logan almost always does. Kyle	 is more likely to live in a warmer climate.	1	Kyle	Logan
+5	Kyle doesn't wear leg warmers to bed, while Logan almost always does. Logan	 is more likely to live in a warmer climate.	0	Kyle	Logan
+6	The GPS and map helped me navigate home.  I got lost when the GPS	 got turned upside down.	0	GPS	map
+6	The GPS and map helped me navigate home.  I got lost when the map	 got turned upside down.	1	GPS	map
+7	The GPS and map helped me navigate home.  I got lost when the GPS	 got turned off.	1	GPS	map
+7	The GPS and map helped me navigate home.  I got lost when the map	 got turned off.	0	GPS	map
+8	Emily looked up and saw Patricia racing by overhead, as Emily	 was on the ramp .	0	Emily	Patricia
+8	Emily looked up and saw Patricia racing by overhead, as Patricia	 was on the ramp .	1	Emily	Patricia
+9	Emily looked up and saw Patricia racing by overhead, as Emily	 was under the ramp .	1	Emily	Patricia
+9	Emily looked up and saw Patricia racing by overhead, as Patricia	 was under the ramp .	0	Emily	Patricia
+10	The treasury workers took the gold bars off of the trolley and stacked them in the safe until the safe	 was empty.	0	safe	trolley
+10	The treasury workers took the gold bars off of the trolley and stacked them in the safe until the trolley	 was empty.	1	safe	trolley
+11	The treasury workers took the gold bars off of the trolley and stacked them in the safe until the safe	 was full.	1	safe	trolley
+11	The treasury workers took the gold bars off of the trolley and stacked them in the safe until the trolley	 was full.	0	safe	trolley
+12	He thought he had time to take the scenic route to the store, but the route	 was under construction.	1	route	store
+12	He thought he had time to take the scenic route to the store, but the store	 was under construction.	0	route	store
+13	He thought he had time to take the scenic route to the store, but the route	 was closed early.	0	route	store
+13	He thought he had time to take the scenic route to the store, but the store	 was closed early.	1	route	store
+14	She remembered how annoying it is to dust her wood chair so she bought a plastic table instead.  Cleaning the chair	 is quick.	0	chair	table
+14	She remembered how annoying it is to dust her wood chair so she bought a plastic table instead.  Cleaning the table	 is quick.	1	chair	table
+15	She remembered how annoying it is to dust her wood chair so she bought a plastic table instead.  Cleaning the chair	 is time consuming.	1	chair	table
+15	She remembered how annoying it is to dust her wood chair so she bought a plastic table instead.  Cleaning the table	 is time consuming.	0	chair	table
+16	To overcome behavioural bias, we need to focus more on changing the conscious actions instead of the unconscious actions because the unconscious	 actions are voluntary.	0	unconscious	conscious
+16	To overcome behavioural bias, we need to focus more on changing the conscious actions instead of the unconscious actions because the conscious	 actions are voluntary.	1	unconscious	conscious
+17	To overcome behavioural bias, we need to focus more on changing the conscious actions instead of the unconscious actions because the unconscious	 actions are involuntary.	1	unconscious	conscious
+17	To overcome behavioural bias, we need to focus more on changing the conscious actions instead of the unconscious actions because the conscious	 actions are involuntary.	0	unconscious	conscious
+18	Megan has a lot less money than Jessica because Megan	 just bought the winning lottery ticket.	0	Megan	Jessica
+18	Megan has a lot less money than Jessica because Jessica	 just bought the winning lottery ticket.	1	Megan	Jessica
+19	Megan has a lot more money than Jessica because Megan	 just bought the winning lottery ticket.	1	Megan	Jessica
+19	Megan has a lot more money than Jessica because Jessica	 just bought the winning lottery ticket.	0	Megan	Jessica
+20	I picked up a bag of peanuts and raisins for a snack. I wanted a sweeter snack out so I stored the raisins	 for now.	0	raisins	peanuts
+20	I picked up a bag of peanuts and raisins for a snack. I wanted a sweeter snack out so I stored the peanuts	 for now.	1	raisins	peanuts
+21	I picked up a bag of peanuts and raisins for a snack. I wanted a sweeter snack out so I ate the raisins	 for now.	1	raisins	peanuts
+21	I picked up a bag of peanuts and raisins for a snack. I wanted a sweeter snack out so I ate the peanuts	 for now.	0	raisins	peanuts
+22	Craig really loves to clean all the time but Derrick does not because Craig	 is very neat.	1	Craig	Derrick
+22	Craig really loves to clean all the time but Derrick does not because Derrick	 is very neat.	0	Craig	Derrick
+23	Craig really loves to clean all the time but Derrick does not because Craig	 is very untidy.	0	Craig	Derrick
+23	Craig really loves to clean all the time but Derrick does not because Derrick	 is very untidy.	1	Craig	Derrick
+24	Dennis gave his hammer to Robert so he could hammer the nails. Dennis	 had plenty of hammers.	1	Dennis	Robert
+24	Dennis gave his hammer to Robert so he could hammer the nails. Robert	 had plenty of hammers.	0	Dennis	Robert
+25	Dennis gave his hammer to Robert so he could hammer the nails. Dennis	 had no hammers.	0	Dennis	Robert
+25	Dennis gave his hammer to Robert so he could hammer the nails. Robert	 had no hammers.	1	Dennis	Robert
+26	The party was more interesting and uplifing than the funeral because the party	 was rigid.	0	party	funeral
+26	The party was more interesting and uplifing than the funeral because the funeral	 was rigid.	1	party	funeral
+27	The party was more interesting and uplifting than the funeral because the party	 was flexible.	1	party	funeral
+27	The party was more interesting and uplifting than the funeral because the funeral	 was flexible.	0	party	funeral
+28	The geese prefer to nest in the fields rather than the forests because in the fields	 predators are more hidden.	0	fields	forests
+28	The geese prefer to nest in the fields rather than the forests because in the forests	 predators are more hidden.	1	fields	forests
+29	The geese prefer to nest in the fields rather than the forests because in the fields	 predators are very visible.	1	fields	forests
+29	The geese prefer to nest in the fields rather than the forests because in the forests	 predators are very visible.	0	fields	forests
+30	The plant took up too much room in the urn, because the plant	 was small.	0	plant	urn
+30	The plant took up too much room in the urn, because the urn	 was small.	1	plant	urn
+31	The plant took up too much room in the urn, because the plant	 was large.	1	plant	urn
+31	The plant took up too much room in the urn, because the urn	 was large.	0	plant	urn
+32	I installed a new bird house outside above the ground, but had to prop it up higher away from my cat since the bird house	 was too low.	1	bird house	ground
+32	I installed a new bird house outside above the ground, but had to prop it up higher away from my cat since the ground	 was too low.	0	bird house	ground
+33	I installed a new bird house outside above the ground, but had to prop it up higher away from my cat since the bird house	 was too high.	0	bird house	ground
+33	I installed a new bird house outside above the ground, but had to prop it up higher away from my cat since the ground	 was too high.	1	bird house	ground
+34	I prefer spa to the pool and I find the cold water in the spa	  not relaxing at the end of the day.	0	spa	pool
+34	I prefer spa to the pool and I find the cold water in the pool	  not relaxing at the end of the day.	1	spa	pool
+35	I prefer spa to the pool and I find the hot water in the spa	 relaxing at the end of the day.	1	spa	pool
+35	I prefer spa to the pool and I find the hot water in the pool	 relaxing at the end of the day.	0	spa	pool
+36	Megan said it would be liberating to go out without makeup like Elena does. Megan	 never wore makeup when she left the house.	0	Megan	Elena
+36	Megan said it would be liberating to go out without makeup like Elena does. Elena	 never wore makeup when she left the house.	1	Megan	Elena
+37	Megan said it would be liberating to go out without makeup like Elena does. Megan	 always wore makeup when she left the house.	1	Megan	Elena
+37	Megan said it would be liberating to go out without makeup like Elena does. Elena	 always wore makeup when she left the house.	0	Megan	Elena
+38	Donald was richer than Leslie was because companies had found oil on the property of Donald	 .	1	Donald	Leslie
+38	Donald was richer than Leslie was because companies had found oil on the property of Leslie	 .	0	Donald	Leslie
+39	Donald was poorer than Leslie was because companies had found oil on the property of Donald	 .	0	Donald	Leslie
+39	Donald was poorer than Leslie was because companies had found oil on the property of Leslie	 .	1	Donald	Leslie
+40	Feeling a draft, William asked Neil to please close the front door because William	 was closer.	0	William	Neil
+40	Feeling a draft, William asked Neil to please close the front door because Neil	 was closer.	1	William	Neil
+41	Feeling a draft, William asked Neil to please close the front door because William	 was farther away.	1	William	Neil
+41	Feeling a draft, William asked Neil to please close the front door because Neil	 was farther away.	0	William	Neil
+42	Lindsey loved the taste of duck but Megan liked chicken better. Lindsey	 ordered the kung pao chicken for dinner.	0	Lindsey	Megan
+42	Lindsey loved the taste of duck but Megan liked chicken better. Megan	 ordered the kung pao chicken for dinner.	1	Lindsey	Megan
+43	Lindsey loved the taste of duck but Megan liked chicken better. Lindsey	 ordered the Peking Duck for dinner.	1	Lindsey	Megan
+43	Lindsey loved the taste of duck but Megan liked chicken better. Megan	 ordered the Peking Duck for dinner.	0	Lindsey	Megan
+44	Elena would grab their inventory in the back of the store for Megan to sell each time because Elena	 was a loyal customer.	0	Elena	Megan
+44	Elena would grab their inventory in the back of the store for Megan to sell each time because Megan	 was a loyal customer.	1	Elena	Megan
+45	Elena would grab their inventory in the back of the store for Megan to sell each time because Elena	 was a businessperson.	1	Elena	Megan
+45	Elena would grab their inventory in the back of the store for Megan to sell each time because Megan	 was a businessperson.	0	Elena	Megan
+46	Kenneth asked Dennis what time the dance was being held, but Kenneth	 had forgotten.	0	Kenneth	Dennis
+46	Kenneth asked Dennis what time the dance was being held, but Dennis	 had forgotten.	1	Kenneth	Dennis
+47	Kenneth asked Dennis what time the dance was being held, because Kenneth	 had forgotten.	1	Kenneth	Dennis
+47	Kenneth asked Dennis what time the dance was being held, because Dennis	 had forgotten.	0	Kenneth	Dennis
+48	Eric was teaching all of the proper stretches to Neil, because Eric	 was using them to get paid.	1	Eric	Neil
+48	Eric was teaching all of the proper stretches to Neil, because Neil	 was using them to get paid.	0	Eric	Neil
+49	Eric was teaching all of the proper stretches to Neil, because Eric	 was using them to get in shape.	0	Eric	Neil
+49	Eric was teaching all of the proper stretches to Neil, because Neil	 was using them to get in shape.	1	Eric	Neil
+50	When buying a home, Patricia doesn't have as much money to spend as Tanya, so Patricia	 buys a 5 bedroom house.	0	Patricia	Tanya
+50	When buying a home, Patricia doesn't have as much money to spend as Tanya, so Tanya	 buys a 5 bedroom house.	1	Patricia	Tanya
+51	When buying a home, Patricia doesn't have as much money to spend as Tanya, so Patricia	 buys a 1 bedroom house.	1	Patricia	Tanya
+51	When buying a home, Patricia doesn't have as much money to spend as Tanya, so Tanya	 buys a 1 bedroom house.	0	Patricia	Tanya
+52	I wanted to buy small tweezer to fit in my wristlet, but they still didn't fit. The tweezer	 were too small.	0	tweezer	wristlet
+52	I wanted to buy small tweezer to fit in my wristlet, but they still didn't fit. The wristlet	 were too small.	1	tweezer	wristlet
+53	I wanted to buy small tweezer to fit in my wristlet, but they still didn't fit. The tweezer	 were too big.	1	tweezer	wristlet
+53	I wanted to buy small tweezer to fit in my wristlet, but they still didn't fit. The wristlet	 were too big.	0	tweezer	wristlet
+54	Handling emergencies was never very difficult for Kevin but it was for Nelson because Kevin	 could remain calm under pressure.	1	Kevin	Nelson
+54	Handling emergencies was never very difficult for Kevin but it was for Nelson because Nelson	 could remain calm under pressure.	0	Kevin	Nelson
+55	Handling emergencies was never very difficult for Kevin but it was for Nelson because Kevin	 wasn't able to remain calm under pressure.	0	Kevin	Nelson
+55	Handling emergencies was never very difficult for Kevin but it was for Nelson because Nelson	 wasn't able to remain calm under pressure.	1	Kevin	Nelson
+56	Emily asked her sister Sarah if she needed any tampons or pads from the store, even though Emily	 didn't because she had switched to using menstrual cups.	1	Emily	Sarah
+56	Emily asked her sister Sarah if she needed any tampons or pads from the store, even though Sarah	 didn't because she had switched to using menstrual cups.	0	Emily	Sarah
+57	Emily asked her sister Sarah if she needed any tampons or pads from the store, but Emily	 didn't because she had switched to using menstrual cups.	0	Emily	Sarah
+57	Emily asked her sister Sarah if she needed any tampons or pads from the store, but Sarah	 didn't because she had switched to using menstrual cups.	1	Emily	Sarah
+58	Elena had a horrendous coughing fit from the pollen, unlike Tanya , since Elena	 was immune to allergies.	0	Elena	Tanya
+58	Elena had a horrendous coughing fit from the pollen, unlike Tanya , since Tanya	 was immune to allergies.	1	Elena	Tanya
+59	Elena had a horrendous coughing fit from the pollen, unlike Tanya , since Elena	 was susceptible to allergies.	1	Elena	Tanya
+59	Elena had a horrendous coughing fit from the pollen, unlike Tanya , since Tanya	 was susceptible to allergies.	0	Elena	Tanya
+60	Rebecca picked up Amy to carpool to work every day, so Rebecca	 asked for some gas money.	1	Rebecca	Amy
+60	Rebecca picked up Amy to carpool to work every day, so Amy	 asked for some gas money.	0	Rebecca	Amy
+61	Rebecca picked up Amy to carpool to work every day, so Rebecca	 offered some gas money.	0	Rebecca	Amy
+61	Rebecca picked up Amy to carpool to work every day, so Amy	 offered some gas money.	1	Rebecca	Amy
+62	Jennifer discreetly admitted to Erin that she didn't know how to apply eye shadow.  Jennifer	 was reassuring.	0	Jennifer	Erin
+62	Jennifer discreetly admitted to Erin that she didn't know how to apply eye shadow.  Erin	 was reassuring.	1	Jennifer	Erin
+63	Jennifer discreetly admitted to Erin that she didn't know how to apply eye shadow.  Jennifer	 was embarrassed.	1	Jennifer	Erin
+63	Jennifer discreetly admitted to Erin that she didn't know how to apply eye shadow.  Erin	 was embarrassed.	0	Jennifer	Erin
+64	The employees threw a party and drank so much alcohol that they could not go into work the next day. The party	 was loud.	1	party	alcohol
+64	The employees threw a party and drank so much alcohol that they could not go into work the next day. The alcohol	 was loud.	0	party	alcohol
+65	The employees threw a party and drank so much alcohol that they could not go into work the next day. The party	 was copious.	0	party	alcohol
+65	The employees threw a party and drank so much alcohol that they could not go into work the next day. The alcohol	 was copious.	1	party	alcohol
+66	Once in Poland, Dennis enjoyed the trip more than Jason because Dennis	 had a shallow understanding of the Polish language.	0	Dennis	Jason
+66	Once in Poland, Dennis enjoyed the trip more than Jason because Jason	 had a shallow understanding of the Polish language.	1	Dennis	Jason
+67	Once in Poland, Dennis enjoyed the trip more than Jason because Dennis	 had a deeper understanding of the Polish language.	1	Dennis	Jason
+67	Once in Poland, Dennis enjoyed the trip more than Jason because Jason	 had a deeper understanding of the Polish language.	0	Dennis	Jason
+68	The house Benjamin designed for Joseph was beautiful, so Benjamin	 used it in his portfolio.	1	Benjamin	Joseph
+68	The house Benjamin designed for Joseph was beautiful, so Joseph	 used it in his portfolio.	0	Benjamin	Joseph
+69	The house designed for Benjamin by Joseph was beautiful, so Benjamin	 used it in his portfolio.	0	Benjamin	Joseph
+69	The house designed for Benjamin by Joseph was beautiful, so Joseph	 used it in his portfolio.	1	Benjamin	Joseph
+70	John poured the entire bowl of fish into the hot pan on the stove until the bowl	 was full.	0	bowl	pan
+70	John poured the entire bowl of fish into the hot pan on the stove until the pan	 was full.	1	bowl	pan
+71	John poured the entire bowl of fish into the hot pan on the stove until the bowl	 was empty.	1	bowl	pan
+71	John poured the entire bowl of fish into the hot pan on the stove until the pan	 was empty.	0	bowl	pan
+72	Sue wanted to practice meditation so she went to the gym with her class but the class	 was too busy.	0	class	gym
+72	Sue wanted to practice meditation so she went to the gym with her class but the gym	 was too busy.	1	class	gym
+73	Sue wanted to practice meditation so she went to the gym with her class but the class	 was too late.	1	class	gym
+73	Sue wanted to practice meditation so she went to the gym with her class but the gym	 was too late.	0	class	gym
+74	Natalie thinks emeralds are beautiful gems but Betty does not. Natalie	 bought a necklace featuring a big diamond.	0	Natalie	Betty
+74	Natalie thinks emeralds are beautiful gems but Betty does not. Betty	 bought a necklace featuring a big diamond.	1	Natalie	Betty
+75	Natalie thinks emeralds are beautiful gems but Betty does not. Natalie	 bought a necklace featuring a big emerald.	1	Natalie	Betty
+75	Natalie thinks emeralds are beautiful gems but Betty does not. Betty	 bought a necklace featuring a big emerald.	0	Natalie	Betty
+76	Aaron hung his hunting rifle over the hearth after the most recent trip ended up with Benjamin making the fatal shot.  Aaron	 was happy for him.	1	Aaron	Benjamin
+76	Aaron hung his hunting rifle over the hearth after the most recent trip ended up with Benjamin making the fatal shot.  Benjamin	 was happy for him.	0	Aaron	Benjamin
+77	Aaron hung his hunting rifle over the hearth after the most recent trip ended up with Benjamin making the fatal shot.  Aaron	 was happy for himself.	0	Aaron	Benjamin
+77	Aaron hung his hunting rifle over the hearth after the most recent trip ended up with Benjamin making the fatal shot.  Benjamin	 was happy for himself.	1	Aaron	Benjamin
+78	Kevin is far more physically versatile than Nick, because Kevin	 is an injured athlete in bed.	0	Kevin	Nick
+78	Kevin is far more physically versatile than Nick, because Nick	 is an injured athlete in bed.	1	Kevin	Nick
+79	Kevin is far more physically versatile than Nick, because Kevin	 is a seasoned athlete in training.	1	Kevin	Nick
+79	Kevin is far more physically versatile than Nick, because Nick	 is a seasoned athlete in training.	0	Kevin	Nick
+80	Adam put handwash only clothes in the washer but Aaron washed them by hand as Adam	 was lazy.	1	Adam	Aaron
+80	Adam put handwash only clothes in the washer but Aaron washed them by hand as Aaron	 was lazy.	0	Adam	Aaron
+81	Adam put handwash only clothes in the washer but Aaron washed them by hand as Adam	 was conscientious.	0	Adam	Aaron
+81	Adam put handwash only clothes in the washer but Aaron washed them by hand as Aaron	 was conscientious.	1	Adam	Aaron
+82	Kyle loves the flavor of apricots but Matthew likes plums better. Kyle	 couldn't wait for plum season.	0	Kyle	Matthew
+82	Kyle loves the flavor of apricots but Matthew likes plums better. Matthew	 couldn't wait for plum season.	1	Kyle	Matthew
+83	Kyle loves the flavor of apricots but Matthew likes plums better. Kyle	 couldn't wait for apricot season.	1	Kyle	Matthew
+83	Kyle loves the flavor of apricots but Matthew likes plums better. Matthew	 couldn't wait for apricot season.	0	Kyle	Matthew
+84	Derrick was unable to stay focused at work unlike Justin, because Derrick	 had a fun job.	0	Derrick	Justin
+84	Derrick was unable to stay focused at work unlike Justin, because Justin	 had a fun job.	1	Derrick	Justin
+85	Derrick was unable to stay focused at work unlike Justin, because Derrick	 had a boring job.	1	Derrick	Justin
+85	Derrick was unable to stay focused at work unlike Justin, because Justin	 had a boring job.	0	Derrick	Justin
+86	Avery was debating on taking up German instead of Latin, because the Latin	 was newer.	0	Latin	German
+86	Avery was debating on taking up German instead of Latin, because the German	 was newer.	1	Latin	German
+87	Avery was debating on taking up German instead of Latin, because the Latin	 was old.	1	Latin	German
+87	Avery was debating on taking up German instead of Latin, because the German	 was old.	0	Latin	German
+88	Kayla dated many more people at once than Betty, because Kayla	 was in an open relationship.	0	Kayla	Betty
+88	Kayla dated many more people at once than Betty, because Betty	 was in an open relationship.	1	Kayla	Betty
+89	Kayla dated many more people at once than Betty, because Kayla	 was in an exclusive relationship.	1	Kayla	Betty
+89	Kayla dated many more people at once than Betty, because Betty	 was in an exclusive relationship.	0	Kayla	Betty
+90	Steven proudly showed Michael the mangoes he grew himself all this summer.  Steven	 is hardworking.	1	Steven	Michael
+90	Steven proudly showed Michael the mangoes he grew himself all this summer.  Michael	 is hardworking.	0	Steven	Michael
+91	Steven proudly showed Michael the mangoes he grew himself all this summer.  Steven	 is astonished.	0	Steven	Michael
+91	Steven proudly showed Michael the mangoes he grew himself all this summer.  Michael	 is astonished.	1	Steven	Michael
+92	The letter that Joel has written is being read by Adam, so Joel	 is the writer.	1	Joel	Adam
+92	The letter that Joel has written is being read by Adam, so Adam	 is the writer.	0	Joel	Adam
+93	The letter that Joel has written is being read by Adam, so Joel	 is the editor.	0	Joel	Adam
+93	The letter that Joel has written is being read by Adam, so Adam	 is the editor.	1	Joel	Adam
+94	Kyle was more comfortable speaking in front of large groups than Nick, because Kyle	 had taken public speaking courses in college.	1	Kyle	Nick
+94	Kyle was more comfortable speaking in front of large groups than Nick, because Nick	 had taken public speaking courses in college.	0	Kyle	Nick
+95	Kyle was more comfortable speaking in front of large groups than Nick, because Kyle	 was not able to take public speaking courses in college.	0	Kyle	Nick
+95	Kyle was more comfortable speaking in front of large groups than Nick, because Nick	 was not able to take public speaking courses in college.	1	Kyle	Nick
+96	In the lagoon Emily swam in the nude while Felicia opted for a full body swimsuit. Emily	 was very hesitant with showing their body.	0	Emily	Felicia
+96	In the lagoon Emily swam in the nude while Felicia opted for a full body swimsuit. Felicia	 was very hesitant with showing their body.	1	Emily	Felicia
+97	In the lagoon Emily swam in the nude while Felicia opted for a full body swimsuit. Emily	 was very free with showing their body.	1	Emily	Felicia
+97	In the lagoon Emily swam in the nude while Felicia opted for a full body swimsuit. Felicia	 was very free with showing their body.	0	Emily	Felicia
+98	Sarah Jane's watch smashed when the book hit it since the watch	 was too strong.	0	watch	book
+98	Sarah Jane's watch smashed when the book hit it since the book	 was too strong.	1	watch	book
+99	Sarah Jane's watch smashed when the book hit it since the watch	 was too weak.	1	watch	book
+99	Sarah Jane's watch smashed when the book hit it since the book	 was too weak.	0	watch	book
+100	Joseph had to have well manicured nails for work, but not Kevin, because Joseph	 worked at a bank.	1	Joseph	Kevin
+100	Joseph had to have well manicured nails for work, but not Kevin, because Kevin	 worked at a bank.	0	Joseph	Kevin
+101	Joseph had to have well manicured nails for work, but not Kevin, because Joseph	 worked at a farm.	0	Joseph	Kevin
+101	Joseph had to have well manicured nails for work, but not Kevin, because Kevin	 worked at a farm.	1	Joseph	Kevin
+102	While out playing golf, Dennis fell in the mud, but Christopher kept their balance because Dennis	 had spiked shoes on.	0	Dennis	Christopher
+102	While out playing golf, Dennis fell in the mud, but Christopher kept their balance because Christopher	 had spiked shoes on.	1	Dennis	Christopher
+103	While out playing golf, Dennis fell in the mud, but Christopher kept their balance, because Dennis	 had slippery shoes on.	1	Dennis	Christopher
+103	While out playing golf, Dennis fell in the mud, but Christopher kept their balance, because Christopher	 had slippery shoes on.	0	Dennis	Christopher
+104	I couldn't control the moisture like I controlled the rain, because the moisture	 was coming in at one spot.	0	moisture	rain
+104	I couldn't control the moisture like I controlled the rain, because the rain	 was coming in at one spot.	1	moisture	rain
+105	I couldn't control the moisture like I controlled the rain, because the moisture	 was coming in everywhere.	1	moisture	rain
+105	I couldn't control the moisture like I controlled the rain, because the rain	 was coming in everywhere.	0	moisture	rain
+106	Leslie was fascinated with collecting new shoes compared to Derrick, because Leslie	 loved fashion trends.	1	Leslie	Derrick
+106	Leslie was fascinated with collecting new shoes compared to Derrick, because Derrick	 loved fashion trends.	0	Leslie	Derrick
+107	Leslie was fascinated with collecting new shoes compared to Derrick, because Leslie	 hated fashion trends.	0	Leslie	Derrick
+107	Leslie was fascinated with collecting new shoes compared to Derrick, because Derrick	 hated fashion trends.	1	Leslie	Derrick
+108	Jessica thought Sandstorm was the greatest song ever written but Patricia hated it. Jessica	 bought a ticket to the jazz concert.	0	Jessica	Patricia
+108	Jessica thought Sandstorm was the greatest song ever written but Patricia hated it. Patricia	 bought a ticket to the jazz concert.	1	Jessica	Patricia
+109	Jessica thought Sandstorm was the greatest song ever written but Patricia hated it. Jessica	 bought a ticket to the Darude rave.	1	Jessica	Patricia
+109	Jessica thought Sandstorm was the greatest song ever written but Patricia hated it. Patricia	 bought a ticket to the Darude rave.	0	Jessica	Patricia
+110	Bill poured the entire bowl of cheese snack into his mouth until the mouth	 was empty.	0	mouth	bowl
+110	Bill poured the entire bowl of cheese snack into his mouth until the bowl	 was empty.	1	mouth	bowl
+111	Bill poured the entire bowl of cheese snack into his mouth until the mouth	 was full.	1	mouth	bowl
+111	Bill poured the entire bowl of cheese snack into his mouth until the bowl	 was full.	0	mouth	bowl
+112	Ben played soccer and bowling every week. However, it was easy for him to play in the bowling	 game because he hurt his arm.	0	bowling	soccer
+112	Ben played soccer and bowling every week. However, it was easy for him to play in the soccer	 game because he hurt his arm.	1	bowling	soccer
+113	Ben played soccer and bowling every week. However, it was difficult for him to play in the bowling	 game because he hurt his arm.	1	bowling	soccer
+113	Ben played soccer and bowling every week. However, it was difficult for him to play in the soccer	 game because he hurt his arm.	0	bowling	soccer
+114	Nick had a bigger dog than Craig because Nick	 fed their dog much more food.	1	Nick	Craig
+114	Nick had a bigger dog than Craig because Craig	 fed their dog much more food.	0	Nick	Craig
+115	Nick had a smaller dog than Craig because Nick	 fed their dog much more food.	0	Nick	Craig
+115	Nick had a smaller dog than Craig because Craig	 fed their dog much more food.	1	Nick	Craig
+116	There was more shade in the yard of Christine than there was in the yard of Victoria because Christine	 had more plants.	1	Christine	Victoria
+116	There was more shade in the yard of Christine than there was in the yard of Victoria because Victoria	 had more plants.	0	Christine	Victoria
+117	There was more shade in the yard of Christine than there was in the yard of Victoria because Christine	 had less plants.	0	Christine	Victoria
+117	There was more shade in the yard of Christine than there was in the yard of Victoria because Victoria	 had less plants.	1	Christine	Victoria
+118	Kyle loves chocolate and candy and Steven loves pickles and lemons. Kyle	 loves sour foods.	0	Kyle	Steven
+118	Kyle loves chocolate and candy and Steven loves pickles and lemons. Steven	 loves sour foods.	1	Kyle	Steven
+119	Kyle loves chocolate and candy and Steven loves pickles and lemons. Kyle	 loves sweet foods.	1	Kyle	Steven
+119	Kyle loves chocolate and candy and Steven loves pickles and lemons. Steven	 loves sweet foods.	0	Kyle	Steven
+120	Since Benjamin ate unhealthy desserts far more frequently than Brett, Benjamin	 had strong will power.	0	Benjamin	Brett
+120	Since Benjamin ate unhealthy desserts far more frequently than Brett, Brett	 had strong will power.	1	Benjamin	Brett
+121	Since Benjamin ate unhealthy desserts far more frequently than Brett, Benjamin	 had weak will power.	1	Benjamin	Brett
+121	Since Benjamin ate unhealthy desserts far more frequently than Brett, Brett	 had weak will power.	0	Benjamin	Brett
+122	Eric asked Michael on a date to go to the movies on Friday night because Eric	 was very confident.	1	Eric	Michael
+122	Eric asked Michael on a date to go to the movies on Friday night because Michael	 was very confident.	0	Eric	Michael
+123	Eric asked Michael on a date to go to the movies Friday night because Eric	 was very attractive.	0	Eric	Michael
+123	Eric asked Michael on a date to go to the movies Friday night because Michael	 was very attractive.	1	Eric	Michael
+124	Amy hated the smell of bleach, but still Kayla used it all the time to clean so Amy	 tries to use it less.	0	Amy	Kayla
+124	Amy hated the smell of bleach, but still Kayla used it all the time to clean so Kayla	 tries to use it less.	1	Amy	Kayla
+125	Amy hated the smell of bleach, but still Kayla used it all the time to clean so Amy	 always leaves the house.	1	Amy	Kayla
+125	Amy hated the smell of bleach, but still Kayla used it all the time to clean so Kayla	 always leaves the house.	0	Amy	Kayla
+126	Eric looked at Neil in shock and started to react violently because Eric	 lied to him.	0	Eric	Neil
+126	Eric looked at Neil in shock and started to react violently because Neil	 lied to him.	1	Eric	Neil
+127	Eric looked at Neil in shock and started to react violently because Eric	 felt betrayed.	1	Eric	Neil
+127	Eric looked at Neil in shock and started to react violently because Neil	 felt betrayed.	0	Eric	Neil
+128	Matthew made sure to use an oil lubricant when expanding his piercing, unlike Jeffrey, so the painful experience from Matthew	 made a lot of sense.	0	Matthew	Jeffrey
+128	Matthew made sure to use an oil lubricant when expanding his piercing, unlike Jeffrey, so the painful experience from Jeffrey	 made a lot of sense.	1	Matthew	Jeffrey
+129	Matthew made sure to use an oil lubricant when expanding his piercing, unlike Jeffrey, so the agreeable experience from Matthew	 made a lot of sense.	1	Matthew	Jeffrey
+129	Matthew made sure to use an oil lubricant when expanding his piercing, unlike Jeffrey, so the agreeable experience from Jeffrey	 made a lot of sense.	0	Matthew	Jeffrey
+130	Samantha brought a get well card to the hospital but Emily forgot to because Samantha	 was preoccupied.	0	Samantha	Emily
+130	Samantha brought a get well card to the hospital but Emily forgot to because Emily	 was preoccupied.	1	Samantha	Emily
+131	Samantha brought a get well card to the hospital but Emily forgot to because Samantha	 was thoughtful.	1	Samantha	Emily
+131	Samantha brought a get well card to the hospital but Emily forgot to because Emily	 was thoughtful.	0	Samantha	Emily
+132	Jessica took off the gloves and gave them to Katrina because Jessica	 's hands were cold.	0	Jessica	Katrina
+132	Jessica took off the gloves and gave them to Katrina because Katrina	 's hands were cold.	1	Jessica	Katrina
+133	Jessica took off the gloves and gave them to Katrina because Jessica	 's hands were warm.	1	Jessica	Katrina
+133	Jessica took off the gloves and gave them to Katrina because Katrina	 's hands were warm.	0	Jessica	Katrina
+134	The lawsuit bankrupted the company, causing Megan to be let go from their job while Mary was promoted. Megan	 felt relieved and elated.	0	Megan	Mary
+134	The lawsuit bankrupted the company, causing Megan to be let go from their job while Mary was promoted. Mary	 felt relieved and elated.	1	Megan	Mary
+135	The lawsuit bankrupted the company, causing Megan to be let go from their job while Mary was promoted. Megan	 felt depressed and hopeless.	1	Megan	Mary
+135	The lawsuit bankrupted the company, causing Megan to be let go from their job while Mary was promoted. Mary	 felt depressed and hopeless.	0	Megan	Mary
+136	John's certification was less important that Jim's degree because the certification	 was from a minor University.	1	certification	degree
+136	John's certification was less important that Jim's degree because the degree	 was from a minor University.	0	certification	degree
+137	John's certification was less important that Jim's degree because the certification	 was from a major University.	0	certification	degree
+137	John's certification was less important that Jim's degree because the degree	 was from a major University.	1	certification	degree
+138	They opted not to go to the dance but to the movie instead, the dance	 seemed like a proper destination for their date.	0	dance	movie
+138	They opted not to go to the dance but to the movie instead, the movie	 seemed like a proper destination for their date.	1	dance	movie
+139	They opted not to go to the dance but to the movie instead, the dance	 seemed like an inappropriate destination for their date.	1	dance	movie
+139	They opted not to go to the dance but to the movie instead, the movie	 seemed like an inappropriate destination for their date.	0	dance	movie
+140	The thermostat showed that it was twenty degrees cooler downstairs than it was upstairs, so Byron stayed in the downstairs	 because he was hot.	1	downstairs	upstairs
+140	The thermostat showed that it was twenty degrees cooler downstairs than it was upstairs, so Byron stayed in the upstairs	 because he was hot.	0	downstairs	upstairs
+141	The thermostat showed that it was twenty degrees cooler downstairs than it was upstairs, so Byron stayed in the downstairs	 because he was cold.	0	downstairs	upstairs
+141	The thermostat showed that it was twenty degrees cooler downstairs than it was upstairs, so Byron stayed in the upstairs	 because he was cold.	1	downstairs	upstairs
+142	Michael wanted to take Craig out on the water in his new boat. Michael	 said it would be fun to show him the ropes.	1	Michael	Craig
+142	Michael wanted to take Craig out on the water in his new boat. Craig	 said it would be fun to show him the ropes.	0	Michael	Craig
+143	Michael wanted to take Craig out on the water in his new boat. Michael	 said it would be confusing to see how the boat works.	0	Michael	Craig
+143	Michael wanted to take Craig out on the water in his new boat. Craig	 said it would be confusing to see how the boat works.	1	Michael	Craig
+144	Come over here and take a look at my scalp today  Natalie told Katrina, Natalie	 hates providing her  opinion.	0	Natalie	Katrina
+144	Come over here and take a look at my scalp today  Natalie told Katrina, Katrina	 hates providing her  opinion.	1	Natalie	Katrina
+145	Come over here and take a look at my scalp today  Natalie told Katrina, Natalie	 needs a second opinion.	1	Natalie	Katrina
+145	Come over here and take a look at my scalp today  Natalie told Katrina, Katrina	 needs a second opinion.	0	Natalie	Katrina
+146	The sushi rotted on the counter unless it was put in the cooler, as the counter	 exposed it to contamination.	1	counter	cooler
+146	The sushi rotted on the counter unless it was put in the cooler, as the cooler	 exposed it to contamination.	0	counter	cooler
+147	The sushi rotted on the counter unless it was put in the cooler, as the counter	 protected it from contamination.	0	counter	cooler
+147	The sushi rotted on the counter unless it was put in the cooler, as the cooler	 protected it from contamination.	1	counter	cooler
+148	The contract could not be drafted at the business during that day because the contract	 was too small to care about.	1	contract	business
+148	The contract could not be drafted at the business during that day because the business	 was too small to care about.	0	contract	business
+149	The contract could not be drafted at the business during that day because the contract	 was too big to care about it.	0	contract	business
+149	The contract could not be drafted at the business during that day because the business	 was too big to care about it.	1	contract	business
+150	Laura always had more motivation in life and achieving goals than Katrina, as Laura	 was optimistic.	1	Laura	Katrina
+150	Laura always had more motivation in life and achieving goals than Katrina, as Katrina	 was optimistic.	0	Laura	Katrina
+151	Laura always had more motivation in life and achieving goals than Katrina, as Laura	 was lazy.	0	Laura	Katrina
+151	Laura always had more motivation in life and achieving goals than Katrina, as Katrina	 was lazy.	1	Laura	Katrina
+152	Ben had to either stop eating chocolates or nuts. He chose to stop eating the chocolates	 because they were savory.	0	chocolates	nuts
+152	Ben had to either stop eating chocolates or nuts. He chose to stop eating the nuts	 because they were savory.	1	chocolates	nuts
+153	Ben had to either stop eating chocolates or nuts. He chose to stop eating the chocolates	 because they were sweet.	1	chocolates	nuts
+153	Ben had to either stop eating chocolates or nuts. He chose to stop eating the nuts	 because they were sweet.	0	chocolates	nuts
+154	James was looking if there is any space to put the book into the shelf. The space	 is small.	1	space	book
+154	James was looking if there is any space to put the book into the shelf. The book	 is small.	0	space	book
+155	James was looking if there is any space to put the book into the shelf. The space	 is big.	0	space	book
+155	James was looking if there is any space to put the book into the shelf. The book	 is big.	1	space	book
+156	James was writing a poem on his jotter when the ink finished. The poem	 is a long .	1	poem	ink
+156	James was writing a poem on his jotter when the ink finished. The ink	 is a long .	0	poem	ink
+157	James was writing a poem on his jotter when the ink finished. The poem	 is a low.	0	poem	ink
+157	James was writing a poem on his jotter when the ink finished. The ink	 is a low.	1	poem	ink
+158	The couple drank wine out of glasses instead of mugs, because the mugs	 were clean.	0	mugs	glasses
+158	The couple drank wine out of glasses instead of mugs, because the glasses	 were clean.	1	mugs	glasses
+159	The couple drank wine out of glasses instead of mugs, because the mugs	 were dirty.	1	mugs	glasses
+159	The couple drank wine out of glasses instead of mugs, because the glasses	 were dirty.	0	mugs	glasses
+160	Dividing the candy was more difficult than dividing the apples because every kid wanted the candy	 .	1	candy	apples
+160	Dividing the candy was more difficult than dividing the apples because every kid wanted the apples	 .	0	candy	apples
+161	Dividing the candy was more difficult than dividing the apples because no kid wanted the candy	 .	0	candy	apples
+161	Dividing the candy was more difficult than dividing the apples because no kid wanted the apples	 .	1	candy	apples
+162	Brian wanted to be a home based administrative assistant and Kenneth didn't because Brian	 liked staying at home.	1	Brian	Kenneth
+162	Brian wanted to be a home based administrative assistant and Kenneth didn't because Kenneth	 liked staying at home.	0	Brian	Kenneth
+163	Brian wanted to be a home based administrative assistant and Kenneth didn't because Brian	 did not like staying at home.	0	Brian	Kenneth
+163	Brian wanted to be a home based administrative assistant and Kenneth didn't because Kenneth	 did not like staying at home.	1	Brian	Kenneth
+164	Brian had a large collection of coins that Kevin really admired, so Brian	 asked him for some duplicates.	0	Brian	Kevin
+164	Brian had a large collection of coins that Kevin really admired, so Kevin	 asked him for some duplicates.	1	Brian	Kevin
+165	Brian had a large collection of coins that Kevin really admired, so Brian	 offered him some duplicates.	1	Brian	Kevin
+165	Brian had a large collection of coins that Kevin really admired, so Kevin	 offered him some duplicates.	0	Brian	Kevin
+166	William forgot about all the times when Ian saved them, despite how William	 was generally self-sacrificing.	0	William	Ian
+166	William forgot about all the times when Ian saved them, despite how Ian	 was generally self-sacrificing.	1	William	Ian
+167	William forgot about all the times when Ian saved them, because William	 was generally self-involved.	1	William	Ian
+167	William forgot about all the times when Ian saved them, because Ian	 was generally self-involved.	0	William	Ian
+168	Katrina's being taught how to speak Korean by Felicia, so Katrina	 was most likely born in Korea.	0	Katrina	Felicia
+168	Katrina's being taught how to speak Korean by Felicia, so Felicia	 was most likely born in Korea.	1	Katrina	Felicia
+169	Katrina's being taught how to speak Korean by Felicia, so Katrina	 was most likely born in the US.	1	Katrina	Felicia
+169	Katrina's being taught how to speak Korean by Felicia, so Felicia	 was most likely born in the US.	0	Katrina	Felicia
+170	Jason denied Ian's passport application because Jason	 did not provide the correct paperwork in time.	0	Jason	Ian
+170	Jason denied Ian's passport application because Ian	 did not provide the correct paperwork in time.	1	Jason	Ian
+171	Jason denied Ian's passport application because Jason	 did not receive the correct paperwork in time.	1	Jason	Ian
+171	Jason denied Ian's passport application because Ian	 did not receive the correct paperwork in time.	0	Jason	Ian
+172	I wanted a combination of Vanilla and tea tree essence scents but it smelled like Vanilla because the Vanilla	 essence was too weak.	0	Vanilla	tea tree
+172	I wanted a combination of Vanilla and tea tree essence scents but it smelled like Vanilla because the tea tree	 essence was too weak.	1	Vanilla	tea tree
+173	I wanted a combination of Vanilla and tea tree essence scents but it smelled like Vanilla because the Vanilla	 essence was too strong.	1	Vanilla	tea tree
+173	I wanted a combination of Vanilla and tea tree essence scents but it smelled like Vanilla because the tea tree	 essence was too strong.	0	Vanilla	tea tree
+174	I'd rather play on a soccer team than be a kicker on a foot ball team since the soccer	 ball is harder to kick.	0	soccer	foot
+174	I'd rather play on a soccer team than be a kicker on a foot ball team since the foot	 ball is harder to kick.	1	soccer	foot
+175	I'd rather play on a soccer team than be a kicker on a foot ball team since the soccer	 ball is easier to kick.	1	soccer	foot
+175	I'd rather play on a soccer team than be a kicker on a foot ball team since the foot	 ball is easier to kick.	0	soccer	foot
+176	Kyle thought the temperature was too warm while William thought it was too cold, so Kyle	 turned the heat down.	1	Kyle	William
+176	Kyle thought the temperature was too warm while William thought it was too cold, so William	 turned the heat down.	0	Kyle	William
+177	Kyle thought the temperature was too warm while William thought it was too cold, so Kyle	 turned the heat up.	0	Kyle	William
+177	Kyle thought the temperature was too warm while William thought it was too cold, so William	 turned the heat up.	1	Kyle	William
+178	William wanted an egg for breakfast, but Kevin ate the last one, so William	 had to give them cereal.	0	William	Kevin
+178	William wanted an egg for breakfast, but Kevin ate the last one, so Kevin	 had to give them cereal.	1	William	Kevin
+179	William wanted an egg for breakfast, but Kevin ate the last one, so William	 had to eat cereal.	1	William	Kevin
+179	William wanted an egg for breakfast, but Kevin ate the last one, so Kevin	 had to eat cereal.	0	William	Kevin
+180	The woman sprayed cleaner on the mirror but skipped the countertop because the mirror	 was clean.	0	mirror	countertop
+180	The woman sprayed cleaner on the mirror but skipped the countertop because the countertop	 was clean.	1	mirror	countertop
+181	The woman sprayed cleaner on the mirror but skipped the countertop because the mirror	 was dirty.	1	mirror	countertop
+181	The woman sprayed cleaner on the mirror but skipped the countertop because the countertop	 was dirty.	0	mirror	countertop
+182	Justin wrote a paragraph in his planner every day unlike Matthew because Justin	 was disorganized.	0	Justin	Matthew
+182	Justin wrote a paragraph in his planner every day unlike Matthew because Matthew	 was disorganized.	1	Justin	Matthew
+183	Justin wrote a paragraph in his planner every day unlike Matthew because Justin	 was organized.	1	Justin	Matthew
+183	Justin wrote a paragraph in his planner every day unlike Matthew because Matthew	 was organized.	0	Justin	Matthew
+184	The children could only count the number of balls in one jar and not the beans in the other because the balls	 were too numerous.	0	balls	beans
+184	The children could only count the number of balls in one jar and not the beans in the other because the beans	 were too numerous.	1	balls	beans
+185	The children could only count the number of balls in one jar and not the beans in the other because the balls	 were more manageable.	1	balls	beans
+185	The children could only count the number of balls in one jar and not the beans in the other because the beans	 were more manageable.	0	balls	beans
+186	Erin is known an an entrepreneur while Victoria is only an employee because Erin	 owns a business.	1	Erin	Victoria
+186	Erin is known an an entrepreneur while Victoria is only an employee because Victoria	 owns a business.	0	Erin	Victoria
+187	Erin is known as an entrepreneur while Victoria is only an employee because Erin	 doesn't yet own a business.	0	Erin	Victoria
+187	Erin is known as an entrepreneur while Victoria is only an employee because Victoria	 doesn't yet own a business.	1	Erin	Victoria
+188	Since Dennis	 arrived at work later Dennis would eat their lunch before Adam in the break room at their job.	0	Dennis	Adam
+188	Since Adam	 arrived at work later Dennis would eat their lunch before Adam in the break room at their job.	1	Dennis	Adam
+189	Since Dennis	 arrived at work sooner Dennis would eat their lunch before Adam in the break room at their job.	1	Dennis	Adam
+189	Since Adam	 arrived at work sooner Dennis would eat their lunch before Adam in the break room at their job.	0	Dennis	Adam
+190	The stomach of Neil was rumbling, but Samuel seemed fine, due to Neil	 being hungry.	1	Neil	Samuel
+190	The stomach of Neil was rumbling, but Samuel seemed fine, due to Samuel	 being hungry.	0	Neil	Samuel
+191	The stomach of Neil was rumbling, but Samuel seemed fine, due to Neil	 being satiated.	0	Neil	Samuel
+191	The stomach of Neil was rumbling, but Samuel seemed fine, due to Samuel	 being satiated.	1	Neil	Samuel
+192	After Logan contracted the chickenpox from Joseph so Logan	 spent the day sending nice texts about it.	0	Logan	Joseph
+192	After Logan contracted the chickenpox from Joseph so Joseph	 spent the day sending nice texts about it.	1	Logan	Joseph
+193	After Logan contracted the chickenpox from Joseph so Logan	 spent the day sending mean texts about it.	1	Logan	Joseph
+193	After Logan contracted the chickenpox from Joseph so Joseph	 spent the day sending mean texts about it.	0	Logan	Joseph
+194	The man wanted to put the luggage in the house but the house	 was too small.	1	house	luggage
+194	The man wanted to put the luggage in the house but the luggage	 was too small.	0	house	luggage
+195	The man wanted to put the luggage in the house but the house	 was too large.	0	house	luggage
+195	The man wanted to put the luggage in the house but the luggage	 was too large.	1	house	luggage
+196	The experience was totally unforgettable for Betty but not Samantha because Betty	 had dreaded it for months.	0	Betty	Samantha
+196	The experience was totally unforgettable for Betty but not Samantha because Samantha	 had dreaded it for months.	1	Betty	Samantha
+197	The experience was totally unforgettable for Betty but not Samantha because Betty	 had anticipated it for months.	1	Betty	Samantha
+197	The experience was totally unforgettable for Betty but not Samantha because Samantha	 had anticipated it for months.	0	Betty	Samantha
+198	Kyle got a new cell phone and showed it to Leslie because Kyle	 was happy about the new phone.	1	Kyle	Leslie
+198	Kyle got a new cell phone and showed it to Leslie because Leslie	 was happy about the new phone.	0	Kyle	Leslie
+199	Kyle got a new cell phone and showed it to Leslie but Kyle	 was upset about the new phone.	0	Kyle	Leslie
+199	Kyle got a new cell phone and showed it to Leslie but Leslie	 was upset about the new phone.	1	Kyle	Leslie
+200	When one experiences cramps they can get into a warm bath or use a heating pad, but the bath	 is more of an inconvenience.	1	bath	heating pad
+200	When one experiences cramps they can get into a warm bath or use a heating pad, but the heating pad	 is more of an inconvenience.	0	bath	heating pad
+201	When one experiences cramps they can get into a warm bath or use a heating pad, but the bath	 is more convenient.	0	bath	heating pad
+201	When one experiences cramps they can get into a warm bath or use a heating pad, but the heating pad	 is more convenient.	1	bath	heating pad
+202	Neil agreed to help wash Adam's large dog, and Neil	 was very eager to help.	1	Neil	Adam
+202	Neil agreed to help wash Adam's large dog, and Adam	 was very eager to help.	0	Neil	Adam
+203	Neil agreed to help wash Adam's large dog, and Neil	 was very grateful for the help.	0	Neil	Adam
+203	Neil agreed to help wash Adam's large dog, and Adam	 was very grateful for the help.	1	Neil	Adam
+204	Cricket is a favorite past time of Lindsey, while Rachel has never heard of it. Lindsey	 is more likely to be American.	0	Lindsey	Rachel
+204	Cricket is a favorite past time of Lindsey, while Rachel has never heard of it. Rachel	 is more likely to be American.	1	Lindsey	Rachel
+205	Cricket is a favorite past time of Lindsey, while Rachel has never heard of it. Lindsey	 is more likely to be British.	1	Lindsey	Rachel
+205	Cricket is a favorite past time of Lindsey, while Rachel has never heard of it. Rachel	 is more likely to be British.	0	Lindsey	Rachel
+206	It was clear that Jessica understood and was entertained by the article from Monica because Jessica	 was the reader.	1	Jessica	Monica
+206	It was clear that Jessica understood and was entertained by the article from Monica because Monica	 was the reader.	0	Jessica	Monica
+207	It was clear that Jessica understood and was entertained by the article from Monica because Jessica	 was the writer.	0	Jessica	Monica
+207	It was clear that Jessica understood and was entertained by the article from Monica because Monica	 was the writer.	1	Jessica	Monica
+208	In an effort to control kennel cough, Emily sent Maria to get the medication but Emily	 was busy examining the animals.	0	Emily	Maria
+208	In an effort to control kennel cough, Emily sent Maria to get the medication but Maria	 was busy examining the animals.	1	Emily	Maria
+209	In an effort to control kennel cough, Emily sent Maria to get the medication because Emily	 was busy examining the animals.	1	Emily	Maria
+209	In an effort to control kennel cough, Emily sent Maria to get the medication because Maria	 was busy examining the animals.	0	Emily	Maria
+210	Jan poured the entire cup of lemon juice into the bowl bananas until the cup	 was empty.	1	cup	bowl
+210	Jan poured the entire cup of lemon juice into the bowl bananas until the bowl	 was empty.	0	cup	bowl
+211	Jan poured the entire cup of lemon juice into the bowl bananas until the cup	 was full.	0	cup	bowl
+211	Jan poured the entire cup of lemon juice into the bowl bananas until the bowl	 was full.	1	cup	bowl
+212	The insurance company blamed Leslie instead of Logan for the accident since Leslie	 had a green light.	0	Leslie	Logan
+212	The insurance company blamed Leslie instead of Logan for the accident since Logan	 had a green light.	1	Leslie	Logan
+213	The insurance company blamed Leslie instead of Logan for the accident since Leslie	 ran a red light.	1	Leslie	Logan
+213	The insurance company blamed Leslie instead of Logan for the accident since Logan	 ran a red light.	0	Leslie	Logan
+214	The chef decided to store the food in the container but the food	 was too large.	1	food	container
+214	The chef decided to store the food in the container but the container	 was too large.	0	food	container
+215	The chef decided to store the food in the container but the food	 was too small.	0	food	container
+215	The chef decided to store the food in the container but the container	 was too small.	1	food	container
+216	My sister enjoyed writing on the blog more than in her journal, because the blog	 for everyone to see.	1	blog	journal
+216	My sister enjoyed writing on the blog more than in her journal, because the journal	 for everyone to see.	0	blog	journal
+217	My sister enjoyed writing on the blog more than in her journal, because the blog	 for nobody to see.	0	blog	journal
+217	My sister enjoyed writing on the blog more than in her journal, because the journal	 for nobody to see.	1	blog	journal
+218	Derrick spent the entire summer laying on the hot beach, while Jeffrey spent the summer indoors, so Derrick	 's hair had more sun damage.	1	Derrick	Jeffrey
+218	Derrick spent the entire summer laying on the hot beach, while Jeffrey spent the summer indoors, so Jeffrey	 's hair had more sun damage.	0	Derrick	Jeffrey
+219	Derrick spent the entire summer laying on the hot beach, while Jeffrey spent the summer indoors, so Derrick	 's hair had less sun damage.	0	Derrick	Jeffrey
+219	Derrick spent the entire summer laying on the hot beach, while Jeffrey spent the summer indoors, so Jeffrey	 's hair had less sun damage.	1	Derrick	Jeffrey
+220	This menu was very eclectic. They served everything from  a three tiered burger to sushi to omeletes. The burger	 was juicy.	1	burger	sushi
+220	This menu was very eclectic. They served everything from  a three tiered burger to sushi to omeletes. The sushi	 was juicy.	0	burger	sushi
+221	This menu was very eclectic. They served everything from  a three tiered burger to sushi to omeletes. The burger	 was raw.	0	burger	sushi
+221	This menu was very eclectic. They served everything from  a three tiered burger to sushi to omeletes. The sushi	 was raw.	1	burger	sushi
+222	the statistics show many females compared to the males are being born everyday, the females	 are few.	0	females	males
+222	the statistics show many females compared to the males are being born everyday, the males	 are few.	1	females	males
+223	the statistics show many females compared to the males are being born everyday, the females	 are many.	1	females	males
+223	the statistics show many females compared to the males are being born everyday, the males	 are many.	0	females	males
+224	Robert made the choice to buy Neil's house, so Robert	 had a lot more money in the bank afterwards.	0	Robert	Neil
+224	Robert made the choice to buy Neil's house, so Neil	 had a lot more money in the bank afterwards.	1	Robert	Neil
+225	Robert made the choice to buy Neil's house, so Robert	 had a lot less money in the bank afterwards.	1	Robert	Neil
+225	Robert made the choice to buy Neil's house, so Neil	 had a lot less money in the bank afterwards.	0	Robert	Neil
+226	The medical exam for the broken arm was longer than the exam on the heart because the heart	 was a serious problem.	0	heart	arm
+226	The medical exam for the broken arm was longer than the exam on the heart because the arm	 was a serious problem.	1	heart	arm
+227	The medical exam for the broken arm was shorter than the exam on the heart because the heart	 was a serious problem.	1	heart	arm
+227	The medical exam for the broken arm was shorter than the exam on the heart because the arm	 was a serious problem.	0	heart	arm
+228	When opening up about their crushes, Kenneth sighed at Jeffrey because Kenneth	 forgot who their crush was.	0	Kenneth	Jeffrey
+228	When opening up about their crushes, Kenneth sighed at Jeffrey because Jeffrey	 forgot who their crush was.	1	Kenneth	Jeffrey
+229	When opening up about their crushes, Kenneth laughed at Jeffrey because Kenneth	 remembered who their crush was.	1	Kenneth	Jeffrey
+229	When opening up about their crushes, Kenneth laughed at Jeffrey because Jeffrey	 remembered who their crush was.	0	Kenneth	Jeffrey
+230	Jack loved math and disliked social sciences, so when deciding to take sociology or math that semester, the counselor entered the math	 because Jack was receptive to it.	1	math	sociology
+230	Jack loved math and disliked social sciences, so when deciding to take sociology or math that semester, the counselor entered the sociology	 because Jack was receptive to it.	0	math	sociology
+231	Jack loved math and disliked social sciences, so when deciding to take sociology or math that semester, the counselor deleted the math	 because Jack was resistant to it.	0	math	sociology
+231	Jack loved math and disliked social sciences, so when deciding to take sociology or math that semester, the counselor deleted the sociology	 because Jack was resistant to it.	1	math	sociology
+232	Christopher wanted to be a specialist but not Adam because Christopher	 had an interest in a limited number of subjects.	1	Christopher	Adam
+232	Christopher wanted to be a specialist but not Adam because Adam	 had an interest in a limited number of subjects.	0	Christopher	Adam
+233	Christopher wanted to be a specialist but not Adam because Christopher	 had an interest in a many number of subjects.	0	Christopher	Adam
+233	Christopher wanted to be a specialist but not Adam because Adam	 had an interest in a many number of subjects.	1	Christopher	Adam
+234	Megan enjoyed summer while Felicia did not.   Megan	  spent much time indoors.	0	Megan	Felicia
+234	Megan enjoyed summer while Felicia did not.   Felicia	  spent much time indoors.	1	Megan	Felicia
+235	Megan enjoyed summer while Felicia did not.  Megan	  spent much time at the beach.	1	Megan	Felicia
+235	Megan enjoyed summer while Felicia did not.  Felicia	  spent much time at the beach.	0	Megan	Felicia
+236	John could not remove the wallpaper attached to the wall with a glue without the wallpaper tearing apart. The glue	 is weak.	0	glue	wallpaper
+236	John could not remove the wallpaper attached to the wall with a glue without the wallpaper tearing apart. The wallpaper	 is weak.	1	glue	wallpaper
+237	John could not remove the wallpaper attached to the wall with a glue without the wallpaper tearing apart. The glue	 is strong.	1	glue	wallpaper
+237	John could not remove the wallpaper attached to the wall with a glue without the wallpaper tearing apart. The wallpaper	 is strong.	0	glue	wallpaper
+238	The counselor treated the child who suffered from abuse by giving her a teddy instead of a blanket because the teddy	 was boring.	0	teddy	blanket
+238	The counselor treated the child who suffered from abuse by giving her a teddy instead of a blanket because the blanket	 was boring.	1	teddy	blanket
+239	The counselor treated the child who suffered from abuse by giving her a teddy instead of a blanket because the teddy	 was comforting.	1	teddy	blanket
+239	The counselor treated the child who suffered from abuse by giving her a teddy instead of a blanket because the blanket	 was comforting.	0	teddy	blanket
+240	John cared for the pot while it was being transported in the box but it eventually got broken. The pot	 is hard.	0	pot	box
+240	John cared for the pot while it was being transported in the box but it eventually got broken. The box	 is hard.	1	pot	box
+241	John cared for the pot while it was being transported in the box but it eventually got broken. The pot	 is fragile.	1	pot	box
+241	John cared for the pot while it was being transported in the box but it eventually got broken. The box	 is fragile.	0	pot	box
+242	Donald offered Leslie their last stick of  mint gum as Donald	 had a minty breath already.	1	Donald	Leslie
+242	Donald offered Leslie their last stick of  mint gum as Leslie	 had a minty breath already.	0	Donald	Leslie
+243	Donald offered Leslie their last sick some mint gum as Donald	 had a stinky breath already.	0	Donald	Leslie
+243	Donald offered Leslie their last sick some mint gum as Leslie	 had a stinky breath already.	1	Donald	Leslie
+244	After Samuel won the cherry jam contest, Kyle still believed they should have won since Samuel	 sweetened with low calorie sweetener and the judges went by taste.	0	Samuel	Kyle
+244	After Samuel won the cherry jam contest, Kyle still believed they should have won since Kyle	 sweetened with low calorie sweetener and the judges went by taste.	1	Samuel	Kyle
+245	After Samuel won the cherry jam contest, Kyle still believed they should have won since Samuel	 sweetened with high calorie sweetener and the judges went by taste.	1	Samuel	Kyle
+245	After Samuel won the cherry jam contest, Kyle still believed they should have won since Kyle	 sweetened with high calorie sweetener and the judges went by taste.	0	Samuel	Kyle
+246	Felicia looked sad and disappointed after she asked Christine refused to be her girlfriend because Felicia	 liked her.	1	Felicia	Christine
+246	Felicia looked sad and disappointed after she asked Christine refused to be her girlfriend because Christine	 liked her.	0	Felicia	Christine
+247	Felicia looked sad and disappointed after she asked Christine refused to be her girlfriend because Felicia	 she was not lesbian.	0	Felicia	Christine
+247	Felicia looked sad and disappointed after she asked Christine refused to be her girlfriend because Christine	 she was not lesbian.	1	Felicia	Christine
+248	Matthew wants to sell Kevin tickets to the football game because Matthew	 needs the money.	1	Matthew	Kevin
+248	Matthew wants to sell Kevin tickets to the football game because Kevin	 needs the money.	0	Matthew	Kevin
+249	Matthew wants to sell Kevin tickets to the football game but Matthew	 has no money.	0	Matthew	Kevin
+249	Matthew wants to sell Kevin tickets to the football game but Kevin	 has no money.	1	Matthew	Kevin
+250	Elena told Natalie to put the hood of her jacket up because Elena	 was likely to get cold.	0	Elena	Natalie
+250	Elena told Natalie to put the hood of her jacket up because Natalie	 was likely to get cold.	1	Elena	Natalie
+251	Elena told Natalie to put the hood of her jacket up because Elena	 didn't want her to get cold.	1	Elena	Natalie
+251	Elena told Natalie to put the hood of her jacket up because Natalie	 didn't want her to get cold.	0	Elena	Natalie
+252	Lawrence made a bowl at the pottery store and Randy accidentally broke it. Lawrence	 decided to make another.	1	Lawrence	Randy
+252	Lawrence made a bowl at the pottery store and Randy accidentally broke it. Randy	 decided to make another.	0	Lawrence	Randy
+253	Lawrence made a bowl at the pottery store and Randy accidentally broke it. Lawrence	 offered to make another.	0	Lawrence	Randy
+253	Lawrence made a bowl at the pottery store and Randy accidentally broke it. Randy	 offered to make another.	1	Lawrence	Randy
+254	The node on the head needed medication applied to its area because the node	 was swollen.	1	node	medication
+254	The node on the head needed medication applied to its area because the medication	 was swollen.	0	node	medication
+255	The node on the head needed medication applied to its area because the node	 would contract it.	0	node	medication
+255	The node on the head needed medication applied to its area because the medication	 would contract it.	1	node	medication
+256	Sue traditionally donated old clothes to her favorite charity but in recent years has just written them checks as the checks	 were better received.	1	checks	clothes
+256	Sue traditionally donated old clothes to her favorite charity but in recent years has just written them checks as the clothes	 were better received.	0	checks	clothes
+257	Sue traditionally donated old clothes to her favorite charity but in recent years has just written them checks as the checks	 were worse received.	0	checks	clothes
+257	Sue traditionally donated old clothes to her favorite charity but in recent years has just written them checks as the clothes	 were worse received.	1	checks	clothes
+258	Matthew offered to help write a fitness plan for Christopher because Matthew	 was out of shape.	0	Matthew	Christopher
+258	Matthew offered to help write a fitness plan for Christopher because Christopher	 was out of shape.	1	Matthew	Christopher
+259	Matthew offered to help write a fitness plan for Christopher because Matthew	 was a personal trainer.	1	Matthew	Christopher
+259	Matthew offered to help write a fitness plan for Christopher because Christopher	 was a personal trainer.	0	Matthew	Christopher
+260	The waves destroyed the garage but left the house intact because the garage	 was so close to the shore.	1	garage	house
+260	The waves destroyed the garage but left the house intact because the house	 was so close to the shore.	0	garage	house
+261	The waves destroyed the garage but left the house intact because the garage	 was so far from the shore.	0	garage	house
+261	The waves destroyed the garage but left the house intact because the house	 was so far from the shore.	1	garage	house
+262	Katrina sells Maria a rug at the local flea market because Katrina	 is a customer.	0	Katrina	Maria
+262	Katrina sells Maria a rug at the local flea market because Maria	 is a customer.	1	Katrina	Maria
+263	Katrina sells Maria a rug at the local flea market because Katrina	 is a vendor.	1	Katrina	Maria
+263	Katrina sells Maria a rug at the local flea market because Maria	 is a vendor.	0	Katrina	Maria
+264	Joan's grandmother always wanted a hug and a kiss, but Joan preferred the kiss	 because she was afraid of germs.	0	kiss	hug
+264	Joan's grandmother always wanted a hug and a kiss, but Joan preferred the hug	 because she was afraid of germs.	1	kiss	hug
+265	Joan's grandmother always wanted a hug and a kiss, but Joan didn't like the kiss	 because she was afraid of germs.	1	kiss	hug
+265	Joan's grandmother always wanted a hug and a kiss, but Joan didn't like the hug	 because she was afraid of germs.	0	kiss	hug
+266	The library kept an enormous collection of novels but not comics because the novels	 were dull.	0	novels	comics
+266	The library kept an enormous collection of novels but not comics because the comics	 were dull.	1	novels	comics
+267	The library kept an enormous collection of novels but not comics because the novels	 were popular.	1	novels	comics
+267	The library kept an enormous collection of novels but not comics because the comics	 were popular.	0	novels	comics
+268	Carrie's store has more loyal customers than Patricia's store does because Carrie	 's store is older.	1	Carrie	Patricia
+268	Carrie's store has more loyal customers than Patricia's store does because Patricia	 's store is older.	0	Carrie	Patricia
+269	Carrie's store has more loyal customers than Patricia's store does because Carrie	 's store is newer.	0	Carrie	Patricia
+269	Carrie's store has more loyal customers than Patricia's store does because Patricia	 's store is newer.	1	Carrie	Patricia
+270	Christine didn't pass the lie detection test that Jessica did because Christine	 had something to hide.	1	Christine	Jessica
+270	Christine didn't pass the lie detection test that Jessica did because Jessica	 had something to hide.	0	Christine	Jessica
+271	Christine didn't pass the lie detection test that Jessica did because Christine	 had nothing to hide.	0	Christine	Jessica
+271	Christine didn't pass the lie detection test that Jessica did because Jessica	 had nothing to hide.	1	Christine	Jessica
+272	Carrie faced the fan away from Angela because Carrie	 was getting too warm in the kitchen.	1	Carrie	Angela
+272	Carrie faced the fan away from Angela because Angela	 was getting too warm in the kitchen.	0	Carrie	Angela
+273	Carrie faced the fan toward Angela because Carrie	 was getting too warm in the kitchen.	0	Carrie	Angela
+273	Carrie faced the fan toward Angela because Angela	 was getting too warm in the kitchen.	1	Carrie	Angela
+274	The winter made Jason's hands dry, but not Leslie's, since Jason	 always forgot to moisturize at night.	1	Jason	Leslie
+274	The winter made Jason's hands dry, but not Leslie's, since Leslie	 always forgot to moisturize at night.	0	Jason	Leslie
+275	The winter made Jason's hands dry, but not Leslie's, since Jason	 never forgot to moisturize at night.	0	Jason	Leslie
+275	The winter made Jason's hands dry, but not Leslie's, since Leslie	 never forgot to moisturize at night.	1	Jason	Leslie
+276	Because Carrie lost a bet to Cynthia over the basketball game, Carrie	 spent hours having the cleaning done for them.	0	Carrie	Cynthia
+276	Because Carrie lost a bet to Cynthia over the basketball game, Cynthia	 spent hours having the cleaning done for them.	1	Carrie	Cynthia
+277	Because Carrie lost a bet to Cynthia over the basketball game, Carrie	 spent hours doing the cleaning.	1	Carrie	Cynthia
+277	Because Carrie lost a bet to Cynthia over the basketball game, Cynthia	 spent hours doing the cleaning.	0	Carrie	Cynthia
+278	I would rather listen to the radio than watch the TV at night since I find the radio	 disruptive.	0	radio	TV
+278	I would rather listen to the radio than watch the TV at night since I find the TV	 disruptive.	1	radio	TV
+279	I would rather listen to the radio than watch the TV at night since I find the radio	 soothing.	1	radio	TV
+279	I would rather listen to the radio than watch the TV at night since I find the TV	 soothing.	0	radio	TV
+280	Randy started his own business while Ryan worked for someone else so Randy	 had self-employment taxes.	1	Randy	Ryan
+280	Randy started his own business while Ryan worked for someone else so Ryan	 had self-employment taxes.	0	Randy	Ryan
+281	Randy started his own business while Ryan worked for someone else so Randy	 had W4 taxes.	0	Randy	Ryan
+281	Randy started his own business while Ryan worked for someone else so Ryan	 had W4 taxes.	1	Randy	Ryan
+282	Her boyfriend regretted buying her a jacket and got her a new hat instead, as he knew she thought the jacket	 was a perfect match for her wardrobe.	0	jacket	hat
+282	Her boyfriend regretted buying her a jacket and got her a new hat instead, as he knew she thought the hat	 was a perfect match for her wardrobe.	1	jacket	hat
+283	Her boyfriend regretted buying her a jacket and got her a new hat instead, as he knew she thought the jacket	 was a bad match for her wardrobe.	1	jacket	hat
+283	Her boyfriend regretted buying her a jacket and got her a new hat instead, as he knew she thought the hat	 was a bad match for her wardrobe.	0	jacket	hat
+284	Monica wanted to use a vacuum to clean the floor, but Victoria wanted to use a broom. Monica	 cleaned the floor much slower.	0	Monica	Victoria
+284	Monica wanted to use a vacuum to clean the floor, but Victoria wanted to use a broom. Victoria	 cleaned the floor much slower.	1	Monica	Victoria
+285	Monica wanted to use a vacuum to clean the floor, but Victoria wanted to use a broom. Monica	 cleaned the floor much quicker.	1	Monica	Victoria
+285	Monica wanted to use a vacuum to clean the floor, but Victoria wanted to use a broom. Victoria	 cleaned the floor much quicker.	0	Monica	Victoria
+286	I used several sprays to get rid of the bedbugs but they didn't work, because the sprays	 were powerless.	1	sprays	bedbugs
+286	I used several sprays to get rid of the bedbugs but they didn't work, because the bedbugs	 were powerless.	0	sprays	bedbugs
+287	I used several sprays to get rid of the bedbugs but they didn't work, because the sprays	 were powerful.	0	sprays	bedbugs
+287	I used several sprays to get rid of the bedbugs but they didn't work, because the bedbugs	 were powerful.	1	sprays	bedbugs
+288	Monica enjoyed watching Western films while Natalie enjoyed romantic ones more because Monica	 grew up on a farm.	1	Monica	Natalie
+288	Monica enjoyed watching Western films while Natalie enjoyed romantic ones more because Natalie	 grew up on a farm.	0	Monica	Natalie
+289	Monica enjoyed watching Western films while Natalie enjoyed romantic ones more because Monica	 grew up watching soap operas.	0	Monica	Natalie
+289	Monica enjoyed watching Western films while Natalie enjoyed romantic ones more because Natalie	 grew up watching soap operas.	1	Monica	Natalie
+290	There were more books at the library than at the bookstore because the library	 was bigger.	1	library	bookstore
+290	There were more books at the library than at the bookstore because the bookstore	 was bigger.	0	library	bookstore
+291	There were more books at the library than at the bookstore because the library	 was smaller.	0	library	bookstore
+291	There were more books at the library than at the bookstore because the bookstore	 was smaller.	1	library	bookstore
+292	Drawing was a talent of Sarah but not Carrie so Sarah	 was always eager to see her artwork .	0	Sarah	Carrie
+292	Drawing was a talent of Sarah but not Carrie so Carrie	 was always eager to see her artwork .	1	Sarah	Carrie
+293	Drawing was a talent of Sarah but not Carrie so Sarah	 was always eager to show her her artwork .	1	Sarah	Carrie
+293	Drawing was a talent of Sarah but not Carrie so Carrie	 was always eager to show her her artwork .	0	Sarah	Carrie
+294	Emily spent a lot of money on their smartphone but Rachel bought a cheap one because Emily	 was very dowdy.	0	Emily	Rachel
+294	Emily spent a lot of money on their smartphone but Rachel bought a cheap one because Rachel	 was very dowdy.	1	Emily	Rachel
+295	Emily spent a lot of money on their smartphone but Rachel bought a cheap one because Emily	 was very stylish.	1	Emily	Rachel
+295	Emily spent a lot of money on their smartphone but Rachel bought a cheap one because Rachel	 was very stylish.	0	Emily	Rachel
+296	Tea and coffee should be drunk out of different vessels, cups and mugs respectively. Coffee is usually served in the cup	 , with milk and sometimes sugar.	0	cup	mug
+296	Tea and coffee should be drunk out of different vessels, cups and mugs respectively. Coffee is usually served in the mug	 , with milk and sometimes sugar.	1	cup	mug
+297	Tea and coffee should be drunk out of different vessels, cups and mugs respectively. Tea is usually served in the cup	 , with milk and sometimes sugar.	1	cup	mug
+297	Tea and coffee should be drunk out of different vessels, cups and mugs respectively. Tea is usually served in the mug	 , with milk and sometimes sugar.	0	cup	mug
+298	Neil asked Michael what it was like to go to war because Neil	 was a pacifist.	1	Neil	Michael
+298	Neil asked Michael what it was like to go to war because Michael	 was a pacifist.	0	Neil	Michael
+299	Neil asked Michael what it was like to go to war because Neil	 was ex-military.	0	Neil	Michael
+299	Neil asked Michael what it was like to go to war because Michael	 was ex-military.	1	Neil	Michael
+300	I went into the mine looking for diamonds but all I found was quartz and topaz.  I settled on the topaz	 because it was almost clear.	0	topaz	quartz
+300	I went into the mine looking for diamonds but all I found was quartz and topaz.  I settled on the quartz	 because it was almost clear.	1	topaz	quartz
+301	I went into the mine looking for diamonds but all I found was quartz and topaz.  I settled on the topaz	 because it shined yellow.	1	topaz	quartz
+301	I went into the mine looking for diamonds but all I found was quartz and topaz.  I settled on the quartz	 because it shined yellow.	0	topaz	quartz
+302	The chef thinks it's more healthy to eat apples than beets, so he hates putting the apples	 in his smoothies.	0	apples	beets
+302	The chef thinks it's more healthy to eat apples than beets, so he hates putting the beets	 in his smoothies.	1	apples	beets
+303	The chef thinks it's more healthy to eat apples than beets, so he likes putting the apples	 in his smoothies.	1	apples	beets
+303	The chef thinks it's more healthy to eat apples than beets, so he likes putting the beets	 in his smoothies.	0	apples	beets
+304	Jennifer was at risk of encountering a shark during their swim, but Emily was not, because Jennifer	 swam in the ocean.	1	Jennifer	Emily
+304	Jennifer was at risk of encountering a shark during their swim, but Emily was not, because Emily	 swam in the ocean.	0	Jennifer	Emily
+305	Jennifer was at risk of encountering a shark during their swim, but Emily was not, because Jennifer	 swam in the lake.	0	Jennifer	Emily
+305	Jennifer was at risk of encountering a shark during their swim, but Emily was not, because Emily	 swam in the lake.	1	Jennifer	Emily
+306	The documents contained in the files could not fit properly. The Files	 were too small.	1	Files	Documents
+306	The documents contained in the files could not fit properly. The Documents	 were too small.	0	Files	Documents
+307	The documents contained in the files could not fit properly. The Files	 were too large.	0	Files	Documents
+307	The documents contained in the files could not fit properly. The Documents	 were too large.	1	Files	Documents
+308	Avid bookworms, Lawrence read fiction while Jason read non-fiction. Lawrence	 liked to escape into an imaginary world.	1	Lawrence	Jason
+308	Avid bookworms, Lawrence read fiction while Jason read non-fiction. Jason	 liked to escape into an imaginary world.	0	Lawrence	Jason
+309	Avid bookworms, Lawrence read fiction while Jason read non-fiction. Lawrence	 struggled to escape into an imaginary world.	0	Lawrence	Jason
+309	Avid bookworms, Lawrence read fiction while Jason read non-fiction. Jason	 struggled to escape into an imaginary world.	1	Lawrence	Jason
+310	Mary only wore stripes to work and not plaids because the plaids	 made her look sloppy.	1	plaids	stripes
+310	Mary only wore stripes to work and not plaids because the stripes	 made her look sloppy.	0	plaids	stripes
+311	Mary only wore stripes to work and not plaids because the plaids	 made her look professional.	0	plaids	stripes
+311	Mary only wore stripes to work and not plaids because the stripes	 made her look professional.	1	plaids	stripes
+312	The bumper on the car shone brighter than the handle on the car because the bumper	 was dirtier.	0	bumper	handle
+312	The bumper on the car shone brighter than the handle on the car because the handle	 was dirtier.	1	bumper	handle
+313	The bumper on the car shone brighter than the handle on the car because the bumper	 was cleaner.	1	bumper	handle
+313	The bumper on the car shone brighter than the handle on the car because the handle	 was cleaner.	0	bumper	handle
+314	Ian is making a pool party for Neil and needs to raise pH in a pool, so Ian	 could safely enjoy party.	0	Ian	Neil
+314	Ian is making a pool party for Neil and needs to raise pH in a pool, so Neil	 could safely enjoy party.	1	Ian	Neil
+315	Ian is making a pool party for Neil and needs to raise pH in a pool, so Ian	 buys pH raising preparates.	1	Ian	Neil
+315	Ian is making a pool party for Neil and needs to raise pH in a pool, so Neil	 buys pH raising preparates.	0	Ian	Neil
+316	While Billie brought a pencil, I brought a pen to the realtor’s office. I gave Billie my pen and she gladly used the pencil	 to sign the document.	0	pencil	pen
+316	While Billie brought a pencil, I brought a pen to the realtor’s office. I gave Billie my pen and she gladly used the pen	 to sign the document.	1	pencil	pen
+317	While Billie brought a pencil, I brought a pen to the realtor’s office. I gave Billie my pen but she stubbornly used  the pencil	 to sign the document.	1	pencil	pen
+317	While Billie brought a pencil, I brought a pen to the realtor’s office. I gave Billie my pen but she stubbornly used  the pen	 to sign the document.	0	pencil	pen
+318	No one was able to enjoy the story and we started to listen to the music. The story	 is boring.	1	story	music
+318	No one was able to enjoy the story and we started to listen to the music. The music	 is boring.	0	story	music
+319	No one was able to enjoy the story and we started to listen to the music. The story	 is interesting.	0	story	music
+319	No one was able to enjoy the story and we started to listen to the music. The music	 is interesting.	1	story	music
+320	The teeth of Katrina are more yellow than Laura's due to Katrina	 drinking mostly water all the time.	0	Katrina	Laura
+320	The teeth of Katrina are more yellow than Laura's due to Laura	 drinking mostly water all the time.	1	Katrina	Laura
+321	The teeth of Katrina are more yellow than Laura's due to Katrina	 drinking mostly coffee all the time.	1	Katrina	Laura
+321	The teeth of Katrina are more yellow than Laura's due to Laura	 drinking mostly coffee all the time.	0	Katrina	Laura
+322	It was necessary to hit the iron with the sledgehammer after the iron	 got heated.	1	iron	sledgehammer
+322	It was necessary to hit the iron with the sledgehammer after the sledgehammer	 got heated.	0	iron	sledgehammer
+323	It was necessary to hit the iron with the sledgehammer before the iron	 got heated.	0	iron	sledgehammer
+323	It was necessary to hit the iron with the sledgehammer before the sledgehammer	 got heated.	1	iron	sledgehammer
+324	Kevin didn't consider the costs when they bought the house from Derrick, so Kevin	 was rid of the money pit.	0	Kevin	Derrick
+324	Kevin didn't consider the costs when they bought the house from Derrick, so Derrick	 was rid of the money pit.	1	Kevin	Derrick
+325	Kevin didn't consider the costs when they bought the house from Derrick, so Kevin	 was stuck with the money pit.	1	Kevin	Derrick
+325	Kevin didn't consider the costs when they bought the house from Derrick, so Derrick	 was stuck with the money pit.	0	Kevin	Derrick
+326	Robert helped create an internet viral video sensation of Kyle when Robert	 danced in video.	0	Robert	Kyle
+326	Robert helped create an internet viral video sensation of Kyle when Kyle	 danced in video.	1	Robert	Kyle
+327	Robert helped create an internet viral video sensation of Kyle when Robert	 directed the video.	1	Robert	Kyle
+327	Robert helped create an internet viral video sensation of Kyle when Kyle	 directed the video.	0	Robert	Kyle
+328	Rebecca invited Maria to a concert, then Rebecca	 had to get permission to attend from their parents.	0	Rebecca	Maria
+328	Rebecca invited Maria to a concert, then Maria	 had to get permission to attend from their parents.	1	Rebecca	Maria
+329	Rebecca was invited to a concert by Maria, then Rebecca	 had to get permission to attend from their parents.	1	Rebecca	Maria
+329	Rebecca was invited to a concert by Maria, then Maria	 had to get permission to attend from their parents.	0	Rebecca	Maria
+330	Betty was able to hold the pigeon longer than Angela because Betty	 is scared of birds.	0	Betty	Angela
+330	Betty was able to hold the pigeon longer than Angela because Angela	 is scared of birds.	1	Betty	Angela
+331	Betty was able to hold the pigeon longer than Angela because Betty	 wasn't scared of birds.	1	Betty	Angela
+331	Betty was able to hold the pigeon longer than Angela because Angela	 wasn't scared of birds.	0	Betty	Angela
+332	Nick gets jock itch a lot, while Jason has never even worn a jock strap. Nick	 is the artist.	0	Nick	Jason
+332	Nick gets jock itch a lot, while Jason has never even worn a jock strap. Jason	 is the artist.	1	Nick	Jason
+333	Nick gets jock itch a lot, while Jason has never even worn a jock strap. Nick	 is the athlete.	1	Nick	Jason
+333	Nick gets jock itch a lot, while Jason has never even worn a jock strap. Jason	 is the athlete.	0	Nick	Jason
+334	The theraband that Jill purchased for herself would not fit around her leg, the theraband	 was too wide.	0	theraband	leg
+334	The theraband that Jill purchased for herself would not fit around her leg, the leg	 was too wide.	1	theraband	leg
+335	The theraband that Jill purchased for herself would not fit around her leg, the theraband	 was too narrow.	1	theraband	leg
+335	The theraband that Jill purchased for herself would not fit around her leg, the leg	 was too narrow.	0	theraband	leg
+336	James could not get the bag closed because of the clothe in it. The cloth	 is small.	0	cloth	bag
+336	James could not get the bag closed because of the clothe in it. The bag	 is small.	1	cloth	bag
+337	James could not get the bag closed because of the clothe in it. The cloth	 is plenty.	1	cloth	bag
+337	James could not get the bag closed because of the clothe in it. The bag	 is plenty.	0	cloth	bag
+338	Michelle made her biscuits with shortening and no butter at all, because she thought the butter	 made them taste lighter.	0	butter	shortening
+338	Michelle made her biscuits with shortening and no butter at all, because she thought the shortening	 made them taste lighter.	1	butter	shortening
+339	Michelle made her biscuits with shortening and no butter at all, because she thought the butter	 made them too heavy.	1	butter	shortening
+339	Michelle made her biscuits with shortening and no butter at all, because she thought the shortening	 made them too heavy.	0	butter	shortening
+340	Dennis has been away on vacation, while Nelson stayed home so the lettuce in Dennis	 's fridge was rotten.	1	Dennis	Nelson
+340	Dennis has been away on vacation, while Nelson stayed home so the lettuce in Nelson	 's fridge was rotten.	0	Dennis	Nelson
+341	Dennis has been away on vacation, while Nelson stayed at home so the lettuce in Dennis	 's fridge was used to make a salad.	0	Dennis	Nelson
+341	Dennis has been away on vacation, while Nelson stayed at home so the lettuce in Nelson	 's fridge was used to make a salad.	1	Dennis	Nelson
+342	Jen put her derma roller into the water, so that the cleaner could sterilize it with the derma roller	 .	0	derma roller	water
+342	Jen put her derma roller into the water, so that the cleaner could sterilize it with the water	 .	1	derma roller	water
+343	Jen put her derma roller into the water, so that the cleaner could sterilize the derma roller	 .	1	derma roller	water
+343	Jen put her derma roller into the water, so that the cleaner could sterilize the water	 .	0	derma roller	water
+344	The case James used to carry the file still got more space in it. I wonder why he chose the case	 that is small.	0	case	file
+344	The case James used to carry the file still got more space in it. I wonder why he chose the file	 that is small.	1	case	file
+345	The case James used to carry the file still got more space in it. I wonder why he chose the case	 that is big.	1	case	file
+345	The case James used to carry the file still got more space in it. I wonder why he chose the file	 that is big.	0	case	file
+346	Learning to play a glockenspiel was instinctual for Derrick but not Adam because Derrick	 is arty.	1	Derrick	Adam
+346	Learning to play a glockenspiel was instinctual for Derrick but not Adam because Adam	 is arty.	0	Derrick	Adam
+347	Learning to play a glockenspiel was instinctual for Derrick but not Adam because Derrick	 is unmusical.	0	Derrick	Adam
+347	Learning to play a glockenspiel was instinctual for Derrick but not Adam because Adam	 is unmusical.	1	Derrick	Adam
+348	My knee joint is less injured than my ankle joint so I'm trying not to put too much stress on the knee joint	 if I can help it.	0	knee joint	ankle joint
+348	My knee joint is less injured than my ankle joint so I'm trying not to put too much stress on the ankle joint	 if I can help it.	1	knee joint	ankle joint
+349	My knee joint is more injured than my ankle joint so I'm trying not to put too much stress on the knee joint	 if I can help it.	1	knee joint	ankle joint
+349	My knee joint is more injured than my ankle joint so I'm trying not to put too much stress on the ankle joint	 if I can help it.	0	knee joint	ankle joint
+350	Donald didn't like to keep clean the way Matthew did, so Donald	 tended to smell nice.	0	Donald	Matthew
+350	Donald didn't like to keep clean the way Matthew did, so Matthew	 tended to smell nice.	1	Donald	Matthew
+351	Donald didn't like to keep clean the way Matthew did, so Donald	 tended to smell nasty.	1	Donald	Matthew
+351	Donald didn't like to keep clean the way Matthew did, so Matthew	 tended to smell nasty.	0	Donald	Matthew
+352	The man realized he had gotten the lens for his glasses instead of his camera, the camera	 lens was much thicker.	1	camera	glasses
+352	The man realized he had gotten the lens for his glasses instead of his camera, the glasses	 lens was much thicker.	0	camera	glasses
+353	The man realized he had gotten the lens for his glasses instead of his camera, the camera	 lens was much thinner.	0	camera	glasses
+353	The man realized he had gotten the lens for his glasses instead of his camera, the glasses	 lens was much thinner.	1	camera	glasses
+354	Sunday afternoon Laura made some buttermilk biscuits for Victoria, and Laura	 made quick work of making them.	1	Laura	Victoria
+354	Sunday afternoon Laura made some buttermilk biscuits for Victoria, and Victoria	 made quick work of making them.	0	Laura	Victoria
+355	Sunday afternoon Laura made some buttermilk biscuits for Victoria, and Laura	 made quick work of eating them.	0	Laura	Victoria
+355	Sunday afternoon Laura made some buttermilk biscuits for Victoria, and Victoria	 made quick work of eating them.	1	Laura	Victoria
+356	To cope with her problems the teenager wrote in the journal and not the diary since the journal	 's pages were bigger.	1	journal	diary
+356	To cope with her problems the teenager wrote in the journal and not the diary since the diary	 's pages were bigger.	0	journal	diary
+357	To cope with her problems the teenager wrote in the journal and not the diary since the journal	 's pages were smaller.	0	journal	diary
+357	To cope with her problems the teenager wrote in the journal and not the diary since the diary	 's pages were smaller.	1	journal	diary
+358	Bob tore his shirt that was a night shirt. He decided to get a tuxedo shirt because the night shirt	 is new.	0	night shirt	tuxedo shirt
+358	Bob tore his shirt that was a night shirt. He decided to get a tuxedo shirt because the tuxedo shirt	 is new.	1	night shirt	tuxedo shirt
+359	Bob tore his shirt that was a night shirt. He decided to get a tuxedo shirt because the night shirt	 is old.	1	night shirt	tuxedo shirt
+359	Bob tore his shirt that was a night shirt. He decided to get a tuxedo shirt because the tuxedo shirt	 is old.	0	night shirt	tuxedo shirt
+360	Hunter was suicidal and Robert responded for the reason that Hunter	 had never been in this critical situation.	1	Hunter	Robert
+360	Hunter was suicidal and Robert responded for the reason that Robert	 had never been in this critical situation.	0	Hunter	Robert
+361	Hunter was suicidal and Robert responded for the reason that Hunter	 had previously been in this critical situation.	0	Hunter	Robert
+361	Hunter was suicidal and Robert responded for the reason that Robert	 had previously been in this critical situation.	1	Hunter	Robert
+362	Rachel included Tanya in her YouTube video, but Rachel	 was furious because she had failed to obtain permission.	0	Rachel	Tanya
+362	Rachel included Tanya in her YouTube video, but Tanya	 was furious because she had failed to obtain permission.	1	Rachel	Tanya
+363	Rachel included Tanya in her YouTube video, but Rachel	 was sorry because she had failed to obtain permission.	1	Rachel	Tanya
+363	Rachel included Tanya in her YouTube video, but Tanya	 was sorry because she had failed to obtain permission.	0	Rachel	Tanya
+364	A conductor on the train Felicia has been for years today Elena will present them with a award Felicia	 is being honored.	1	Felicia	Elena
+364	A conductor on the train Felicia has been for years today Elena will present them with a award Elena	 is being honored.	0	Felicia	Elena
+365	A conductor on the train Felicia has been for years today Elena will present them with a award, Felicia	 is honored to be presenting..	0	Felicia	Elena
+365	A conductor on the train Felicia has been for years today Elena will present them with a award, Elena	 is honored to be presenting..	1	Felicia	Elena
+366	The police could escort the prisoner to the gate but not to the cell, as entry to gate	 was permitted .	1	gate	cell
+366	The police could escort the prisoner to the gate but not to the cell, as entry to cell	 was permitted .	0	gate	cell
+367	The police could escort the prisoner to the gate but not to the cell, as entry to gate	 was forbidden .	0	gate	cell
+367	The police could escort the prisoner to the gate but not to the cell, as entry to cell	 was forbidden .	1	gate	cell
+368	When Brenda coated her wood panels with varnish, the concrete surface beneath got stained. The varnish protected and beautified the wood	 .	1	wood	concrete
+368	When Brenda coated her wood panels with varnish, the concrete surface beneath got stained. The varnish protected and beautified the concrete	 .	0	wood	concrete
+369	When Brenda coated her wood panels with varnish, the concrete surface beneath got stained. The varnish harmed and uglified the wood	 .	0	wood	concrete
+369	When Brenda coated her wood panels with varnish, the concrete surface beneath got stained. The varnish harmed and uglified the concrete	 .	1	wood	concrete
+370	John was eager to put his fish in the new fish tank on a table but the table	 was too delicate.	1	table	tank
+370	John was eager to put his fish in the new fish tank on a table but the tank	 was too delicate.	0	table	tank
+371	John was eager to put his fish in the new fish tank on a table but the table	 was too heavy.	0	table	tank
+371	John was eager to put his fish in the new fish tank on a table but the tank	 was too heavy.	1	table	tank
+372	The tea was hurting Ben's teeth, though the coffee was not because the tea	 was loaded with sugar.	1	tea	coffee
+372	The tea was hurting Ben's teeth, though the coffee was not because the coffee	 was loaded with sugar.	0	tea	coffee
+373	The tea was hurting Ben's teeth, though the coffee was not because the tea	 was lacking any sugar.	0	tea	coffee
+373	The tea was hurting Ben's teeth, though the coffee was not because the coffee	 was lacking any sugar.	1	tea	coffee
+374	He preferred to clean with the soap instead of the body wash, because the body wash	 left him feeling itchy.	1	body wash	soap
+374	He preferred to clean with the soap instead of the body wash, because the soap	 left him feeling itchy.	0	body wash	soap
+375	He preferred to clean with the soap instead of the body wash, because the body wash	 left him feeling refreshed.	0	body wash	soap
+375	He preferred to clean with the soap instead of the body wash, because the soap	 left him feeling refreshed.	1	body wash	soap
+376	Katrina loaned their jacket to Carrie during the cold night, although Katrina	 was feeling cold themselves.	1	Katrina	Carrie
+376	Katrina loaned their jacket to Carrie during the cold night, although Carrie	 was feeling cold themselves.	0	Katrina	Carrie
+377	Katrina loaned their jacket to Carrie during the cold night, because Katrina	 was feeling cold.	0	Katrina	Carrie
+377	Katrina loaned their jacket to Carrie during the cold night, because Carrie	 was feeling cold.	1	Katrina	Carrie
+378	Adam had to schedule a visit a dermatologist but Joseph didn't because Adam	 had bad skin.	1	Adam	Joseph
+378	Adam had to schedule a visit a dermatologist but Joseph didn't because Joseph	 had bad skin.	0	Adam	Joseph
+379	Adam had to schedule a visit a dermatologist but Joseph didn't because Adam	 had good skin.	0	Adam	Joseph
+379	Adam had to schedule a visit a dermatologist but Joseph didn't because Joseph	 had good skin.	1	Adam	Joseph
+380	Nancy preferred to eat popcorn rather than candy at the movies because the popcorn	 is sweet.	0	popcorn	candy
+380	Nancy preferred to eat popcorn rather than candy at the movies because the candy	 is sweet.	1	popcorn	candy
+381	Nancy preferred to eat popcorn rather than candy at the movies because the popcorn	 is salty.	1	popcorn	candy
+381	Nancy preferred to eat popcorn rather than candy at the movies because the candy	 is salty.	0	popcorn	candy
+382	The project meant Emily collaborated with Victoria, who was not excited. Emily	 hated working with others.	0	Emily	Victoria
+382	The project meant Emily collaborated with Victoria, who was not excited. Victoria	 hated working with others.	1	Emily	Victoria
+383	The project meant Emily collaborated with Victoria, who was not excited. Emily	 loved working with others.	1	Emily	Victoria
+383	The project meant Emily collaborated with Victoria, who was not excited. Victoria	 loved working with others.	0	Emily	Victoria
+384	While Maria rode the bus to work, Megan rode a motorcycle because Maria	 had an unexpired license.	0	Maria	Megan
+384	While Maria rode the bus to work, Megan rode a motorcycle because Megan	 had an unexpired license.	1	Maria	Megan
+385	While Maria rode the bus to work, Megan rode a motorcycle because Maria	 had an expired license.	1	Maria	Megan
+385	While Maria rode the bus to work, Megan rode a motorcycle because Megan	 had an expired license.	0	Maria	Megan
+386	Steven only had one ear but Jeffrey had two. This meant that Steven	 was very lopsided.	1	Steven	Jeffrey
+386	Steven only had one ear but Jeffrey had two. This meant that Jeffrey	 was very lopsided.	0	Steven	Jeffrey
+387	Steven only had one ear but Jeffrey had two. This meant that Steven	 was very symmetrical.	0	Steven	Jeffrey
+387	Steven only had one ear but Jeffrey had two. This meant that Jeffrey	 was very symmetrical.	1	Steven	Jeffrey
+388	Kevin repaired the wooden  furniture for Kyle last week since Kevin	 was an expert carpenter.	0	Kevin	Kyle
+388	Kevin repaired the wooden  furniture for Kyle last week since Kyle	 was an expert carpenter.	1	Kevin	Kyle
+389	Kevin repaired the wooden furniture for Kyle last week since Kevin	 needed an expert carpenter.	1	Kevin	Kyle
+389	Kevin repaired the wooden furniture for Kyle last week since Kyle	 needed an expert carpenter.	0	Kevin	Kyle
+390	Eric thought the clothes looked very nice but Kevin did not agree. Eric	 didn't buy the clothes.	0	Eric	Kevin
+390	Eric thought the clothes looked very nice but Kevin did not agree. Kevin	 didn't buy the clothes.	1	Eric	Kevin
+391	Eric thought the clothes looked very nice but Kevin did not agree. Eric	 bought the clothes.	1	Eric	Kevin
+391	Eric thought the clothes looked very nice but Kevin did not agree. Kevin	 bought the clothes.	0	Eric	Kevin
+392	Jessica often experiences severe nausea, Victoria does not therefore Jessica	 does not ride roller coasters.	1	Jessica	Victoria
+392	Jessica often experiences severe nausea, Victoria does not therefore Victoria	 does not ride roller coasters.	0	Jessica	Victoria
+393	Jessica often experiences severe nausea, Victoria does not therefore Jessica	 often rides big roller coasters.	0	Jessica	Victoria
+393	Jessica often experiences severe nausea, Victoria does not therefore Victoria	 often rides big roller coasters.	1	Jessica	Victoria
+394	The system that Jeffrey used was amazing compared to Randy, because Jeffrey	 system was lower end.	0	Jeffrey	Randy
+394	The system that Jeffrey used was amazing compared to Randy, because Randy	 system was lower end.	1	Jeffrey	Randy
+395	The system that Jeffrey used was amazing compared to Randy, because Jeffrey	 system was higher end.	1	Jeffrey	Randy
+395	The system that Jeffrey used was amazing compared to Randy, because Randy	 system was higher end.	0	Jeffrey	Randy
+396	It took Jerry longer to shampoo his hair than his beard although the hair	 was bushy.	0	hair	beard
+396	It took Jerry longer to shampoo his hair than his beard although the beard	 was bushy.	1	hair	beard
+397	It took Jerry longer to shampoo his hair than his beard although the hair	 was shaved short.	1	hair	beard
+397	It took Jerry longer to shampoo his hair than his beard although the beard	 was shaved short.	0	hair	beard
+398	Have you ever been on  a nature walk Samantha asked Tanya , Samantha	 is giving a reply to a question.	0	Samantha	Tanya
+398	Have you ever been on  a nature walk Samantha asked Tanya , Tanya	 is giving a reply to a question.	1	Samantha	Tanya
+399	Have you ever been on  a nature walk Samantha asked Tanya , Samantha	 is waiting for a reply to a question.	1	Samantha	Tanya
+399	Have you ever been on  a nature walk Samantha asked Tanya , Tanya	 is waiting for a reply to a question.	0	Samantha	Tanya
+400	Ben was choosing between a clothing business and a fitness business. He ended up opening the fitness	 business because it was healthy.	1	fitness	clothing
+400	Ben was choosing between a clothing business and a fitness business. He ended up opening the clothing	 business because it was healthy.	0	fitness	clothing
+401	Ben was choosing between a clothing business and a fitness business. He ended up opening the fitness	 business because it was unhealthy.	0	fitness	clothing
+401	Ben was choosing between a clothing business and a fitness business. He ended up opening the clothing	 business because it was unhealthy.	1	fitness	clothing
+402	Jason was going to a job interview after being prepped by Logan. Jason	 was proud.	0	Jason	Logan
+402	Jason was going to a job interview after being prepped by Logan. Logan	 was proud.	1	Jason	Logan
+403	Jason was going to a job interview after being prepped by Logan. Jason	 was grateful.	1	Jason	Logan
+403	Jason was going to a job interview after being prepped by Logan. Logan	 was grateful.	0	Jason	Logan
+404	Adam found the blue joke that Steven offensive, because Adam	 was aware of their own privilege.	1	Adam	Steven
+404	Adam found the blue joke that Steven offensive, because Steven	 was aware of their own privilege.	0	Adam	Steven
+405	Adam found the blue joke that Steven offensive, because Adam	 was unaware of their own privilege.	0	Adam	Steven
+405	Adam found the blue joke that Steven offensive, because Steven	 was unaware of their own privilege.	1	Adam	Steven
+406	Mary had a better body and was more of a showoff than Emily. Mary	 hates wearing bikinis to the beach.	0	Mary	Emily
+406	Mary had a better body and was more of a showoff than Emily. Emily	 hates wearing bikinis to the beach.	1	Mary	Emily
+407	Mary had a better body and was more of a showoff than Emily. Mary	 loves wearing bikinis to the beach.	1	Mary	Emily
+407	Mary had a better body and was more of a showoff than Emily. Emily	 loves wearing bikinis to the beach.	0	Mary	Emily
+408	Adam adored his grandmother, William.  Adam	 decided he would surprise her with a trip to Europe.	1	Adam	William
+408	Adam adored his grandmother, William.  William	 decided he would surprise her with a trip to Europe.	0	Adam	William
+409	Adam adored his grandmother, William.  Adam	 got a big surprise with a trip to Europe.	0	Adam	William
+409	Adam adored his grandmother, William.  William	 got a big surprise with a trip to Europe.	1	Adam	William
+410	Eric was easier to amuse than Justin because Eric	 had a great sense of humor.	1	Eric	Justin
+410	Eric was easier to amuse than Justin because Justin	 had a great sense of humor.	0	Eric	Justin
+411	Eric was easier to amuse than Justin because Eric	 had a bad sense of humor.	0	Eric	Justin
+411	Eric was easier to amuse than Justin because Justin	 had a bad sense of humor.	1	Eric	Justin
+412	The payments were made by Jason to Dennis, as Jason	 had borrowed so much money in the past.	1	Jason	Dennis
+412	The payments were made by Jason to Dennis, as Dennis	 had borrowed so much money in the past.	0	Jason	Dennis
+413	The payments were made by Jason to Dennis, as Jason	 had lent so much money in the past.	0	Jason	Dennis
+413	The payments were made by Jason to Dennis, as Dennis	 had lent so much money in the past.	1	Jason	Dennis
+414	Victoria was disgusted because of the odor of Sarah, and Victoria	 did not want to be around them.	1	Victoria	Sarah
+414	Victoria was disgusted because of the odor of Sarah, and Sarah	 did not want to be around them.	0	Victoria	Sarah
+415	Victoria was disgusted because of the odor of Sarah, and Victoria	 was ashamed to be around them.	0	Victoria	Sarah
+415	Victoria was disgusted because of the odor of Sarah, and Sarah	 was ashamed to be around them.	1	Victoria	Sarah
+416	Tina asked guests to take off their shoes when entering the house because she had a new carpet. She said the shoes	 couldn't get dirty.	0	shoes	carpet
+416	Tina asked guests to take off their shoes when entering the house because she had a new carpet. She said the carpet	 couldn't get dirty.	1	shoes	carpet
+417	Tina asked guests to take off their shoes when entering the house because she had a new carpet. She said the shoes	 were often dirty.	1	shoes	carpet
+417	Tina asked guests to take off their shoes when entering the house because she had a new carpet. She said the carpet	 were often dirty.	0	shoes	carpet
+418	Samantha won the dance competition over Jennifer for the reason that Samantha	 had a superior sense of rhythm.	1	Samantha	Jennifer
+418	Samantha won the dance competition over Jennifer for the reason that Jennifer	 had a superior sense of rhythm.	0	Samantha	Jennifer
+419	Samantha won the dance competition over Jennifer for the reason that Samantha	 had a bad sense of rhythm.	0	Samantha	Jennifer
+419	Samantha won the dance competition over Jennifer for the reason that Jennifer	 had a bad sense of rhythm.	1	Samantha	Jennifer
+420	Jessica was thinner than Rebecca because Jessica	 ate chocolate almost every day as a snack.	0	Jessica	Rebecca
+420	Jessica was thinner than Rebecca because Rebecca	 ate chocolate almost every day as a snack.	1	Jessica	Rebecca
+421	Jessica was fatter than Rebecca because Jessica	 ate chocolate almost every day as a snack.	1	Jessica	Rebecca
+421	Jessica was fatter than Rebecca because Rebecca	 ate chocolate almost every day as a snack.	0	Jessica	Rebecca
+422	Tanya couldn't stretch as far down as Jennifer because Tanya	 was had a very flexible body.	0	Tanya	Jennifer
+422	Tanya couldn't stretch as far down as Jennifer because Jennifer	 was had a very flexible body.	1	Tanya	Jennifer
+423	Tanya couldn't stretch as far down as Jennifer because Tanya	 was had a very rigid body.	1	Tanya	Jennifer
+423	Tanya couldn't stretch as far down as Jennifer because Jennifer	 was had a very rigid body.	0	Tanya	Jennifer
+424	Ben had to stop driving his car or motorcycle. He chose to stop the motorcycle	 because it was safe.	0	motorcycle	car
+424	Ben had to stop driving his car or motorcycle. He chose to stop the car	 because it was safe.	1	motorcycle	car
+425	Ben had to stop driving his car or motorcycle. He chose to stop the motorcycle	 because it was risky.	1	motorcycle	car
+425	Ben had to stop driving his car or motorcycle. He chose to stop the car	 because it was risky.	0	motorcycle	car
+426	Randy is better at playing pretend with kids than Kenneth because Randy	 is a more serious person.	0	Randy	Kenneth
+426	Randy is better at playing pretend with kids than Kenneth because Kenneth	 is a more serious person.	1	Randy	Kenneth
+427	Randy is better at playing pretend with kids than Kenneth because Randy	 is a more creative person.	1	Randy	Kenneth
+427	Randy is better at playing pretend with kids than Kenneth because Kenneth	 is a more creative person.	0	Randy	Kenneth
+428	James needed a bigger box to collect the silver he exchanged for the gold because the silver	 is bigger.	1	silver	gold
+428	James needed a bigger box to collect the silver he exchanged for the gold because the gold	 is bigger.	0	silver	gold
+429	James needed a bigger box to collect the silver he exchanged for the gold because the silver	 is smaller.	0	silver	gold
+429	James needed a bigger box to collect the silver he exchanged for the gold because the gold	 is smaller.	1	silver	gold
+430	More birds were in the garden than in the park because the garden	 only had grass.	0	garden	park
+430	More birds were in the garden than in the park because the park	 only had grass.	1	garden	park
+431	More birds were in the garden than in the park because the garden	 had fresh fruit.	1	garden	park
+431	More birds were in the garden than in the park because the park	 had fresh fruit.	0	garden	park
+432	Kayla decided to talk to her daughter Sarah about puberty, because Kayla	 found out she had just gotten her first period.	1	Kayla	Sarah
+432	Kayla decided to talk to her daughter Sarah about puberty, because Sarah	 found out she had just gotten her first period.	0	Kayla	Sarah
+433	Kayla decided to talk to her daughter Sarah about puberty, because Kayla	 said she had just gotten her first period.	0	Kayla	Sarah
+433	Kayla decided to talk to her daughter Sarah about puberty, because Sarah	 said she had just gotten her first period.	1	Kayla	Sarah
+434	Pam's lizard caught his tail in the door and ran under the couch instead of the chair, because the couch	 was scarier.	0	couch	chair
+434	Pam's lizard caught his tail in the door and ran under the couch instead of the chair, because the chair	 was scarier.	1	couch	chair
+435	Pam's lizard caught his tail in the door and ran under the couch instead of the chair, because the couch	 was safer.	1	couch	chair
+435	Pam's lizard caught his tail in the door and ran under the couch instead of the chair, because the chair	 was safer.	0	couch	chair
+436	Jeffrey asked Joel to express their feelings in a more productive manner, but Jeffrey	 was actually the one being reasonable.	0	Jeffrey	Joel
+436	Jeffrey asked Joel to express their feelings in a more productive manner, but Joel	 was actually the one being reasonable.	1	Jeffrey	Joel
+437	Jeffrey asked Joel to express their feelings in a more productive manner, but Jeffrey	 was actually the one being petty.	1	Jeffrey	Joel
+437	Jeffrey asked Joel to express their feelings in a more productive manner, but Joel	 was actually the one being petty.	0	Jeffrey	Joel
+438	Jennifer was better at playing sports than Laura was although Jennifer	 was much more athletic.	0	Jennifer	Laura
+438	Jennifer was better at playing sports than Laura was although Laura	 was much more athletic.	1	Jennifer	Laura
+439	Jennifer was better at playing sports than Laura was because Jennifer	 was much more athletic.	1	Jennifer	Laura
+439	Jennifer was better at playing sports than Laura was because Laura	 was much more athletic.	0	Jennifer	Laura
+440	The football was flying higher than the basketball as it went through the air. The football	 was lighter.	1	football	basketball
+440	The football was flying higher than the basketball as it went through the air. The basketball	 was lighter.	0	football	basketball
+441	The football was flying higher than the basketball as it went through the air. The football	 was heavier.	0	football	basketball
+441	The football was flying higher than the basketball as it went through the air. The basketball	 was heavier.	1	football	basketball
+442	Dennis liked pop music, but Jason preferred classical music. Dennis	 liked music with string instruments.	0	Dennis	Jason
+442	Dennis liked pop music, but Jason preferred classical music. Jason	 liked music with string instruments.	1	Dennis	Jason
+443	Dennis liked pop music, but Jason preferred classical music. Dennis	 liked music you can dance to.	1	Dennis	Jason
+443	Dennis liked pop music, but Jason preferred classical music. Jason	 liked music you can dance to.	0	Dennis	Jason
+444	I added spices to my cooking like salt and pepper.  The salt	 makes the food taste salty.	1	salt	pepper
+444	I added spices to my cooking like salt and pepper.  The pepper	 makes the food taste salty.	0	salt	pepper
+445	I added spices to my cooking like salt and pepper.  The salt	 makes the food taste hotter.	0	salt	pepper
+445	I added spices to my cooking like salt and pepper.  The pepper	 makes the food taste hotter.	1	salt	pepper
+446	At the mall, Laura applied makeup on Betty to beautify her because Laura	 was not very attractive.	0	Laura	Betty
+446	At the mall, Laura applied makeup on Betty to beautify her because Betty	 was not very attractive.	1	Laura	Betty
+447	At the mall, Laura applied makeup on Betty to beautify her because Laura	 was an expert.	1	Laura	Betty
+447	At the mall, Laura applied makeup on Betty to beautify her because Betty	 was an expert.	0	Laura	Betty
+448	Jason's leg was more sore than his arm was because he warmed up the arm	 before exercising.	1	arm	leg
+448	Jason's leg was more sore than his arm was because he warmed up the leg	 before exercising.	0	arm	leg
+449	Jason's leg was more sore than his arm was although he warmed up the arm	 before exercising.	0	arm	leg
+449	Jason's leg was more sore than his arm was although he warmed up the leg	 before exercising.	1	arm	leg
+450	Randy learned to fish from Derrick, because Randy	 was a professional with years of experience.	0	Randy	Derrick
+450	Randy learned to fish from Derrick, because Derrick	 was a professional with years of experience.	1	Randy	Derrick
+451	Randy learned to fish from Derrick, because Randy	 was a novice with only days of experience.	1	Randy	Derrick
+451	Randy learned to fish from Derrick, because Derrick	 was a novice with only days of experience.	0	Randy	Derrick
+452	While the woman Kayla was driving Maria to her first day of kindergarten the police officer gave Kayla	 a ticket.	1	Kayla	Maria
+452	While the woman Kayla was driving Maria to her first day of kindergarten the police officer gave Maria	 a ticket.	0	Kayla	Maria
+453	While the woman Kayla was driving Maria to her first day of kindergarten the police officer gave Kayla	 a lollipop.	0	Kayla	Maria
+453	While the woman Kayla was driving Maria to her first day of kindergarten the police officer gave Maria	 a lollipop.	1	Kayla	Maria
+454	Chess is bad for the body but great for the brain, as thinking is critical for the body	 to develop.	0	body	brain
+454	Chess is bad for the body but great for the brain, as thinking is critical for the brain	 to develop.	1	body	brain
+455	Chess is bad for the body but great for the brain, as thinking is useless for the body	 to develop.	1	body	brain
+455	Chess is bad for the body but great for the brain, as thinking is useless for the brain	 to develop.	0	body	brain
+456	Amy wanted a soft toothbrush but Mary wanted a firm one because Amy	 was concerned about tarter.	0	Amy	Mary
+456	Amy wanted a soft toothbrush but Mary wanted a firm one because Mary	 was concerned about tarter.	1	Amy	Mary
+457	Amy wanted a soft toothbrush but Mary wanted a firm one because Amy	 was concerned about soreness.	1	Amy	Mary
+457	Amy wanted a soft toothbrush but Mary wanted a firm one because Mary	 was concerned about soreness.	0	Amy	Mary
+458	Jeffrey build a house for Kenneth so Jeffrey	 will have a nice new place to live.	0	Jeffrey	Kenneth
+458	Jeffrey build a house for Kenneth so Kenneth	 will have a nice new place to live.	1	Jeffrey	Kenneth
+459	Jeffrey build a house with Kenneth's help so Jeffrey	 will have a nice new place to live.	1	Jeffrey	Kenneth
+459	Jeffrey build a house with Kenneth's help so Kenneth	 will have a nice new place to live.	0	Jeffrey	Kenneth
+460	Megan had a baby whereas Katrina had a college aged child, so Megan	 still had to change diapers.	1	Megan	Katrina
+460	Megan had a baby whereas Katrina had a college aged child, so Katrina	 still had to change diapers.	0	Megan	Katrina
+461	Megan had a baby whereas Katrina had a college aged child, so Megan	 no longer had to change diapers.	0	Megan	Katrina
+461	Megan had a baby whereas Katrina had a college aged child, so Katrina	 no longer had to change diapers.	1	Megan	Katrina
+462	Megan received flowers from Carrie because Megan	 wanted to ask them out on a date.	0	Megan	Carrie
+462	Megan received flowers from Carrie because Carrie	 wanted to ask them out on a date.	1	Megan	Carrie
+463	Megan gave flowers to Carrie because Megan	 wanted to ask them out on a date.	1	Megan	Carrie
+463	Megan gave flowers to Carrie because Carrie	 wanted to ask them out on a date.	0	Megan	Carrie
+464	Emptying the litter box was a dreaded chore for Adam while Lawrence didn't mind doing it. Adam	 never tried to get someone else to handle it.	0	Adam	Lawrence
+464	Emptying the litter box was a dreaded chore for Adam while Lawrence didn't mind doing it. Lawrence	 never tried to get someone else to handle it.	1	Adam	Lawrence
+465	Emptying the litter box was a dreaded chore for Adam while Lawrence didn't mind doing it. Adam	 always tried to get someone else to handle it.	1	Adam	Lawrence
+465	Emptying the litter box was a dreaded chore for Adam while Lawrence didn't mind doing it. Lawrence	 always tried to get someone else to handle it.	0	Adam	Lawrence
+466	Matthew spent the weekend watching a baby while Benjamin was on vacation, and Matthew	 made sure their vacation was relaxing.	0	Matthew	Benjamin
+466	Matthew spent the weekend watching a baby while Benjamin was on vacation, and Benjamin	 made sure their vacation was relaxing.	1	Matthew	Benjamin
+467	Matthew spent the weekend watching a baby while Benjamin was on vacation, and Matthew	 made sure the baby was fed.	1	Matthew	Benjamin
+467	Matthew spent the weekend watching a baby while Benjamin was on vacation, and Benjamin	 made sure the baby was fed.	0	Matthew	Benjamin
+468	Kevin found running the marathon easier than Dennis. Kevin	 had repeatedly meant to stop smoking.	0	Kevin	Dennis
+468	Kevin found running the marathon easier than Dennis. Dennis	 had repeatedly meant to stop smoking.	1	Kevin	Dennis
+469	Kevin found running the marathon easier than Dennis. Kevin	 had finally decided to stop smoking.	1	Kevin	Dennis
+469	Kevin found running the marathon easier than Dennis. Dennis	 had finally decided to stop smoking.	0	Kevin	Dennis
+470	Lawrence planned to steal the valuable painting from Michael, because Lawrence	 finally owned something beautiful.	0	Lawrence	Michael
+470	Lawrence planned to steal the valuable painting from Michael, because Michael	 finally owned something beautiful.	1	Lawrence	Michael
+471	Lawrence planned to steal the valuable painting from Michael, because Lawrence	 wanted to own something beautiful.	1	Lawrence	Michael
+471	Lawrence planned to steal the valuable painting from Michael, because Michael	 wanted to own something beautiful.	0	Lawrence	Michael
+472	Jordan gave his miniature horse a field and a barn to stay in, and the horse liked the barn	 better when it was warm.	0	barn	field
+472	Jordan gave his miniature horse a field and a barn to stay in, and the horse liked the field	 better when it was warm.	1	barn	field
+473	Jordan gave his miniature horse a field and a barn to stay in, and the horse liked the barn	 better when it was cold.	1	barn	field
+473	Jordan gave his miniature horse a field and a barn to stay in, and the horse liked the field	 better when it was cold.	0	barn	field
+474	The idea was given to Steven to mull over and not Ryan because Steven	 is more creative.	1	Steven	Ryan
+474	The idea was given to Steven to mull over and not Ryan because Ryan	 is more creative.	0	Steven	Ryan
+475	The idea was given to Steven to mull over and not Ryan because Steven	 is less creative.	0	Steven	Ryan
+475	The idea was given to Steven to mull over and not Ryan because Ryan	 is less creative.	1	Steven	Ryan
+476	Michael bought mealworms as pet food but not Kenneth because Michael	 had a pony as a pet.	0	Michael	Kenneth
+476	Michael bought mealworms as pet food but not Kenneth because Kenneth	 had a pony as a pet.	1	Michael	Kenneth
+477	Michael bought mealworms as pet food but not Kenneth because Michael	 had a lizard as a pet.	1	Michael	Kenneth
+477	Michael bought mealworms as pet food but not Kenneth because Kenneth	 had a lizard as a pet.	0	Michael	Kenneth
+478	The draining discussion was followed by a lively lecture.  The discussion	 was just so boring.	1	discussion	lecture
+478	The draining discussion was followed by a lively lecture.  The lecture	 was just so boring.	0	discussion	lecture
+479	The draining discussion was followed by a lively lecture.  The discussion	 was just so interesting.	0	discussion	lecture
+479	The draining discussion was followed by a lively lecture.  The lecture	 was just so interesting.	1	discussion	lecture
+480	Lawrence was more grateful for their gift than Benjamin was for theirs because Lawrence	 had gotten much more.	1	Lawrence	Benjamin
+480	Lawrence was more grateful for their gift than Benjamin was for theirs because Benjamin	 had gotten much more.	0	Lawrence	Benjamin
+481	Lawrence was more grateful for their gift than Benjamin was for theirs because Lawrence	 had gotten much less.	0	Lawrence	Benjamin
+481	Lawrence was more grateful for their gift than Benjamin was for theirs because Benjamin	 had gotten much less.	1	Lawrence	Benjamin
+482	Mary is sending an important package to Sarah, so Mary	 collects it from the post office.	0	Mary	Sarah
+482	Mary is sending an important package to Sarah, so Sarah	 collects it from the post office.	1	Mary	Sarah
+483	Mary is sending an important package to Sarah, so Mary	 takes it to the post office.	1	Mary	Sarah
+483	Mary is sending an important package to Sarah, so Sarah	 takes it to the post office.	0	Mary	Sarah
+484	Craig volunteered to help the dyslexic students at the school while Joel avoided them, since Craig	 struggled with reading.	0	Craig	Joel
+484	Craig volunteered to help the dyslexic students at the school while Joel avoided them, since Joel	 struggled with reading.	1	Craig	Joel
+485	Craig volunteered to help the dyslexic students at the school while Joel avoided them, since Craig	 loved reading.	1	Craig	Joel
+485	Craig volunteered to help the dyslexic students at the school while Joel avoided them, since Joel	 loved reading.	0	Craig	Joel
+486	Sarah took Mary's speech class; when she passed her final exam, Sarah	 celebrated with ice cream.	1	Sarah	Mary
+486	Sarah took Mary's speech class; when she passed her final exam, Mary	 celebrated with ice cream.	0	Sarah	Mary
+487	Sarah taught Mary's speech class; when she passed her final exam, Sarah	 celebrated with ice cream.	0	Sarah	Mary
+487	Sarah taught Mary's speech class; when she passed her final exam, Mary	 celebrated with ice cream.	1	Sarah	Mary
+488	Joseph decided to groom their dog in the waiting room unlike Leslie, so Joseph	 had the cleaner dog.	1	Joseph	Leslie
+488	Joseph decided to groom their dog in the waiting room unlike Leslie, so Leslie	 had the cleaner dog.	0	Joseph	Leslie
+489	Joseph decided to groom their dog in the waiting room unlike Leslie, so Joseph	 had the dirtier dog.	0	Joseph	Leslie
+489	Joseph decided to groom their dog in the waiting room unlike Leslie, so Leslie	 had the dirtier dog.	1	Joseph	Leslie
+490	The woman wanted to hang the dress in the closet but the closet	 was too large.	0	closet	dress
+490	The woman wanted to hang the dress in the closet but the dress	 was too large.	1	closet	dress
+491	The woman wanted to hang the dress in the closet but the closet	 was too small.	1	closet	dress
+491	The woman wanted to hang the dress in the closet but the dress	 was too small.	0	closet	dress
+492	Ian did not see the tumor on Brett's leg, because Ian	 was only receiving an eye exam.	0	Ian	Brett
+492	Ian did not see the tumor on Brett's leg, because Brett	 was only receiving an eye exam.	1	Ian	Brett
+493	Ian did not see the tumor on Brett's leg, because Ian	 was only performing an eye exam.	1	Ian	Brett
+493	Ian did not see the tumor on Brett's leg, because Brett	 was only performing an eye exam.	0	Ian	Brett
+494	The gathered  stones in the bag outweigh the collected coins because the stones	 are small in numbers.	0	stones	coins
+494	The gathered  stones in the bag outweigh the collected coins because the coins	 are small in numbers.	1	stones	coins
+495	The gathered stones in the bag outweigh the collected coins because the stones	 are much in numbers.	1	stones	coins
+495	The gathered stones in the bag outweigh the collected coins because the coins	 are much in numbers.	0	stones	coins
+496	Samuel knew to recycle aluminum cans but not Logan because Samuel	 was never in need of extra change.	0	Samuel	Logan
+496	Samuel knew to recycle aluminum cans but not Logan because Logan	 was never in need of extra change.	1	Samuel	Logan
+497	Samuel knew to recycle aluminum cans but not Logan because Samuel	 was always in need of extra change.	1	Samuel	Logan
+497	Samuel knew to recycle aluminum cans but not Logan because Logan	 was always in need of extra change.	0	Samuel	Logan
+498	Jessica used the luxury brand to shampoo her hair instead of the generic brand. The luxury	 brand made her hair beautiful.	1	luxury	generic
+498	Jessica used the luxury brand to shampoo her hair instead of the generic brand. The generic	 brand made her hair beautiful.	0	luxury	generic
+499	Jessica used the luxury brand to shampoo her hair instead of the generic brand. The luxury	 brand made her hair ugly.	0	luxury	generic
+499	Jessica used the luxury brand to shampoo her hair instead of the generic brand. The generic	 brand made her hair ugly.	1	luxury	generic
+500	Rachel had a dog but Cynthia's dog was given up for adoption recently, so Rachel	 gave them their old leash.	0	Rachel	Cynthia
+500	Rachel had a dog but Cynthia's dog was given up for adoption recently, so Cynthia	 gave them their old leash.	1	Rachel	Cynthia
+501	Rachel had a dog but Cynthia's dog was given up for adoption recently, so Rachel	 was given their old leash.	1	Rachel	Cynthia
+501	Rachel had a dog but Cynthia's dog was given up for adoption recently, so Cynthia	 was given their old leash.	0	Rachel	Cynthia
+502	John said that he preferred the chocolate frosting over the lemon frosting because the chocolate	 tasted good.	1	chocolate	lemon
+502	John said that he preferred the chocolate frosting over the lemon frosting because the lemon	 tasted good.	0	chocolate	lemon
+503	John said that he preferred the chocolate frosting over the lemon frosting because the chocolate	 tasted bad.	0	chocolate	lemon
+503	John said that he preferred the chocolate frosting over the lemon frosting because the lemon	 tasted bad.	1	chocolate	lemon
+504	Betty is known as bilingual while Rachel is known as multilingual because Betty	 can only speak two languages.	1	Betty	Rachel
+504	Betty is known as bilingual while Rachel is known as multilingual because Rachel	 can only speak two languages.	0	Betty	Rachel
+505	Betty is known as bilingual while Rachel is known as multilingual because Betty	 can speak more than two languages.	0	Betty	Rachel
+505	Betty is known as bilingual while Rachel is known as multilingual because Rachel	 can speak more than two languages.	1	Betty	Rachel
+506	during the vacation we stayed in the 3 star hotel and not the 5 star hotel because the 3 star	 were fully booked.	0	3 star	5 star
+506	during the vacation we stayed in the 3 star hotel and not the 5 star hotel because the 5 star	 were fully booked.	1	3 star	5 star
+507	during the vacation we stayed in the 3 star hotel and not the 5 star hotel because the 3 star	 were available.	1	3 star	5 star
+507	during the vacation we stayed in the 3 star hotel and not the 5 star hotel because the 5 star	 were available.	0	3 star	5 star
+508	The thief was able to be sneaky in the boots, but not in the sandals, because the sandals	 were made of superior material.	0	sandals	boots
+508	The thief was able to be sneaky in the boots, but not in the sandals, because the boots	 were made of superior material.	1	sandals	boots
+509	The thief was able to be sneaky in the boots, but not in the sandals, because the sandals	 were made of inferior material.	1	sandals	boots
+509	The thief was able to be sneaky in the boots, but not in the sandals, because the boots	 were made of inferior material.	0	sandals	boots
+510	The quilt Margot was making would take up the whole closet, because the quilt	 was huge.	1	quilt	closet
+510	The quilt Margot was making would take up the whole closet, because the closet	 was huge.	0	quilt	closet
+511	The quilt Margot was making would take up the whole closet, because the quilt	 was tiny.	0	quilt	closet
+511	The quilt Margot was making would take up the whole closet, because the closet	 was tiny.	1	quilt	closet
+512	Are you going to donate your charitable contribution to the church or the school? I think I'm going to give mine to the school	 because they need new pews.	0	school	church
+512	Are you going to donate your charitable contribution to the church or the school? I think I'm going to give mine to the church	 because they need new pews.	1	school	church
+513	Are you going to donate your charitable contribution to the church or the school? I think I'm going to give mine to the school	 because they need new computers.	1	school	church
+513	Are you going to donate your charitable contribution to the church or the school? I think I'm going to give mine to the church	 because they need new computers.	0	school	church
+514	The oak tree weathered the storm but the sapling perished. This is because the oak	 tree was much more fragile.	0	oak	sapling
+514	The oak tree weathered the storm but the sapling perished. This is because the sapling	 tree was much more fragile.	1	oak	sapling
+515	The oak tree weathered the storm but the sapling perished. This is because the oak	 tree was much more sturdy.	1	oak	sapling
+515	The oak tree weathered the storm but the sapling perished. This is because the sapling	 tree was much more sturdy.	0	oak	sapling
+516	Benjamin had a more juvenile sense of humor than Donald so Benjamin	 hated whoopie cushions.	0	Benjamin	Donald
+516	Benjamin had a more juvenile sense of humor than Donald so Donald	 hated whoopie cushions.	1	Benjamin	Donald
+517	Benjamin had a more juvenile sense of humor than Donald so Benjamin	 enjoyed whoopie cushions.	1	Benjamin	Donald
+517	Benjamin had a more juvenile sense of humor than Donald so Donald	 enjoyed whoopie cushions.	0	Benjamin	Donald
+518	Eating sweets was a big problem for Carrie but not for Rebecca, thats why Carrie	 has a small waistline.	0	Carrie	Rebecca
+518	Eating sweets was a big problem for Carrie but not for Rebecca, thats why Rebecca	 has a small waistline.	1	Carrie	Rebecca
+519	Eating sweets was a big problem for Carrie but not for Rebecca, thats why Carrie	 has a large waistline.	1	Carrie	Rebecca
+519	Eating sweets was a big problem for Carrie but not for Rebecca, thats why Rebecca	 has a large waistline.	0	Carrie	Rebecca
+520	The ground around Michael's house was solid unlike Aaron's because Michael	 had a month long rainfall.	0	Michael	Aaron
+520	The ground around Michael's house was solid unlike Aaron's because Aaron	 had a month long rainfall.	1	Michael	Aaron
+521	The ground around Michael's house was solid unlike Aaron's because Michael	 had a month long drought.	1	Michael	Aaron
+521	The ground around Michael's house was solid unlike Aaron's because Aaron	 had a month long drought.	0	Michael	Aaron
+522	Megan inserted an IV into Sarah's arm once they were admitted to the hospital, because Megan	 was a nurse.	1	Megan	Sarah
+522	Megan inserted an IV into Sarah's arm once they were admitted to the hospital, because Sarah	 was a nurse.	0	Megan	Sarah
+523	Megan inserted an IV into Sarah's arm once they were admitted to the hospital, because Megan	 was dehydrated.	0	Megan	Sarah
+523	Megan inserted an IV into Sarah's arm once they were admitted to the hospital, because Sarah	 was dehydrated.	1	Megan	Sarah
+524	It was raining hard and the hat got soaked. The color began to blend together. His mom said the hat	 was ugly anyway and it had too many hats.	0	hat	color
+524	It was raining hard and the hat got soaked. The color began to blend together. His mom said the color	 was ugly anyway and it had too many hats.	1	hat	color
+525	It was raining hard and the hat got soaked. The color began to blend together. His mom said the hat	 was ugly anyway because it had too many colors.	1	hat	color
+525	It was raining hard and the hat got soaked. The color began to blend together. His mom said the color	 was ugly anyway because it had too many colors.	0	hat	color
+526	The bedroom had to have the bureau replaced by the new closet , since the bureau	 was too packed for all the new clothes.	1	bureau	closet
+526	The bedroom had to have the bureau replaced by the new closet , since the closet	 was too packed for all the new clothes.	0	bureau	closet
+527	The bedroom had to have the bureau replaced by the new closet , since the bureau	 was very roomy for all the new clothes.	0	bureau	closet
+527	The bedroom had to have the bureau replaced by the new closet , since the closet	 was very roomy for all the new clothes.	1	bureau	closet
+528	The chef tried to put the banana in the cake but the cake	 was too large.	0	cake	banana
+528	The chef tried to put the banana in the cake but the banana	 was too large.	1	cake	banana
+529	The chef tried to put the banana in the cake but the cake	 was too small.	1	cake	banana
+529	The chef tried to put the banana in the cake but the banana	 was too small.	0	cake	banana
+530	Brett was more prepared to be a parent than Aaron because Brett	 had spent a lot of time with children.	1	Brett	Aaron
+530	Brett was more prepared to be a parent than Aaron because Aaron	 had spent a lot of time with children.	0	Brett	Aaron
+531	Brett was more prepared to be a parent than Aaron because Brett	 had spent very little time with children.	0	Brett	Aaron
+531	Brett was more prepared to be a parent than Aaron because Aaron	 had spent very little time with children.	1	Brett	Aaron
+532	Patricia chose a hardy cultivar to grow unlike Tanya because Patricia	 had very fertile soil.	0	Patricia	Tanya
+532	Patricia chose a hardy cultivar to grow unlike Tanya because Tanya	 had very fertile soil.	1	Patricia	Tanya
+533	Patricia chose a hardy cultivar to grow unlike Tanya because Patricia	 had very rocky soil.	1	Patricia	Tanya
+533	Patricia chose a hardy cultivar to grow unlike Tanya because Tanya	 had very rocky soil.	0	Patricia	Tanya
+534	Donna would prefer to do her reading at the workplace than at home, because the home	 was too noisy.	1	home	workplace
+534	Donna would prefer to do her reading at the workplace than at home, because the workplace	 was too noisy.	0	home	workplace
+535	Donna would prefer to do her reading at the workplace than at home, because the home	 was more quiet.	0	home	workplace
+535	Donna would prefer to do her reading at the workplace than at home, because the workplace	 was more quiet.	1	home	workplace
+536	Donald invited Brett to Paris because Donald	 knew how to speak the native language perfectly.	0	Donald	Brett
+536	Donald invited Brett to Paris because Brett	 knew how to speak the native language perfectly.	1	Donald	Brett
+537	Donald invited Brett to Paris because Donald	 didn't know how to speak the native language.	1	Donald	Brett
+537	Donald invited Brett to Paris because Brett	 didn't know how to speak the native language.	0	Donald	Brett
+538	Michael discovered Craig was a respected doctor so Michael	 was asked many health related questions.	0	Michael	Craig
+538	Michael discovered Craig was a respected doctor so Craig	 was asked many health related questions.	1	Michael	Craig
+539	Michael discovered Craig was a respected doctor so Michael	 asked him many health related questions.	1	Michael	Craig
+539	Michael discovered Craig was a respected doctor so Craig	 asked him many health related questions.	0	Michael	Craig
+540	Glenda always drove the station wagon at night instead of the sports car, because the station wagon	 had dimmer headlights.	0	station wagon	sports car
+540	Glenda always drove the station wagon at night instead of the sports car, because the sports car	 had dimmer headlights.	1	station wagon	sports car
+541	Glenda always drove the station wagon at night instead of the sports car, because the station wagon	 had brighter headlights.	1	station wagon	sports car
+541	Glenda always drove the station wagon at night instead of the sports car, because the sports car	 had brighter headlights.	0	station wagon	sports car
+542	Ryan ran over Ian's guinea pig with his car, causing Ryan	 to feel a great deal of pain.	0	Ryan	Ian
+542	Ryan ran over Ian's guinea pig with his car, causing Ian	 to feel a great deal of pain.	1	Ryan	Ian
+543	Ryan ran over Ian's guinea pig with his car, causing Ryan	 to feel a great deal of guilt.	1	Ryan	Ian
+543	Ryan ran over Ian's guinea pig with his car, causing Ian	 to feel a great deal of guilt.	0	Ryan	Ian
+544	It was easier to prevent the post from falling over than the beam, because the beam	 was heavy.	1	beam	post
+544	It was easier to prevent the post from falling over than the beam, because the post	 was heavy.	0	beam	post
+545	It was easier to prevent the post from falling over than the beam, because the beam	 was light.	0	beam	post
+545	It was easier to prevent the post from falling over than the beam, because the post	 was light.	1	beam	post
+546	It was easy for Joel but not Kevin to have fun on the camping trip because Joel	 had not learned how to enjoy the outdoors.	0	Joel	Kevin
+546	It was easy for Joel but not Kevin to have fun on the camping trip because Kevin	 had not learned how to enjoy the outdoors.	1	Joel	Kevin
+547	It was easy for Joel but not Kevin to have fun on the camping trip because Joel	 learned early how to enjoy the outdoors.	1	Joel	Kevin
+547	It was easy for Joel but not Kevin to have fun on the camping trip because Kevin	 learned early how to enjoy the outdoors.	0	Joel	Kevin
+548	Dennis had a much higher testosterone level than Christopher, so Dennis	 started to worry about being able to have children.	0	Dennis	Christopher
+548	Dennis had a much higher testosterone level than Christopher, so Christopher	 started to worry about being able to have children.	1	Dennis	Christopher
+549	Dennis had a much higher testosterone level than Christopher, so Dennis	 didn't have to worry about being able to have children.	1	Dennis	Christopher
+549	Dennis had a much higher testosterone level than Christopher, so Christopher	 didn't have to worry about being able to have children.	0	Dennis	Christopher
+550	The ability to study French came easier to Angela than Samantha because Angela	 had a strong language background.	1	Angela	Samantha
+550	The ability to study French came easier to Angela than Samantha because Samantha	 had a strong language background.	0	Angela	Samantha
+551	The ability to study French came easier to Angela than Samantha because Angela	 did not have a strong language background.	0	Angela	Samantha
+551	The ability to study French came easier to Angela than Samantha because Samantha	 did not have a strong language background.	1	Angela	Samantha
+552	The pool cue used by Emily at the billiards hall was covered with more chalk than the one used by Betty; consequently, Emily	 was practically flawless when breaking.	1	Emily	Betty
+552	The pool cue used by Emily at the billiards hall was covered with more chalk than the one used by Betty; consequently, Betty	 was practically flawless when breaking.	0	Emily	Betty
+553	The pool cue used by Emily at the billiards hall was covered with more chalk than the one used by Betty; consequently, Emily	 was practically incompetent when breaking.	0	Emily	Betty
+553	The pool cue used by Emily at the billiards hall was covered with more chalk than the one used by Betty; consequently, Betty	 was practically incompetent when breaking.	1	Emily	Betty
+554	Katrina loves the taste of lettuce but Angela doesn't. Katrina	 ordered a big salad for dinner.	1	Katrina	Angela
+554	Katrina loves the taste of lettuce but Angela doesn't. Angela	 ordered a big salad for dinner.	0	Katrina	Angela
+555	Katrina loves the taste of lettuce but Angela doesn't. Katrina	 ordered a big steak for dinner.	0	Katrina	Angela
+555	Katrina loves the taste of lettuce but Angela doesn't. Angela	 ordered a big steak for dinner.	1	Katrina	Angela
+556	Jason approached Steven to deliver the official subpoena and court summons, because Jason	 was employed as a process server.	1	Jason	Steven
+556	Jason approached Steven to deliver the official subpoena and court summons, because Steven	 was employed as a process server.	0	Jason	Steven
+557	Jason approached Steven to deliver the official subpoena and court summons, because Jason	 was being sued.	0	Jason	Steven
+557	Jason approached Steven to deliver the official subpoena and court summons, because Steven	 was being sued.	1	Jason	Steven
+558	The mother always consulted a book for her pregnancy because the pregnancy	 was very  informative.	0	pregnancy	book
+558	The mother always consulted a book for her pregnancy because the book	 was very  informative.	1	pregnancy	book
+559	The mother always consulted a book for her pregnancy because the pregnancy	 was very difficult.	1	pregnancy	book
+559	The mother always consulted a book for her pregnancy because the book	 was very difficult.	0	pregnancy	book
+560	When Manny bought a new dog bed for the cage, he was disappointed when he tried to put it in. The dog bed	 was too small.	0	dog bed	cage
+560	When Manny bought a new dog bed for the cage, he was disappointed when he tried to put it in. The cage	 was too small.	1	dog bed	cage
+561	When Manny bought a new dog bed for the cage, he was disappointed when he tried to put it in. The dog bed	 was too big.	1	dog bed	cage
+561	When Manny bought a new dog bed for the cage, he was disappointed when he tried to put it in. The cage	 was too big.	0	dog bed	cage
+562	Natalie helped Monica to get into a treatment program, after Natalie	 told of her drug addiction.	0	Natalie	Monica
+562	Natalie helped Monica to get into a treatment program, after Monica	 told of her drug addiction.	1	Natalie	Monica
+563	Natalie helped Monica to get into a treatment program, after Natalie	 heard of her drug addiction.	1	Natalie	Monica
+563	Natalie helped Monica to get into a treatment program, after Monica	 heard of her drug addiction.	0	Natalie	Monica
+564	Nelson went to the doctors office without Dennis because Nelson	 had to change his prescription.	1	Nelson	Dennis
+564	Nelson went to the doctors office without Dennis because Dennis	 had to change his prescription.	0	Nelson	Dennis
+565	Nelson went to the doctors office without Dennis because Nelson	 had to change the engine oil.	0	Nelson	Dennis
+565	Nelson went to the doctors office without Dennis because Dennis	 had to change the engine oil.	1	Nelson	Dennis
+566	The horse prefers the pasture over the barn because there is less room in the pasture	 for the horse to stretch.	0	pasture	barn
+566	The horse prefers the pasture over the barn because there is less room in the barn	 for the horse to stretch.	1	pasture	barn
+567	The horse prefers the pasture over the barn because there is more room in the pasture	 for the horse to stretch.	1	pasture	barn
+567	The horse prefers the pasture over the barn because there is more room in the barn	 for the horse to stretch.	0	pasture	barn
+568	She was never able to use lash curlers on her lashes because the lashes	 are too large.	0	lashes	curlers
+568	She was never able to use lash curlers on her lashes because the curlers	 are too large.	1	lashes	curlers
+569	She was never able to use lash curlers on her lashes because the lashes	 are too thin.	1	lashes	curlers
+569	She was never able to use lash curlers on her lashes because the curlers	 are too thin.	0	lashes	curlers
+570	Ian asked Kevin to help with their taxes because Ian	 was a successful, trained accountant.	0	Ian	Kevin
+570	Ian asked Kevin to help with their taxes because Kevin	 was a successful, trained accountant.	1	Ian	Kevin
+571	Ian was asked by Kevin to help with their taxes because Ian	 was a successful, trained accountant.	1	Ian	Kevin
+571	Ian was asked by Kevin to help with their taxes because Kevin	 was a successful, trained accountant.	0	Ian	Kevin
+572	Hangovers are really bad, but they are not as bad as migraines, because the hangovers	 are gone quick.	1	hangovers	migraines
+572	Hangovers are really bad, but they are not as bad as migraines, because the migraines	 are gone quick.	0	hangovers	migraines
+573	Hangovers are really bad, but they are not as bad as migraines, because the hangovers	 last awhile.	0	hangovers	migraines
+573	Hangovers are really bad, but they are not as bad as migraines, because the migraines	 last awhile.	1	hangovers	migraines
+574	Since Jennifer was in need of clothing while Natalie had extra, Jennifer	 bought clothes from the thrift shop.	1	Jennifer	Natalie
+574	Since Jennifer was in need of clothing while Natalie had extra, Natalie	 bought clothes from the thrift shop.	0	Jennifer	Natalie
+575	Since Jennifer was in need of clothing while Natalie had extra, Jennifer	 gave clothes to the thrift shop.	0	Jennifer	Natalie
+575	Since Jennifer was in need of clothing while Natalie had extra, Natalie	 gave clothes to the thrift shop.	1	Jennifer	Natalie
+576	He found he had baking powder for the cake but borrowed baking soda from his neighbor since the soda	 was full.	0	soda	powder
+576	He found he had baking powder for the cake but borrowed baking soda from his neighbor since the powder	 was full.	1	soda	powder
+577	He found he had baking powder for the cake but borrowed baking soda from his neighbor since the soda	 was empty.	1	soda	powder
+577	He found he had baking powder for the cake but borrowed baking soda from his neighbor since the powder	 was empty.	0	soda	powder
+578	Justin was very good at playing music on the guitar unlike Craig because Justin	 was very musical.	1	Justin	Craig
+578	Justin was very good at playing music on the guitar unlike Craig because Craig	 was very musical.	0	Justin	Craig
+579	Justin was very good at playing music on the guitar unlike Craig because Justin	 was very sporty.	0	Justin	Craig
+579	Justin was very good at playing music on the guitar unlike Craig because Craig	 was very sporty.	1	Justin	Craig
+580	Sheila didn’t check the temperature of her flat iron before straightening her hair. The iron	 was fried.	0	iron	hair
+580	Sheila didn’t check the temperature of her flat iron before straightening her hair. The hair	 was fried.	1	iron	hair
+581	Sheila didn’t check the temperature of her flat iron before straightening hair. The iron	 was hot.	1	iron	hair
+581	Sheila didn’t check the temperature of her flat iron before straightening hair. The hair	 was hot.	0	iron	hair
+582	Callie practiced dancing more than she practiced guitar although the recital next week was for the dancing	 .	0	dancing	guitar
+582	Callie practiced dancing more than she practiced guitar although the recital next week was for the guitar	 .	1	dancing	guitar
+583	Callie practiced dancing more than she practiced guitar because the recital next week was for the dancing	 .	1	dancing	guitar
+583	Callie practiced dancing more than she practiced guitar because the recital next week was for the guitar	 .	0	dancing	guitar
+584	The dog's hair had to be removed after it got stuck in the mud because the mud	 was clean.	0	mud	hair
+584	The dog's hair had to be removed after it got stuck in the mud because the hair	 was clean.	1	mud	hair
+585	The dog's hair had to be removed after it got stuck in the mud because the mud	 was disgusting.	1	mud	hair
+585	The dog's hair had to be removed after it got stuck in the mud because the hair	 was disgusting.	0	mud	hair
+586	Terrorism was a concern in the countryside, but hardly a problem in the city, as the countryside	 had much peace among people.	0	countryside	city
+586	Terrorism was a concern in the countryside, but hardly a problem in the city, as the city	 had much peace among people.	1	countryside	city
+587	Terrorism was a concern in the countryside, but hardly a problem in the city, as the countryside	 had much conflict among people.	1	countryside	city
+587	Terrorism was a concern in the countryside, but hardly a problem in the city, as the city	 had much conflict among people.	0	countryside	city
+588	Jason was bald, but Hunter had a full head of hair, so Jason	 had no need to buy hair gel.	1	Jason	Hunter
+588	Jason was bald, but Hunter had a full head of hair, so Hunter	 had no need to buy hair gel.	0	Jason	Hunter
+589	Jason was bald, but Hunter had a full head of hair, so Jason	 needed to buy hair gel.	0	Jason	Hunter
+589	Jason was bald, but Hunter had a full head of hair, so Hunter	 needed to buy hair gel.	1	Jason	Hunter
+590	The hair didn't work in a bun, but looked great in a ponytail.  The bun	 was ugly.	1	bun	ponytail
+590	The hair didn't work in a bun, but looked great in a ponytail.  The ponytail	 was ugly.	0	bun	ponytail
+591	The hair didn't work in a bun, but looked great in a ponytail.  The bun	 was cute.	0	bun	ponytail
+591	The hair didn't work in a bun, but looked great in a ponytail.  The ponytail	 was cute.	1	bun	ponytail
+592	it will take them the whole of tomorrow to sort the short sticks, the long ones lasted a few hours only, the long	 ones are visible.	1	long	short
+592	it will take them the whole of tomorrow to sort the short sticks, the long ones lasted a few hours only, the short	 ones are visible.	0	long	short
+593	it will take them the whole of tomorrow to sort the short sticks, the long ones lasted a few hours only, the long	 ones are imperceptible .	0	long	short
+593	it will take them the whole of tomorrow to sort the short sticks, the long ones lasted a few hours only, the short	 ones are imperceptible .	1	long	short
+594	The clouds evoked great fear in the people, while the clear skies calmed them, because the clouds	 were so foreboding.	1	clouds	skies
+594	The clouds evoked great fear in the people, while the clear skies calmed them, because the skies	 were so foreboding.	0	clouds	skies
+595	The clouds evoked great fear in the people, while the clear skies calmed them, because the clouds	 were so comforting.	0	clouds	skies
+595	The clouds evoked great fear in the people, while the clear skies calmed them, because the skies	 were so comforting.	1	clouds	skies
+596	The disease was very contagious. His clothes and homes had to be burned. The homes	 were ragged.	0	homes	clothes
+596	The disease was very contagious. His clothes and homes had to be burned. The clothes	 were ragged.	1	homes	clothes
+597	The disease was very contagious. His clothes and homes had to be burned. The homes	 were huge.	1	homes	clothes
+597	The disease was very contagious. His clothes and homes had to be burned. The clothes	 were huge.	0	homes	clothes
+598	Dina fed her children yogurt instead of ice cream because she thought that the yogurt	 was healthy.	1	yogurt	ice cream
+598	Dina fed her children yogurt instead of ice cream because she thought that the ice cream	 was healthy.	0	yogurt	ice cream
+599	Dina fed her children yogurt instead of ice cream because she thought that the yogurt	 was unhealthy.	0	yogurt	ice cream
+599	Dina fed her children yogurt instead of ice cream because she thought that the ice cream	 was unhealthy.	1	yogurt	ice cream
+600	Heather bought a doll for her daughters cradle the doll did not fit, the cradle	 was too small.	1	cradle	doll
+600	Heather bought a doll for her daughters cradle the doll did not fit, the doll	 was too small.	0	cradle	doll
+601	Heather bought a doll for her daughters cradle the doll did not fit, the cradle	 was too big.	0	cradle	doll
+601	Heather bought a doll for her daughters cradle the doll did not fit, the doll	 was too big.	1	cradle	doll
+602	They need to update their kitchen cabinets after buying more dishes because the cabinets	 are excessive.	0	cabinets	dishes
+602	They need to update their kitchen cabinets after buying more dishes because the dishes	 are excessive.	1	cabinets	dishes
+603	They need to update their kitchen cabinets after buying more dishes because the cabinets	 are small.	1	cabinets	dishes
+603	They need to update their kitchen cabinets after buying more dishes because the dishes	 are small.	0	cabinets	dishes
+604	Because Robert was experiencing hair loss and Brian was not, Robert	 was jealous of his hair.	1	Robert	Brian
+604	Because Robert was experiencing hair loss and Brian was not, Brian	 was jealous of his hair.	0	Robert	Brian
+605	Even though Robert was experiencing hair loss and Brian was not, Robert	 was jealous of his hair.	0	Robert	Brian
+605	Even though Robert was experiencing hair loss and Brian was not, Brian	 was jealous of his hair.	1	Robert	Brian
+606	She wanted to make a toilet paper roll butterfly by using the roll's tube and paint, but was unable to finish because the paint	 was too scarce.	1	paint	tube
+606	She wanted to make a toilet paper roll butterfly by using the roll's tube and paint, but was unable to finish because the tube	 was too scarce.	0	paint	tube
+607	She wanted to make a toilet paper roll butterfly by using the roll's tube and paint, but was unable to finish because the paint	 was too large.	0	paint	tube
+607	She wanted to make a toilet paper roll butterfly by using the roll's tube and paint, but was unable to finish because the tube	 was too large.	1	paint	tube
+608	Lawrence shovelled their driveway after the snow storm while Aaron avoided doing so, so Lawrence	 had a driveway that was covered in snow.	0	Lawrence	Aaron
+608	Lawrence shovelled their driveway after the snow storm while Aaron avoided doing so, so Aaron	 had a driveway that was covered in snow.	1	Lawrence	Aaron
+609	Lawrence shovelled their driveway after the snow storm while Aaron avoided doing so, so Lawrence	 had a driveway that was free from snow.	1	Lawrence	Aaron
+609	Lawrence shovelled their driveway after the snow storm while Aaron avoided doing so, so Aaron	 had a driveway that was free from snow.	0	Lawrence	Aaron
+610	Cathy felt a stronger bond with her dog than her cat because her cat	 was very aloof.	1	cat	dog
+610	Cathy felt a stronger bond with her dog than her cat because her dog	 was very aloof.	0	cat	dog
+611	Cathy felt a stronger bond with her dog than her cat because her cat	 was very affectionate.	0	cat	dog
+611	Cathy felt a stronger bond with her dog than her cat because her dog	 was very affectionate.	1	cat	dog
+612	Patricia always had to clean up after Angela, because Patricia	 didn't care about living in filth.	0	Patricia	Angela
+612	Patricia always had to clean up after Angela, because Angela	 didn't care about living in filth.	1	Patricia	Angela
+613	Patricia always had to clean up after Angela, because Patricia	 didn't want to live in filth.	1	Patricia	Angela
+613	Patricia always had to clean up after Angela, because Angela	 didn't want to live in filth.	0	Patricia	Angela
+614	Michael asked Brett for help moving a desk. Michael	 wouldn't have been able to do it alone.	1	Michael	Brett
+614	Michael asked Brett for help moving a desk. Brett	 wouldn't have been able to do it alone.	0	Michael	Brett
+615	Michael asked Brett for help moving a desk. Michael	 wouldn't have been able to do it by himself either.	0	Michael	Brett
+615	Michael asked Brett for help moving a desk. Brett	 wouldn't have been able to do it by himself either.	1	Michael	Brett
+616	Jennifer liked to smoke pot but Laura like to smoke cigars. Jennifer	 wound up in the local jail for smoking their favorite thing in public.	1	Jennifer	Laura
+616	Jennifer liked to smoke pot but Laura like to smoke cigars. Laura	 wound up in the local jail for smoking their favorite thing in public.	0	Jennifer	Laura
+617	Jennifer liked to smoke pot but Laura like to smoke cigars. Jennifer	 avoided the local jail for smoking their favorite thing in public.	0	Jennifer	Laura
+617	Jennifer liked to smoke pot but Laura like to smoke cigars. Laura	 avoided the local jail for smoking their favorite thing in public.	1	Jennifer	Laura
+618	Jeffrey believed Robert was spying on him during the private event, because Jeffrey	 was sneaky.	0	Jeffrey	Robert
+618	Jeffrey believed Robert was spying on him during the private event, because Robert	 was sneaky.	1	Jeffrey	Robert
+619	Jeffrey believed Robert was spying on him during the private event, because Jeffrey	 was paranoid.	1	Jeffrey	Robert
+619	Jeffrey believed Robert was spying on him during the private event, because Robert	 was paranoid.	0	Jeffrey	Robert
+620	Frank visited the bank to get a loan to buy a new car, and the loan	 was very skeptical.	1	loan	car
+620	Frank visited the bank to get a loan to buy a new car, and the car	 was very skeptical.	0	loan	car
+621	Frank visited the bank to get a loan to buy a new car, and the loan	 was very bold.	0	loan	car
+621	Frank visited the bank to get a loan to buy a new car, and the car	 was very bold.	1	loan	car
+622	Christopher needs Ian's advice on how to create a positive classroom atmosphere, because Christopher	 is a new teacher.	1	Christopher	Ian
+622	Christopher needs Ian's advice on how to create a positive classroom atmosphere, because Ian	 is a new teacher.	0	Christopher	Ian
+623	Christopher needs Ian's advice on how to create a positive classroom atmosphere, because Christopher	 is an experienced teacher.	0	Christopher	Ian
+623	Christopher needs Ian's advice on how to create a positive classroom atmosphere, because Ian	 is an experienced teacher.	1	Christopher	Ian
+624	Emily was having difficulty going through puberty but not Christine because Emily	 had very weak acne causing hormones.	0	Emily	Christine
+624	Emily was having difficulty going through puberty but not Christine because Christine	 had very weak acne causing hormones.	1	Emily	Christine
+625	Emily was having difficulty going through puberty but not Christine because Emily	 had very strong acne causing hormones.	1	Emily	Christine
+625	Emily was having difficulty going through puberty but not Christine because Christine	 had very strong acne causing hormones.	0	Emily	Christine
+626	Hunter likes tulips and Ryan does not, so Hunter	 went to buy some from the store.	1	Hunter	Ryan
+626	Hunter likes tulips and Ryan does not, so Ryan	 went to buy some from the store.	0	Hunter	Ryan
+627	Hunter likes tulips and Ryan does not, so Hunter	 refused to buy some from the store.	0	Hunter	Ryan
+627	Hunter likes tulips and Ryan does not, so Ryan	 refused to buy some from the store.	1	Hunter	Ryan
+628	Victoria decided to choose express shipping while Katrina did not, so Victoria	 got her order last.	0	Victoria	Katrina
+628	Victoria decided to choose express shipping while Katrina did not, so Katrina	 got her order last.	1	Victoria	Katrina
+629	Victoria decided to choose express shipping while Katrina did not, so Victoria	 got her order first.	1	Victoria	Katrina
+629	Victoria decided to choose express shipping while Katrina did not, so Katrina	 got her order first.	0	Victoria	Katrina
+630	The tutor was more suited for English studies than the professor , since tutor	 was an effective teacher.	1	tutor	professor
+630	The tutor was more suited for English studies than the professor , since professor	 was an effective teacher.	0	tutor	professor
+631	The tutor was more suited for English studies than the professor , since tutor	 was an inadequate teacher.	0	tutor	professor
+631	The tutor was more suited for English studies than the professor , since professor	 was an inadequate teacher.	1	tutor	professor
+632	Victoria was more fashionable than Elena because Victoria	 always was concerned about leaving dandruff on their shirts.	0	Victoria	Elena
+632	Victoria was more fashionable than Elena because Elena	 always was concerned about leaving dandruff on their shirts.	1	Victoria	Elena
+633	Victoria was more fashionable than Elena but  Victoria	 always was concerned about leaving dandruff on their shirts.	1	Victoria	Elena
+633	Victoria was more fashionable than Elena but  Elena	 always was concerned about leaving dandruff on their shirts.	0	Victoria	Elena
+634	Carrie needed to be vigilant about her bone health which Natalie worries about since Carrie	 is concerned.	0	Carrie	Natalie
+634	Carrie needed to be vigilant about her bone health which Natalie worries about since Natalie	 is concerned.	1	Carrie	Natalie
+635	Carrie needed to be vigilant about her bone health which Natalie worries about since Carrie	 is elderly.	1	Carrie	Natalie
+635	Carrie needed to be vigilant about her bone health which Natalie worries about since Natalie	 is elderly.	0	Carrie	Natalie
+636	The waves destroyed the garage but left the house intact because the garage	 was so far from the shore.	0	garage	house
+636	The waves destroyed the garage but left the house intact because the house	 was so far from the shore.	1	garage	house
+637	The waves destroyed the garage but left the house intact because the garage	 was so close to the shore.	1	garage	house
+637	The waves destroyed the garage but left the house intact because the house	 was so close to the shore.	0	garage	house
+638	The science student tried using the telescope to see the galaxy but the galaxy	 was too far.	1	galaxy	telescope
+638	The science student tried using the telescope to see the galaxy but the telescope	 was too far.	0	galaxy	telescope
+639	The science student tried using the telescope to see the galaxy but the galaxy	 was too weak.	0	galaxy	telescope
+639	The science student tried using the telescope to see the galaxy but the telescope	 was too weak.	1	galaxy	telescope
