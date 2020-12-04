@@ -18,17 +18,16 @@ The test dataset (with label and annotator information, as well as the hashed se
 
 ## Preliminaries ##
 
-The code was tested on Python 3.6.5
+The code was tested on Python 3.6.5.
 
 
 **Requirements.txt**
 ```
 pip install -r requirements.txt
-
 ```
 
 
-**Stanford CoreNLP and Stanford Postagger*
+*Stanford CoreNLP and Stanford Postagger*
 
 Please download Stanford CoreNLP (we used stanford-corenlp-full-2018-10-05), and Stanford Postagger (we used stanford-postagger-full-2020-11-17) and place their main folders containing the .jar files in the current directory.
 
