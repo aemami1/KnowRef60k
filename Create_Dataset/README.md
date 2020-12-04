@@ -1,9 +1,9 @@
 
-## [Dataset Pre-processing]
+## [Dataset Construction]
 
 ## Idea ##
 
-Produce a dataset with similar properties as winograd schema sentences.
+Produce a dataset with similar properties as Winograd Schema sentences.
 
 We find sentences which have two noun phrases in them, one of which is referred to later. 
 
@@ -13,7 +13,7 @@ E.g. we pull "Kevin yelled at Melissa because he was angry" which can later be c
 
 
 ## Generated Dataset location ##
-The test dataset (with label and annotator information, as well as the hashed sentence) is located in knowref_scraper/sources/hashed_dataset folder. The script you will run will automatically use this hashed dataset to generate the complete Knowref60k dataset (This is due to legal reasons, that we cannot release the unhashed sentences in the Knowref60k dataset and instead provide you with the quick means of generating them with the script, once you've downloaded the text corpus we used). We provide you both with a One-shot (single bash command) script, as well as a step-by-step script for debugging and transparancy.
+The test dataset (with label and annotator information, as well as the hashed sentence) is located in knowref_scraper/sources/hashed_dataset folder. The script you will run will automatically use this hashed dataset to generate the complete Knowref60k dataset. We provide you both with a one-shot (single bash command) script, as well as a step-by-step script for debugging and transparancy.
 
 
 ## Preliminaries ##
@@ -38,15 +38,13 @@ Some of the python files require NLTK libraries to be downloaded, which can be d
 
 **Java Runtime**
 
-Also, please have java runtime installed on your system (sudo apt install default-jre).
+Also, please have java runtime installed on your system (sudo apt install default-jre). We tested with openjdk 11.0.9.1 2020-11-04.
 
 
 
 ## One-shot script ##
-
    ```
    bash generate_corpus_pipeline.sh oneshot
-
    ```
 
 ## Step-by-Step Procedure ##
@@ -55,29 +53,28 @@ General remark: Most of the scripts use [[https://pypi.python.org/pypi/joblib][j
 
 All steps are also accessible from **pipeline.bash**.
 
-1. Download the source text, i.e. Reddit Comments (.txt.bz2 files) dating inclusively between 2005-12 to 2019-12 at https://files.pushshift.io/reddit/comments/ and store them in the knowref_scraper/sources/reddit folder.
-3. Use **split_sentences.py** to remove paragraphs containing lists etc., split
+1. Download the source text, i.e. Reddit Comments (.bz2 files) dating inclusively between 2005-12 to 2019-12 at https://files.pushshift.io/reddit/comments/ and store them in the knowref_scraper/sources/reddit folder.
+2. Use **split_sentences.py** to remove paragraphs containing lists etc., split
    sentences, and filter sentences which contain numbers, symbols, etc.
    Usage:
    
    ```
-   python split_sentences.py --mode {mode} {inputs_dir} {output_filename}
+   python knowref_scraper/sources/split_sentences.py --mode {mode} {inputs_dir} {output_filename}
    ```
 
-   where **inputs_dir** is the directory where **WikiExtractor.py** stored the
-   pre-processed wikipedia dump and **output_filename** is a filename of your
+   where **inputs_dir** is the directory is the corpus dump and **output_filename** is a filename of your
    choosing. 
 
    The sentences are searched for a regular expression containing a simplified
    form of the Winograd Schema pattern, e.g.
 
-   * **Noun1â€¦Noun2â€¦connectiveâ€¦Noun[1 or 2]**  (mode **noun**)
-   * **Noun1â€¦Noun2â€¦connectiveâ€¦pronoun**  (mode **pronoun**)
+   * **Noun1…Noun2…connective…Noun[1 or 2]**  (mode **noun**)
+   * **Noun1…Noun2…connective…pronoun**  (mode **pronoun**)
 
-   In both cases, there shouldnâ€™t be a pronoun before the connective, to ensure
-   we donâ€™t reference a sentence from before the current one.
+   In both cases, there shouldn’t be a pronoun before the connective, to ensure
+   we don’t reference a sentence from before the current one.
 
-   We donâ€™t want to parse the sentence for nouns yet, instead we just remove all
+   We don’t want to parse the sentence for nouns yet, instead we just remove all
    words from the sentence which occur in Penn Treebank as non-nouns, and
    compile the leftover words into the candidates-regex.
 
@@ -86,7 +83,9 @@ All steps are also accessible from **pipeline.bash**.
 
 4. Run the [[http://nlp.stanford.edu/software/tagger.shtml#Download][Stanford POS tagger]] on the resulting set. Download it, unzip it, and use
    ```
-   java -cp "*:lib/*" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models/english-left3words-distsim.tagger -textFile {input_file} -outputFormat slashTags -outputFile {output_file}
+   cd "{stanford postagger glob}"
+   java -cp "**" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models/english-left3words-distsim.tagger -textFile {input_file} -outputFormat slashTags -outputFile {output_file}
+   cd ..
    ```
    This should be done after about 10-15 minutes. There is an **-nthreads** option
    in case this is too slow.
@@ -98,10 +97,11 @@ All steps are also accessible from **pipeline.bash**.
 
    This is done by **filter_postagged.py**, Usage:
    ```
-   $ python filter_postagged.py [--n-jobs {N}] --mode {noun|pronoun} {postagger output file} {output_filename}
+   $ python filter_postagged.py [--n-jobs {N}] --mode {noun|pronoun} {postagger output file} {output_filename_temp}
+   $ awk '!(count[$0]++)' {output_filename_temp} {output_filename}
+   $ rm {output_filename_temp}
    ```
-    
-   This takes about 20 minutes.
+
 
 6. Run the [[https://stanfordnlp.github.io/CoreNLP/][CoreNLP Parser]] on the resulting set. This seems to work fastest
    (judging by CPU usage) if the input is first split into multiple files. We
@@ -109,10 +109,12 @@ All steps are also accessible from **pipeline.bash**.
    information about the candidates and the pronoun substitution position from
    the output of the last script:
    ```
+   $ cd "{corenlp glob}"
    $ perl -ne '/^(.*?)\|/; $_=$1; s/[_\[\]]/ /g; print "$_\n"' < {filter_postagged output} > wsc_inputs.txt
    $ split -l 100 wsc_inputs.txt sentences/sents
    $ find sentences > filelist.txt
    $ java -cp "*" -Xmx6g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,ssplit,pos,lemma,ner,parse -threads 32 -filelist filelist.txt
+   $ cd ..
    ```
 
 7. Final parsing step. CoreNLP parser. It messes up in a few cases where CoreNLP and nltk disagree about sentence splitting.
@@ -122,6 +124,11 @@ All steps are also accessible from **pipeline.bash**.
    The glob is something like **stanford-corenlp-version/sents*.out**.
    This script:
    - finds the candidates, connective, and pronouns and filters through only sentences with personned noun phrases, the connective and a pronoun.
+   
+ 8. You will now have a file containing many candidate sentences. What we did with these is randomly swapped the names with names of matching gender according to the pronoun gender, creating new, more ambigious sentences that may require world-knowledge/commonsense to solve. We used annotators to label these sentences, filtering any sentences with low annotation agreement and keeping those with high annotation agreement. These made Knowref60k. In the final step, the hashed Knowref60k is aligned with the candidate sentences outputted in step 7 to generate your copy of Knowref60k.
+ ```
+ $python  knowref_scraper/sources/create_Knowref60K_fromHash.py
+  ```
 
 
 
