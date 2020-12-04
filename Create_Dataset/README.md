@@ -97,7 +97,7 @@ All steps are also accessible from **pipeline.bash**.
 
    This is done by **filter_postagged.py**, Usage:
    ```
-   $ python filter_postagged.py [--n-jobs {N}] --mode {noun|pronoun} {postagger output file} {output_filename_temp}
+   $ python knowref_scraper/sources/filter_postagged.py [--n-jobs {N}] --mode {noun|pronoun} {postagger output file} {output_filename_temp}
    $ awk '!(count[$0]++)' {output_filename_temp} {output_filename}
    $ rm {output_filename_temp}
    ```
@@ -119,7 +119,7 @@ All steps are also accessible from **pipeline.bash**.
 
 7. Final parsing step. CoreNLP parser. It messes up in a few cases where CoreNLP and nltk disagree about sentence splitting.
    ```
-      $ python filter_parsed_pronoun_knowref.py "{corenlp glob}" {output filename}
+      $ python knowref_scraper/sources/filter_parsed_pronoun_knowref.py "{corenlp glob}" {output filename}
    ```
    The glob is something like **stanford-corenlp-version/sents*.out**.
    This script:
@@ -127,7 +127,7 @@ All steps are also accessible from **pipeline.bash**.
    
  8. You will now have a file containing many candidate sentences. What we did with these is randomly swapped the names with names of matching gender according to the pronoun gender, creating new, more ambigious sentences that may require world-knowledge/commonsense to solve. We used annotators to label these sentences, filtering any sentences with low annotation agreement and keeping those with high annotation agreement. These made Knowref60k. In the final step, the hashed Knowref60k is aligned with the candidate sentences outputted in step 7 to generate your copy of Knowref60k.
  ```
- $python  knowref_scraper/sources/create_Knowref60K_fromHash.py
+ $ python  knowref_scraper/sources/knowref_scraper/sources/create_Knowref60K_fromHash.py
   ```
 
 
