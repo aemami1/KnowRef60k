@@ -43,6 +43,9 @@ Also, please have java runtime installed on your system (sudo apt install defaul
 
 
 ## One-shot script ##
+
+Assuming you have installed requirements.txt, downloaded all the .bz2 reddit comments, and created folders for Stanford CoreNLP  and Postagger, you can run the entire pipeline, at once, with the following command:
+
    ```
    bash generate_corpus_pipeline.sh oneshot
    ```
