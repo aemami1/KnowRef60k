@@ -96,7 +96,7 @@ All steps are also accessible from **pipeline.bash**.
 5. The POS tags provide further information about the candidate noun phrases,
    e.g., whether there actually are nouns, whether they agree in Number, whether
    there are too many other confounding NPs, whether they differ in adjectives
-   (e.g. â€œThe red car â€¦ but the green carâ€¦â€ would not be a repetition of â€œcarâ€)
+   (e.g. “The red car … but the green car…” would not be a repetition of “car”)
 
    This is done by **filter_postagged.py**, Usage:
    ```
