@@ -10,6 +10,6 @@ The Winograd Schema Challenge (WSC) and variants inspired by it have become impo
 
 # Reproduce Results
 
-**Create_Dataset** contains code for the scraping of the corpus from the text sources (as well as a README with reproduce instructions)
+**Create_Dataset** contains code for the scraping of the corpus from the text sources (as well as a README with reproduce instructions).
 
 **Overlap_Analysis** contains that code used to analyze overlap and performance ramificiations between test and train corpora  (as well a README with more details). 
