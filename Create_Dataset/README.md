@@ -3,7 +3,7 @@
 
 ## Idea ##
 
-Produce a dataset with similar properties as Winograd Schema sentences.
+Produce a dataset with similar properties as Winograd Schema sentences but with low overlap with current pretraining corpora.
 
 We find sentences which have two noun phrases in them, one of which is referred to later. 
 
