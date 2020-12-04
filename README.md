@@ -1,6 +1,5 @@
 # An Analysis of Dataset Overlap on Winograd-Style Tasks
-# AUTHORS: Ali Emami, Adam Trischler, Kaheer Suleman, 
-# and Jackie Chi Kit Cheung
+# AUTHORS: Ali Emami, Adam Trischler, Kaheer Suleman, and Jackie Chi Kit Cheung
 
 # Paper link: 
 https://arxiv.org/abs/2011.04767
